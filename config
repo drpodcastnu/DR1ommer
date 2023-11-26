@@ -1,0 +1,30 @@
+apiUrl=https://api.dr.dk/radio/v2
+apiKey=
+outputDirectory=/var/drpodcastnu.github.io
+
+# Genstart
+slug1=genstart
+urn1=urn:dr:radio:series:5fa25ef8330eac2f135b62d6
+titleSuffix1=(uden forsinkelse)
+descriptionSuffix1=Genudgivet RSS-feed uden tre dages forsinkelse.
+
+# Sara & Monopolet
+slug2=sara-og-monopolet
+urn2=urn:dr:radio:series:5fa15704da351264f87b46ce
+descriptionSuffix2=Genudgivet RSS-feed.
+
+# Djævlen i detaljen
+slug3=djaevlen-i-detaljen
+urn3=urn:dr:radio:series:5fa16188da351264f87b82f3
+descriptionSuffix3=Genudgivet RSS-feed.
+
+# Du kender typen
+slug4=du-kender-typen
+urn4=urn:dr:radio:series:61fa40956c731729bc59079a
+descriptionSuffix3=Genudgivet RSS-feed.
+
+# De lovløse
+slug5=de-lovloese
+urn5=urn:dr:radio:series:61f24e160431527cb3065776
+titleSuffix5=(uden forsinkelse)
+descriptionSuffix5=Genudgivet RSS-feed.
