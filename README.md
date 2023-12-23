@@ -6,4 +6,7 @@ Usage:
 ```bash
 $ java -jar ommer.jar <config>
 ```
-where `<config>` is a configuration file like the `config` file in the root of this repository.
+where `<config>` is a configuration file like the `config.example` file in the root of this repository.
+
+Note that you will need to fill in the API key in the config file. This can easily be obtained by enabling developer
+tools in Firefox and inspecting the requests on dr.dk/lyd.

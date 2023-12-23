@@ -36,7 +36,15 @@ data class Show(
     val sortLetter: String?,
     val title: String,
     val type: String?,
-//    val visualIdentity: String?,
+    val visualIdentity: VisualIdentity?,
+)
+
+data class VisualIdentity(
+    val gradient: Gradient?,
+)
+
+data class Gradient(
+    val colors: List<String>?,
 )
 
 data class ImageAsset(

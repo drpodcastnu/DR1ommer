@@ -3,6 +3,7 @@ package ommer.client
 import ommer.drapi.Episodes
 import ommer.drapi.Item
 import ommer.drapi.Show
+import ommer.graphics.generatePodcastImage
 import ommer.rss.Feed
 import ommer.rss.FeedItem
 import ommer.rss.generate
@@ -81,6 +82,7 @@ fun main(args: Array<String>) {
             val feedDirectory = outputDirectory / podcast.slug
             feedDirectory.mkdirs()
             val feedFile = outputDirectory / podcast.slug / "feed.xml"
+            val imageFile = outputDirectory / podcast.slug / "image.jpg"
             log.info("Processing podcast ${podcast.slug}. Target feed: $feedFile")
             val response = client(Request(GET, apiUri / "series" / podcast.urn).header("x-apikey", apiKey))
             val showInfo = show(response)
@@ -124,6 +126,12 @@ fun main(args: Array<String>) {
                 )
             }
             feed.generate(feedFile)
+            generatePodcastImage(
+                imageFile,
+                showInfo.visualIdentity?.gradient?.colors?.getOrNull(0) ?: "#000000",
+                showInfo.visualIdentity?.gradient?.colors?.getOrNull(1) ?: "#FFFFFF",
+                showInfo.title,
+            )
         }
     }
 }

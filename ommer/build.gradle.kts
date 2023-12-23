@@ -15,6 +15,7 @@ dependencies {
 val mainClass = "ommer.client.ClientKt"
 
 tasks.jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     manifest {
         attributes["Main-Class"] = mainClass
     }
