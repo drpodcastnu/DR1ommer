@@ -29,3 +29,9 @@ slug5=de-lovloese
 urn5=urn:dr:radio:series:61f24e160431527cb3065776
 titleSuffix5=(uden forsinkelse)
 descriptionSuffix5=Genudgivet RSS-feed.
+
+# Mørklagt
+slug6=moerklagt
+urn6=urn:dr:radio:series:63a03481d674a2f103dfc6e5
+titleSuffix6=(uden forsinkelse)
+descriptionSuffix6=Genudgivet RSS-feed.
