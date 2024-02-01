@@ -35,3 +35,13 @@ slug6=moerklagt
 urn6=urn:dr:radio:series:63a03481d674a2f103dfc6e5
 titleSuffix6=(uden forsinkelse)
 descriptionSuffix6=Genudgivet RSS-feed.
+
+# Hjernekassen
+slug7=hjernekassen
+urn7=urn:dr:radio:series:5fa2684c330eac2f135b9254
+descrptionSuffix7=Genudgivet RSS-feed.
+
+# Brinkmanns briks
+slug8=brinkmanns-briks
+urn8=urn:dr:radio:series:5fa25a95330eac2f135b4a6c
+descrptionSuffix8=Genudgivet RSS-feed.
