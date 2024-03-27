@@ -1,0 +1,47 @@
+{
+  "descriptionSuffix": "Genudgivet RSS-feed.",
+  "podcasts": [
+    {
+      "slug": "genstart",
+      "urn": "urn:dr:radio:series:5fa25ef8330eac2f135b62d6",
+      "titleSuffix": "(uden forsinkelse)",
+      "descriptionSuffix": "Genudgivet RSS-feed uden tre dages forsinkelse."
+    },
+    {
+      "slug": "sara-og-monopolet",
+      "urn": "urn:dr:radio:series:5fa15704da351264f87b46ce"
+    }
+  ],
+  "comment": [
+    {
+      "slug": "djaevlen-i-detaljen",
+      "urn": "urn:dr:radio:series:5fa16188da351264f87b82f3"
+    },
+    {
+      "slug": "du-kender-typen",
+      "urn": "urn:dr:radio:series:61fa40956c731729bc59079a"
+    },
+    {
+      "slug": "de-lovloese",
+      "urn": "urn:dr:radio:series:61f24e160431527cb3065776",
+      "titleSuffix": "(uden forsinkelse)"
+    },
+    {
+      "slug": "moerklagt",
+      "urn": "urn:dr:radio:series:63a03481d674a2f103dfc6e5",
+      "titleSuffix": "(uden forsinkelse)"
+    },
+    {
+      "slug": "ubegribeligt",
+      "urn": "urn:dr:radio:series:626931758679fdf8af8a0e26"
+    },
+    {
+      "slug": "hjernekassen",
+      "urn": "urn:dr:radio:series:5fa2684c330eac2f135b9254"
+    },
+    {
+      "slug": "brinkmanns-briks",
+      "urn": "urn:dr:radio:series:5fa25a95330eac2f135b4a6c"
+    }
+  ]
+}

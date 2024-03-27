@@ -20,4 +20,8 @@ object Dependencies {
         val clientJetty by name("http4k-client-jetty")
         val formatGson by name("http4k-format-gson")
     }
+
+    object mustache : FromGroup("com.github.spullara.mustache.java", Versions.mustacheJava) {
+        val compiler by name("compiler")
+    }
 }

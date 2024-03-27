@@ -23,8 +23,8 @@ fun generatePodcastImage(
     text: String,
 ) {
     val image = createGradientImageWithText(
-        width = 1024,
-        height = 1024,
+        width = 1400,
+        height = 1400,
         colorStart = Color.decode(colorStart),
         colorEnd = Color.decode(colorEnd),
         text = text,
