@@ -103,6 +103,7 @@ fun main(args: Array<String>) {
                         with(item) {
                             val audioAsset = audioAssets
                                 .filter { it.target == "Progressive" }
+                                .filter { it.format == "mp3" }
                                 // Select asset which is closest to bitrate 192
                                 .minByOrNull { abs(it.bitrate - 192) } ?: run {
                                 log.warn("No audio asset for ${item.id} (${item.title})")
