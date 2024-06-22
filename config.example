@@ -1,6 +1,6 @@
 apiUrl=https://api.dr.dk/radio/v2
 # Obtain API key by inspecting requests on dr.dk/lyd
-outputDirectory=~
+outputDirectory=/home/runner/work/DR1ommer/DR1ommer/output
 
 # Genstart
 slug1=genstart
