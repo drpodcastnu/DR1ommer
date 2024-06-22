@@ -26,7 +26,7 @@ jobs:
         distribution: 'adopt'
 
     - name: Build with Gradle
-      run: ./gradlew build
+      run: ./gradlew build asemble
 
     - name: Run JAR
       run: java -jar build/libs/DR1ommer-0.1.jar config.example
