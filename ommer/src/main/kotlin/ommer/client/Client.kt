@@ -89,15 +89,15 @@ fun main(args: Array<String>) {
             val feed = with(showInfo) {
                 Feed(
                     link = presentationUrl,
-                    title = "$title",
-                    description = "$description",
-                    email = "podcast@dr.dk",
+                    title = "$title${podcast.titleSuffix?.let { s -> " $s" } ?: ""}",
+                    description = "$description${podcast.descriptionSuffix?.let { s -> "\n$s" } ?: ""}",
+                    email = "no-reply@drpodcast.nu",
                     lastBuildDate = ZonedDateTime
                         .parse(latestEpisodeStartTime)
                         .withZoneSameInstant(ZoneId.of("Europe/Copenhagen"))
                         .format(rssDateTimeFormatter),
-                    feedUrl = "https://api.dr.dk/podcasts/v1/feeds/genstart.xml?format=podcast",
-                    imageUrl = "https://api.dr.dk/podcasts/v1/images/urn:dr:podcast:image:6593ba22846e9f8fc0338958.jpg",
+                    feedUrl = "https://drpodcast.nu/${podcast.slug}/feed.xml",
+                    imageUrl = "https://drpodcast.nu/${podcast.slug}/image.jpg",
                     imageLink = presentationUrl,
                     items = fetchEpisodes(client, apiUri / "series", podcast.urn, apiKey).mapNotNull { item ->
                         with(item) {
@@ -127,6 +127,12 @@ fun main(args: Array<String>) {
                 )
             }
             feed.generate(feedFile)
+            generatePodcastImage(
+                imageFile,
+                showInfo.visualIdentity?.gradient?.colors?.getOrNull(0) ?: "#000000",
+                showInfo.visualIdentity?.gradient?.colors?.getOrNull(1) ?: "#FFFFFF",
+                showInfo.title,
+            )
         }
     }
 }
