@@ -71,7 +71,7 @@ data class Item(
     val audioAssets: List<AudioAsset>,
     val title: String,
     val description: String,
-    val presentationUrl: Uri,
+    val presentationUrl: Uri?,
     val publishTime: String,
 )
 

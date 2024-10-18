@@ -15,7 +15,6 @@ import org.http4k.core.Request
 import org.http4k.core.Uri
 import org.http4k.core.query
 import org.http4k.format.Gson.auto
-import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import java.io.File
 import java.io.FileInputStream
@@ -126,7 +125,7 @@ private fun generateFeedFile(
                     }
                     FeedItem(
                         guid = productionNumber,
-                        link = presentationUrl.toString(),
+                        link = presentationUrl?.toString() ?: showInfo.presentationUrl,
                         title = title,
                         description = description,
                         pubDate = ZonedDateTime
