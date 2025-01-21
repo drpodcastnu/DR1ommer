@@ -10,15 +10,14 @@
     />
 
     <!-- Pico.css -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+    <link rel="stylesheet" href="css/pico.min.css" />
+    <!-- Custom.css -->
+    <link rel="stylesheet" href="css/custom.css" />
 </head>
 
 <body>
 <a href="https://github.com/drpodcastnu">
-    <img
-            style="position: absolute; right: 0; width:64px; height:64px;"
-            src="github-mark.png"
-    />
+    <img style="position: absolute; right: 0; width:40px; height:40px; margin: 15px;" src="github-mark.png"/>
 </a>
 <!-- Header -->
 <header class="container">
@@ -32,18 +31,20 @@
 <main class="container">
     <section id="podcasts">
         <h2>Podcasts</h2>
-        <ul>
+        {{#rows}}
+        <div class="grid">
             {{#podcasts}}
-                <li>
-                    <a href="{{slug}}/feed.xml">
-                        <div>
-                            <img src="{{slug}}/image.jpg" alt="{{title}}" />
-                            <strong>{{title}}</strong>
-                        </div>
-                    </a>
-                </li>
+            <a href="{{slug}}/feed.xml">
+                <div>
+                    <img class="tile" src="{{slug}}/image.jpg" alt="{{title}}" />
+                    <br>
+                    <strong>{{title}}</strong>
+                </div>
+            </a>
             {{/podcasts}}
-        </ul>
+        </div>
+        <div>&nbsp;</div>
+        {{/rows}}
     </section>
     <section>
         <h2>Hvad er dette?</h2>

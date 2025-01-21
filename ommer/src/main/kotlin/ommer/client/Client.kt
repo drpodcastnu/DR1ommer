@@ -1,9 +1,13 @@
 package ommer.client
 
+import com.github.mustachejava.DefaultMustacheFactory
 import ommer.drapi.Episodes
 import ommer.drapi.Item
 import ommer.drapi.Show
 import ommer.graphics.generatePodcastImage
+import ommer.pagegen.PageData
+import ommer.pagegen.PodcastData
+import ommer.pagegen.RowData
 import ommer.rss.Feed
 import ommer.rss.FeedItem
 import ommer.rss.generate
@@ -18,6 +22,7 @@ import org.http4k.format.Gson.auto
 import org.slf4j.LoggerFactory
 import java.io.File
 import java.io.FileInputStream
+import java.io.FileWriter
 import java.time.Duration
 import java.time.ZoneId
 import java.time.ZonedDateTime
@@ -70,8 +75,8 @@ fun main(args: Array<String>) {
 
     val rssDateTimeFormatter = DateTimeFormatter.ofPattern("EEE, dd MMM yyyy HH:mm:ss Z")
 
-    JettyClient().use { client ->
-        podcasts.podcasts.forEach { podcast ->
+    val podcastData = JettyClient().use { client ->
+        podcasts.podcasts.map { podcast ->
             val defaultDescriptionSuffix = podcasts.descriptionSuffix
             val descriptionSuffix = podcast.descriptionSuffix ?: defaultDescriptionSuffix
             val feedDirectory = outputDirectory / podcast.slug
@@ -89,7 +94,21 @@ fun main(args: Array<String>) {
                 showInfo.visualIdentity?.gradient?.colors?.getOrNull(1) ?: "#FFFFFF",
                 showInfo.title,
             )
+            PodcastData(podcast.slug, showInfo.title)
         }
+    }
+
+    val indexFile = outputDirectory / "index.html"
+    generateIndexFile(podcastData, indexFile)
+}
+
+private fun generateIndexFile(podcastData: List<PodcastData>, indexFile: File) {
+    val pageData = PageData(
+        podcastData.chunked(5).map { RowData(it) }
+    )
+    FileWriter(indexFile).use { writer ->
+        val mustache = DefaultMustacheFactory().compile("template.html.mustache")
+        mustache.execute(writer, pageData)
     }
 }
 
@@ -118,6 +137,7 @@ private fun generateFeedFile(
                 with(item) {
                     val audioAsset = audioAssets
                         .filter { it.target == "Progressive" }
+                        .filter { it.format == "mp3" }
                         // Select asset which is closest to bitrate 192
                         .minByOrNull { abs(it.bitrate - 192) } ?: run {
                         log.warn("No audio asset for ${item.id} (${item.title})")
