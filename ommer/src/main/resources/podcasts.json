@@ -43,52 +43,44 @@
     },
 
     {
-      "urn": "urn:dr:radio:series:664d1a91b949f190f58cf936",
-      "slug": "alban-alex-og-evigheden"
+      "urn": "urn:dr:radio:series:64491654de6cb02611a9204a",
+      "slug": "10-20-30"
+    },
+    {
+      "urn": "urn:dr:radio:series:63ca5b7d3a290c242ebaa581",
+      "slug": "anmelderne"
+    },
+    {
+      "urn": "urn:dr:radio:series:5fa2623a330eac2f135b751f",
+      "slug": "bakspejl"
     },
     {
       "urn": "urn:dr:radio:series:660d1502642679cbc1073335",
       "slug": "besaettelsen"
     },
     {
+      "urn": "urn:dr:radio:series:61e4a7389a2a1f7f47980873",
+      "slug": "bibelen-leth-fortalt"
+    },
+    {
       "urn": "urn:dr:radio:series:6486cff68904cd8f0847b3d8",
       "slug": "blodets-band-2"
     },
     {
-      "urn": "urn:dr:radio:series:6542dae3ce5e746a2cb0c0b6",
-      "slug": "blaa-stemmer"
-    },
-    {
-      "urn": "urn:dr:radio:series:5fa26536330eac2f135b8368",
-      "slug": "bravo"
-    },
-    {
-      "urn": "urn:dr:radio:series:61111ab9214d9c8f19f8188b",
-      "slug": "dj-brevets-program"
-    },
-    {
-      "urn": "urn:dr:radio:series:5fa265f0330eac2f135b86fc",
-      "slug": "dansktoppen"
-    },
-    {
-      "urn": "urn:dr:radio:series:5fa266b3330eac2f135b8ac0",
-      "slug": "debut-programmer"
+      "urn": "urn:dr:radio:series:658b5d862469c7a7feb811f3",
+      "slug": "damerne-foerst"
     },
     {
       "urn": "urn:dr:radio:series:5fa25c93330eac2f135b552a",
       "slug": "det-tomme-magasin"
     },
     {
-      "urn": "urn:dr:radio:series:659dd14e4b17ffff4ab2c3c2",
-      "slug": "du-har-det-fra-mig"
+      "urn": "urn:dr:radio:series:66b3ef3047089d6f434d442d",
+      "slug": "det-der-med-anders-breinholt"
     },
     {
-      "urn": "urn:dr:radio:series:628b5a97785739fe0307f450",
-      "slug": "du-ved-det"
-    },
-    {
-      "urn": "urn:dr:radio:series:5fa2635c330eac2f135b7b0d",
-      "slug": "eldorado"
+      "urn": "urn:dr:radio:series:658b5d871b0ff6ce0ad7a63a",
+      "slug": "ditlev-og-daemonerne"
     },
     {
       "urn": "urn:dr:radio:series:66cc6f132c77c39fecb65379",
@@ -103,10 +95,6 @@
       "slug": "faldet"
     },
     {
-      "urn": "urn:dr:radio:series:5fa25c38330eac2f135b52cb",
-      "slug": "fezten"
-    },
-    {
       "urn": "urn:dr:radio:series:5fa2627b330eac2f135b76a9",
       "slug": "fodboldlisten"
     },
@@ -119,24 +107,8 @@
       "slug": "fredskvinder"
     },
     {
-      "urn": "urn:dr:radio:series:65043afe1645145aaaa090cf",
-      "slug": "gaderadio-pa-p6-beat"
-    },
-    {
-      "urn": "urn:dr:radio:series:5fa25ef8330eac2f135b62d6",
-      "slug": "genstart"
-    },
-    {
-      "urn": "urn:dr:radio:series:5fa265e0330eac2f135b86b1",
-      "slug": "giro-413"
-    },
-    {
       "urn": "urn:dr:radio:series:66543149be7905fb09c29a22",
       "slug": "grundtvig-leth-fortalt"
-    },
-    {
-      "urn": "urn:dr:radio:series:66b14cbe102348273c96eeca",
-      "slug": "vadgaards-fredagsfest"
     },
     {
       "urn": "urn:dr:radio:series:610c99ae214d9c8f19f3af82",
@@ -147,12 +119,12 @@
       "slug": "hjerteflimmer-for-voksne"
     },
     {
-      "urn": "urn:dr:radio:series:5fa25b33330eac2f135b4d94",
-      "slug": "hotellet"
-    },
-    {
       "urn": "urn:dr:radio:series:6481e6528904cd8f08302c13",
       "slug": "hvad-taender-os-to"
+    },
+    {
+      "urn": "urn:dr:radio:series:63bf42a05d446604cb792cff",
+      "slug": "hvad-ville-jesus-have-sagt"
     },
     {
       "urn": "urn:dr:radio:series:5fa25dc3330eac2f135b5c34",
@@ -163,12 +135,12 @@
       "slug": "kampen-om-historien-3"
     },
     {
-      "urn": "urn:dr:radio:series:5fa15dfada351264f87b6e48",
-      "slug": "klog-pa-sprog"
+      "urn": "urn:dr:radio:series:611ed1890f49677d7c269701",
+      "slug": "kapitalisterne"
     },
     {
-      "urn": "urn:dr:radio:series:5fa25b1e330eac2f135b4d2b",
-      "slug": "korfix-og-kaffe"
+      "urn": "urn:dr:radio:series:5fa15dfada351264f87b6e48",
+      "slug": "klog-pa-sprog"
     },
     {
       "urn": "urn:dr:radio:series:6486ddba8c0733d1c06721db",
@@ -177,6 +149,10 @@
     {
       "urn": "urn:dr:radio:series:6661bfaa7937d2cab8cad242",
       "slug": "lottomysteriet-genfortalt"
+    },
+    {
+      "urn": "urn:dr:radio:series:6638a1a36d0e2e42f85f9bec",
+      "slug": "lyssky"
     },
     {
       "urn": "urn:dr:radio:series:655b72282659b726e0835284",
@@ -195,20 +171,12 @@
       "slug": "dorrits-alder"
     },
     {
-      "urn": "urn:dr:radio:series:5fa261ed330eac2f135b737d",
-      "slug": "mon-ami-complex"
-    },
-    {
-      "urn": "urn:dr:radio:series:5fa25ee6330eac2f135b626a",
-      "slug": "musiklivet-med-carsten-holm"
-    },
-    {
-      "urn": "urn:dr:radio:series:605db7167952218d2f02f01c",
-      "slug": "nyborg-station"
-    },
-    {
       "urn": "urn:dr:radio:series:5fa260c1330eac2f135b6c4e",
       "slug": "pilgrim-pa-rejse-i-troens-univers"
+    },
+    {
+      "urn": "urn:dr:radio:series:64a66bcdc7644ff3cc5147a0",
+      "slug": "prompt"
     },
     {
       "urn": "urn:dr:radio:series:5fa2608d330eac2f135b6b32",
@@ -219,40 +187,24 @@
       "slug": "ramt-af-kaerlighed"
     },
     {
-      "urn": "urn:dr:radio:series:6596c108c26aeca6fab54582",
-      "slug": "rotationer"
-    },
-    {
       "urn": "urn:dr:radio:series:64006b6d1c70403e41f597bf",
       "slug": "solo-med-anna-lin"
     },
     {
-      "urn": "urn:dr:radio:series:66c885f1a56be59b02d5f1ba",
-      "slug": "salonen"
+      "urn": "urn:dr:radio:series:5fa26a3d330eac2f135b9d1d",
+      "slug": "skoenlitteratur-pa-p1"
     },
     {
-      "urn": "urn:dr:radio:series:66224a6d5a13fd0a83df76d0",
-      "slug": "se-det-for-dig"
+      "urn": "urn:dr:radio:series:5fa160a9da351264f87b7df0",
+      "slug": "foelg-pengene"
     },
     {
-      "urn": "urn:dr:radio:series:63f738d3fe6a65856b1affe3",
-      "slug": "singlepladen"
+      "urn": "urn:dr:radio:series:62011f4ce907a647fb1f6d50",
+      "slug": "spice-med-nikkie-og-laila"
     },
     {
-      "urn": "urn:dr:radio:series:63d1b779a1531f3496f49593",
-      "slug": "sjael"
-    },
-    {
-      "urn": "urn:dr:radio:series:642d7219e2203a081792c2ab",
-      "slug": "sporvognen"
-    },
-    {
-      "urn": "urn:dr:radio:series:5fa15795da351264f87b4a47",
-      "slug": "status-pa-p6-beat"
-    },
-    {
-      "urn": "urn:dr:radio:series:65a7a1aaa8093f6f8845c087",
-      "slug": "stjernestoev"
+      "urn": "urn:dr:radio:series:5fa25fb7330eac2f135b6691",
+      "slug": "stjerner-og-striber-podcast"
     },
     {
       "urn": "urn:dr:radio:series:666849b5a63f4ccc1ec0bc63",
@@ -263,31 +215,40 @@
       "slug": "supertanker"
     },
     {
+      "urn": "urn:dr:radio:series:658b5d755e3a2144e20042de",
+      "slug": "svingdoeren"
+    },
+    {
       "urn": "urn:dr:radio:series:6481ec372f049931670d3c61",
       "slug": "soester-elsker-elsker-ikke"
     },
     {
-      "urn": "urn:dr:radio:series:651748f68d28633ad4eb80bc",
-      "slug": "to-vers-og-et-omkvaed"
+      "urn": "urn:dr:radio:series:5fa15fe5da351264f87b793d",
+      "slug": "troldspejlet-podcast"
     },
     {
       "urn": "urn:dr:radio:series:655cbd3399071798f81f1202",
       "slug": "under-radaren"
     },
     {
+      "urn": "urn:dr:radio:series:65841328c26aeca6fa64c765",
+      "slug": "vennepunkt"
+    },
+    {
+      "urn": "urn:dr:radio:series:64085eff8a2497bbc1bf0a4d",
+      "slug": "verdens-bedste-film-radio"
+    },
+    {
       "urn": "urn:dr:radio:series:6655834fbe7905fb09c8e2b0",
       "slug": "vidnesbyrd"
     },
     {
-      "urn": "urn:dr:radio:series:622a858e8b0617c60b60e7a5",
-      "slug": "vistis-weekendguide"
+      "urn": "urn:dr:radio:series:5fa2605b330eac2f135b6a3f",
+      "slug": "vildt-naturligt"
     },
     {
-      "urn": "urn:dr:radio:series:5fa25ec3330eac2f135b61b0",
-      "slug": "vaer-her-nu-pa-p6-beat"
-    },
-    { "urn": "urn:dr:radio:series:5fa15b12da351264f87b5ca2",
-      "slug": "fonk-det-er-podcast"
+      "urn": "urn:dr:radio:series:5fa25cd7330eac2f135b5700",
+      "slug": "vistis-vinyler"
     }
   ]
 }
