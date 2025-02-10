@@ -120,6 +120,10 @@ private fun generateFeedFile(
     episodes: Sequence<Item>,
     feedFile: File,
 ) {
+    if (showInfo.latestEpisodeStartTime == null) {
+        log.warn("Podcast has zero episodes: ${podcast.slug}")
+        return
+    }
     val feed = with(showInfo) {
         Feed(
             link = presentationUrl,
@@ -127,7 +131,7 @@ private fun generateFeedFile(
             description = "$description${descriptionSuffix?.let { s -> "\n$s" } ?: ""}",
             email = "no-reply@drpodcast.nu",
             lastBuildDate = ZonedDateTime
-                .parse(latestEpisodeStartTime)
+                .parse(latestEpisodeStartTime!!)
                 .withZoneSameInstant(ZoneId.of("Europe/Copenhagen"))
                 .format(rssDateTimeFormatter),
             feedUrl = "https://drpodcast.nu/${podcast.slug}/feed.xml",

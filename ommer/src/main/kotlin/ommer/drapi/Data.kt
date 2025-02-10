@@ -21,7 +21,7 @@ data class Show(
     val id: String,
     val imageAssets: List<ImageAsset>,
     val isAvailableOnDemand: String?,
-    val latestEpisodeStartTime: String,
+    val latestEpisodeStartTime: String?,
     val learnId: String?,
     val numberOfEpisodes: String?,
     val ocsUrn: String?,
