@@ -67,9 +67,13 @@ fun main(args: Array<String>) {
     val apiKey = props.getProperty("apiKey") ?: throw Error("Missing API key")
     val apiUri = Uri.of(props.getProperty("apiUrl") ?: throw Error("Missing API URL"))
     val outputDirectory = File(props.getProperty("outputDirectory") ?: throw Error("Missing output directory"))
+    // Create a File object
+    val podcastsJson = File("podcasts.json")
+
     val podcasts =
         com.google.gson.Gson().fromJson(
-            Podcasts::class.java.getResource("/podcasts.json")?.readText()!!,
+            if (podcastsJson.exists()) podcastsJson.readText() else Podcasts::class.java.getResource("/podcasts.json")
+                ?.readText()!!,
             Podcasts::class.java,
         )
 
