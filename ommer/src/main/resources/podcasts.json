@@ -2,2392 +2,3710 @@
   "descriptionSuffix": "Genudgivet RSS-feed.",
   "podcasts": [
     {
-      "urn": "urn:dr:radio:series:64491654de6cb02611a9204a",
-      "slug": "10-20-30"
+      "slug": "10-20-30",
+      "urns": [
+        "urn:dr:radio:series:64491654de6cb02611a9204a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:627c3412c61df98eb7396eb1",
-      "slug": "3-halvleg"
+      "slug": "3-halvleg",
+      "urns": [
+        "urn:dr:radio:series:627c3412c61df98eb7396eb1"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:630df00009585a83f1a62a0d",
-      "slug": "absolut-mathias-helt"
+      "slug": "4-division",
+      "urns": [
+        "urn:dr:radio:series:5fa16209da351264f87b85c9"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6780f89ca72b2296057f7fea",
-      "slug": "afrobeats"
+      "slug": "absolut-mathias-helt",
+      "urns": [
+        "urn:dr:radio:series:630df00009585a83f1a62a0d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa260f0330eac2f135b6d68",
-      "slug": "aftenland"
+      "slug": "afrobeats",
+      "urns": [
+        "urn:dr:radio:series:6780f89ca72b2296057f7fea"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:678ff0de61687a04d7dd7cf1",
-      "slug": "agent-samsam"
+      "slug": "aftenland",
+      "urns": [
+        "urn:dr:radio:series:5fa260f0330eac2f135b6d68"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63a395b29c2c142ce1880fcb",
-      "slug": "akkurat-med-clement"
+      "slug": "agent-samsam",
+      "urns": [
+        "urn:dr:radio:series:678ff0de61687a04d7dd7cf1"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:60ad0da1e21e028b8e793199",
-      "slug": "alban-stjernedanseren"
+      "slug": "akkurat-med-clement",
+      "urns": [
+        "urn:dr:radio:series:63a395b29c2c142ce1880fcb"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:664d1a91b949f190f58cf936",
-      "slug": "alban-alex-og-evigheden"
+      "slug": "alban-alex-og-evigheden",
+      "urns": [
+        "urn:dr:radio:series:664d1a91b949f190f58cf936"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25a17330eac2f135b46f7",
-      "slug": "alt-om-emma"
+      "slug": "alban-stjernedanseren",
+      "urns": [
+        "urn:dr:radio:series:60ad0da1e21e028b8e793199"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6319a237e354a45e20d5c9e1",
-      "slug": "alting-loeser-sig"
+      "slug": "alt-om-emma",
+      "urns": [
+        "urn:dr:radio:series:5fa25a17330eac2f135b46f7"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:60ad0bdbe21e028b8e792a12",
-      "slug": "amerikas-kolde-droem"
+      "slug": "amerikas-kolde-droem",
+      "urns": [
+        "urn:dr:radio:series:60ad0bdbe21e028b8e792a12"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63ca5b7d3a290c242ebaa581",
-      "slug": "anmelderne"
+      "slug": "anmelderne",
+      "urns": [
+        "urn:dr:radio:series:63ca5b7d3a290c242ebaa581"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:61d569ce4e7eecc6838c996e",
-      "slug": "annas-margrethe"
+      "slug": "annas-margrethe",
+      "urns": [
+        "urn:dr:radio:series:61d569ce4e7eecc6838c996e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25a6d330eac2f135b4949",
-      "slug": "asta-og-frede"
+      "slug": "asta-og-frede",
+      "urns": [
+        "urn:dr:radio:series:5fa25a6d330eac2f135b4949"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15d49da351264f87b6a55",
-      "slug": "audiens"
+      "slug": "audiens",
+      "urns": [
+        "urn:dr:radio:series:5fa15d49da351264f87b6a55"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6001736a6c12863ced19ebbc",
-      "slug": "baby-pa-bestilling"
+      "slug": "baby-pa-bestilling",
+      "urns": [
+        "urn:dr:radio:series:6001736a6c12863ced19ebbc"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6691162c2456580b4d12c418",
-      "slug": "bag-lukkede-doere"
+      "slug": "bag-lukkede-doere",
+      "urns": [
+        "urn:dr:radio:series:6691162c2456580b4d12c418"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa29821330eac2f135bc8c5",
-      "slug": "baglandet"
+      "slug": "baglandet",
+      "urns": [
+        "urn:dr:radio:series:5fa29821330eac2f135bc8c5"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2623a330eac2f135b751f",
-      "slug": "bakspejl"
+      "slug": "bakspejl",
+      "urns": [
+        "urn:dr:radio:series:5fa2623a330eac2f135b751f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25ea2330eac2f135b60f9",
-      "slug": "da-der-gik-hul-pa-balkans-hjerte"
+      "slug": "bangers-med-ena",
+      "urns": [
+        "urn:dr:radio:series:658a0b71163dfa22d5605d6c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:658a0b71163dfa22d5605d6c",
-      "slug": "bangers-med-ena"
+      "slug": "barneliget-paa-fejoe",
+      "urns": [
+        "urn:dr:radio:series:684a9483864cf94f9524a803"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:684a9483864cf94f9524a803",
-      "slug": "barneliget-paa-fejoe"
+      "slug": "barneliv-gennem-tiden",
+      "urns": [
+        "urn:dr:radio:series:6691159464091b8143b4efe4"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6691159464091b8143b4efe4",
-      "slug": "barneliv-gennem-tiden"
+      "slug": "beethovens-strygekvartetter-ifoelge-kristian-leth",
+      "urns": [
+        "urn:dr:radio:series:5fa25a0f330eac2f135b46bc"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25a0f330eac2f135b46bc",
-      "slug": "beethovens-strygekvartetter-ifoelge-kristian-leth"
+      "slug": "benaegt-benaegt-benaegt",
+      "urns": [
+        "urn:dr:radio:series:662f5aa5c479fc18adf3a2ed"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:662f5aa5c479fc18adf3a2ed",
-      "slug": "benaegt-benaegt-benaegt"
+      "slug": "besaettelsen",
+      "urns": [
+        "urn:dr:radio:series:660d1502642679cbc1073335"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa260d9330eac2f135b6ce2",
-      "slug": "bestjalet-af-hjemmehjaelperen"
+      "slug": "besoegstid-radio",
+      "urns": [
+        "urn:dr:radio:series:5fa26b08330eac2f135ba16e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:660d1502642679cbc1073335",
-      "slug": "besaettelsen"
+      "slug": "bestjalet-af-hjemmehjaelperen",
+      "urns": [
+        "urn:dr:radio:series:5fa260d9330eac2f135b6ce2"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26b08330eac2f135ba16e",
-      "slug": "besoegstid-radio"
+      "slug": "bibelen-leth-fortalt",
+      "urns": [
+        "urn:dr:radio:series:61e4a7389a2a1f7f47980873"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:61e4a7389a2a1f7f47980873",
-      "slug": "bibelen-leth-fortalt"
+      "slug": "bitcoin-bedraget",
+      "urns": [
+        "urn:dr:radio:series:62502e1aa734ddd693b85ad6"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:62502e1aa734ddd693b85ad6",
-      "slug": "bitcoin-bedraget"
+      "slug": "blackout-pigen-paa-billedet",
+      "urns": [
+        "urn:dr:radio:series:5fa25c63330eac2f135b53e7"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25c63330eac2f135b53e7",
-      "slug": "blackout-pigen-paa-billedet"
+      "slug": "blod-sved-og-skabertrang",
+      "urns": [
+        "urn:dr:radio:series:5fa2612d330eac2f135b6ed6"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2612d330eac2f135b6ed6",
-      "slug": "blod-sved-og-skabertrang"
+      "slug": "blodets-band-2",
+      "urns": [
+        "urn:dr:radio:series:6486cff68904cd8f0847b3d8"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6486cff68904cd8f0847b3d8",
-      "slug": "blodets-band-2"
+      "slug": "boernelokkeren",
+      "urns": [
+        "urn:dr:radio:series:5fa26184330eac2f135b70dc"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26536330eac2f135b8368",
-      "slug": "bravo-med-lotte-heise"
+      "slug": "boernene-paa-psyk",
+      "urns": [
+        "urn:dr:radio:series:61a80efa3c5253ba37e2ecda"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66742ea321296bf60feeba9f",
-      "slug": "brev-til-2050"
+      "slug": "bravo-med-lotte-heise",
+      "urns": [
+        "urn:dr:radio:series:5fa26536330eac2f135b8368"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25a95330eac2f135b4a6c",
-      "slug": "brinkmanns-briks"
+      "slug": "brev-til-2050",
+      "urns": [
+        "urn:dr:radio:series:66742ea321296bf60feeba9f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26184330eac2f135b70dc",
-      "slug": "boernelokkeren"
+      "slug": "brinkmanns-briks",
+      "urns": [
+        "urn:dr:radio:series:5fa25a95330eac2f135b4a6c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:61a80efa3c5253ba37e2ecda",
-      "slug": "boernene-paa-psyk"
+      "slug": "carmen-curlers-en-ekstra-kroelle",
+      "urns": [
+        "urn:dr:radio:series:6523ea341a54214de98ac3eb"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6523ea341a54214de98ac3eb",
-      "slug": "carmen-curlers-en-ekstra-kroelle"
+      "slug": "carsten-jensen-i-krise",
+      "urns": [
+        "urn:dr:radio:series:5fa2615b330eac2f135b6fdc"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2615b330eac2f135b6fdc",
-      "slug": "carsten-jensen-i-krise"
+      "slug": "carte-blanche",
+      "urns": [
+        "urn:dr:radio:series:6409efa38a2497bbc1c6d025"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6409efa38a2497bbc1c6d025",
-      "slug": "carte-blanche"
+      "slug": "chris-og-chokoladefabrikken",
+      "urns": [
+        "urn:dr:radio:series:677bd55080476fe6c9a19103"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67956d0d4d18d96eaf140785",
-      "slug": "chanos-talkshow-med-kendisser"
+      "slug": "clement-pa-p1-p1d",
+      "urns": [
+        "urn:dr:radio:series:5fa26154330eac2f135b6fb2"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:677bd55080476fe6c9a19103",
-      "slug": "chris-og-chokoladefabrikken"
+      "slug": "cold-front",
+      "urns": [
+        "urn:dr:radio:series:643e840d6b660c4a13d8bdaa"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:643e840d6b660c4a13d8bdaa",
-      "slug": "cold-front"
+      "slug": "da-der-gik-hul-pa-balkans-hjerte",
+      "urns": [
+        "urn:dr:radio:series:5fa25ea2330eac2f135b60f9"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:658617015c7c5e5a90d115ad",
-      "slug": "crush"
+      "slug": "daarlig-stemning",
+      "urns": [
+        "urn:dr:radio:series:677478d28229b891ade376b8"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa160e9da351264f87b7f8d",
-      "slug": "p3-med-christian-og-maria"
+      "slug": "dagen-er-din",
+      "urns": [
+        "urn:dr:radio:series:64c2ec4ce6386ed2b68983f7"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67ddf1b52940a33a24f77db5",
-      "slug": "dr-100-aar"
+      "slug": "damerne-foerst",
+      "urns": [
+        "urn:dr:radio:series:658b5d862469c7a7feb811f3"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:61a61f4a5c13ad898f1d0e40",
-      "slug": "dr-romanprisen-podcast"
+      "slug": "danmarks-draeber-1-med-peter-falktoft",
+      "urns": [
+        "urn:dr:radio:series:5fa25ce7330eac2f135b5759"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:64c2ec4ce6386ed2b68983f7",
-      "slug": "dagen-er-din"
+      "slug": "dansktoppen",
+      "urns": [
+        "urn:dr:radio:series:5fa265f0330eac2f135b86fc"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:655fdb7dc638d654cda94947",
-      "slug": "dagen-og-musikken"
+      "slug": "de-12-trin",
+      "urns": [
+        "urn:dr:radio:series:63a01a52d674a2f103df459f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:658b5d862469c7a7feb811f3",
-      "slug": "damerne-foerst"
+      "slug": "de-169-piger",
+      "urns": [
+        "urn:dr:radio:series:60b770eac5274a45c9c6db98"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25ce7330eac2f135b5759",
-      "slug": "danmarks-draeber-1-med-peter-falktoft"
+      "slug": "de-bedste-klaverkomponister",
+      "urns": [
+        "urn:dr:radio:series:5fa15fceda351264f87b78a9"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa265f0330eac2f135b86fc",
-      "slug": "dansktoppen"
+      "slug": "de-efterladte-2",
+      "urns": [
+        "urn:dr:radio:series:6137557cc012a8c6260bc5c0"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63a01a52d674a2f103df459f",
-      "slug": "de-12-trin"
+      "slug": "de-hemmelige-aktionaerer",
+      "urns": [
+        "urn:dr:radio:series:5fb62476f45a4df9a5f9bf7a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:60b770eac5274a45c9c6db98",
-      "slug": "de-169-piger"
+      "slug": "de-koedaedende-bakterier-podcast",
+      "urns": [
+        "urn:dr:radio:series:614098d3e4220c4077856c8d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15fceda351264f87b78a9",
-      "slug": "de-bedste-klaverkomponister"
+      "slug": "de-kontroversielle-podcast",
+      "urns": [
+        "urn:dr:radio:series:5fa26120330eac2f135b6e89"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6137557cc012a8c6260bc5c0",
-      "slug": "de-efterladte-2"
+      "slug": "de-lovloese",
+      "urns": [
+        "urn:dr:radio:series:61f24e160431527cb3065776"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fb62476f45a4df9a5f9bf7a",
-      "slug": "de-hemmelige-aktionaerer"
+      "slug": "de-nye-sangskrivere",
+      "urns": [
+        "urn:dr:radio:series:60d8f8a221565776b8b7e124"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26120330eac2f135b6e89",
-      "slug": "de-kontroversielle-podcast"
+      "slug": "de-skrev-historie",
+      "urns": [
+        "urn:dr:radio:series:66cddec6a56be59b02ef129e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:614098d3e4220c4077856c8d",
-      "slug": "de-koedaedende-bakterier-podcast"
+      "slug": "de-tabte-traditioner",
+      "urns": [
+        "urn:dr:radio:series:5fa26008330eac2f135b680f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:61f24e160431527cb3065776",
-      "slug": "de-lovloese"
+      "slug": "debutkoncert",
+      "urns": [
+        "urn:dr:radio:series:644f957ff130b22a2b4982fe"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:60d8f8a221565776b8b7e124",
-      "slug": "de-nye-sangskrivere"
+      "slug": "den-forsvundne-soldat",
+      "urns": [
+        "urn:dr:radio:series:5fa25a28330eac2f135b4781"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66cddec6a56be59b02ef129e",
-      "slug": "de-skrev-historie"
+      "slug": "den-grusomme-mand",
+      "urns": [
+        "urn:dr:radio:series:5fa260cd330eac2f135b6c8d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26008330eac2f135b680f",
-      "slug": "de-tabte-traditioner"
+      "slug": "den-lyse-side-paa-p4",
+      "urns": [
+        "urn:dr:radio:series:641d68d0cf5c901a725f97b5"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:644f957ff130b22a2b4982fe",
-      "slug": "debutkoncert"
+      "slug": "den-nordiske-odysse",
+      "urns": [
+        "urn:dr:radio:series:5fa15ca3da351264f87b6623"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15ca3da351264f87b6623",
-      "slug": "den-nordiske-odysse"
+      "slug": "den-nye-stil-historien-om-dansk-rap",
+      "urns": [
+        "urn:dr:radio:series:5fa1609bda351264f87b7d9a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25a28330eac2f135b4781",
-      "slug": "den-forsvundne-soldat"
+      "slug": "den-oede-oe",
+      "urns": [
+        "urn:dr:radio:series:6853b7d8047dbd9dedf548f4"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa260cd330eac2f135b6c8d",
-      "slug": "den-grusomme-mand"
+      "slug": "den-sandsynlige-morder",
+      "urns": [
+        "urn:dr:radio:series:5fa25eb4330eac2f135b6155"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa1609bda351264f87b7d9a",
-      "slug": "den-nye-stil-historien-om-dansk-rap"
+      "slug": "den-sidste-modstandsmand",
+      "urns": [
+        "urn:dr:radio:series:5fa25f09330eac2f135b632e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25eb4330eac2f135b6155",
-      "slug": "den-sandsynlige-morder"
+      "slug": "den-store-sportsquiz",
+      "urns": [
+        "urn:dr:radio:series:665f8f367937d2cab8c098a1"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25f09330eac2f135b632e",
-      "slug": "den-sidste-modstandsmand"
+      "slug": "den-ukendte-storspion-historien-om-jutta-graae",
+      "urns": [
+        "urn:dr:radio:series:67615fd5f55b9722f8a4f481"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:665f8f367937d2cab8c098a1",
-      "slug": "den-store-sportsquiz"
+      "slug": "det-braendte-bordel",
+      "urns": [
+        "urn:dr:radio:series:6047721cc05b9cfbb6460fb1"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63b41b1d1843b9cc15854549",
-      "slug": "slug-kamelen"
+      "slug": "det-der-med-anders-breinholt",
+      "urns": [
+        "urn:dr:radio:series:66b3ef3047089d6f434d442d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6853b7d8047dbd9dedf548f4",
-      "slug": "den-oede-oe"
+      "slug": "det-en-klassiker",
+      "urns": [
+        "urn:dr:radio:series:66f2c387ac68322c7bf8c349"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66545164385dfedb00e53d33",
-      "slug": "det-gode-liv"
+      "slug": "det-forkerte-barn",
+      "urns": [
+        "urn:dr:radio:series:6267b56e8679fdf8af884515"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63b4b60df77905a0bdbff5ac",
-      "slug": "det-store-talkshow"
+      "slug": "det-gode-liv",
+      "urns": [
+        "urn:dr:radio:series:66545164385dfedb00e53d33"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25c93330eac2f135b552a",
-      "slug": "det-tomme-magasin"
+      "slug": "det-gode-selskab",
+      "urns": [
+        "urn:dr:radio:series:5fa25aa6330eac2f135b4ad7"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6047721cc05b9cfbb6460fb1",
-      "slug": "det-braendte-bordel"
+      "slug": "det-gode-skib",
+      "urns": [
+        "urn:dr:radio:series:60617a927952218d2f11929e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66b3ef3047089d6f434d442d",
-      "slug": "det-der-med-anders-breinholt"
+      "slug": "det-her-er-sebastian",
+      "urns": [
+        "urn:dr:radio:series:62914bb53f3b36d4c29aff68"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6267b56e8679fdf8af884515",
-      "slug": "det-forkerte-barn"
+      "slug": "det-kimer-nu",
+      "urns": [
+        "urn:dr:radio:series:67619908237255de0787651f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25aa6330eac2f135b4ad7",
-      "slug": "det-gode-selskab"
+      "slug": "det-koldeste-faengsel",
+      "urns": [
+        "urn:dr:radio:series:615459bef20f33685db7bc07"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:60617a927952218d2f11929e",
-      "slug": "det-gode-skib"
+      "slug": "det-levende-bevis",
+      "urns": [
+        "urn:dr:radio:series:62a9b9bde0358bc540a9cb0c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:62914bb53f3b36d4c29aff68",
-      "slug": "det-her-er-sebastian"
+      "slug": "det-moderne-sammenbrud",
+      "urns": [
+        "urn:dr:radio:series:619373cd3a3d46d561d0bd21"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67619908237255de0787651f",
-      "slug": "det-kimer-nu"
+      "slug": "det-perfekte-offer",
+      "urns": [
+        "urn:dr:radio:series:5fa15c9cda351264f87b65f3"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:615459bef20f33685db7bc07",
-      "slug": "det-koldeste-faengsel"
+      "slug": "det-perfekte-offer-2",
+      "urns": [
+        "urn:dr:radio:series:5fa25c2a330eac2f135b5270"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:62a9b9bde0358bc540a9cb0c",
-      "slug": "det-levende-bevis"
+      "slug": "det-perfekte-offer-iii",
+      "urns": [
+        "urn:dr:radio:series:609a81907330b20da91a9474"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:619373cd3a3d46d561d0bd21",
-      "slug": "det-moderne-sammenbrud"
+      "slug": "det-sidste-maaltid",
+      "urns": [
+        "urn:dr:radio:series:672b6f2f546f2d7300367e08"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15c9cda351264f87b65f3",
-      "slug": "det-perfekte-offer"
+      "slug": "det-store-talkshow",
+      "urns": [
+        "urn:dr:radio:series:63b4b60df77905a0bdbff5ac"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25c2a330eac2f135b5270",
-      "slug": "det-perfekte-offer-2"
+      "slug": "det-tomme-magasin",
+      "urns": [
+        "urn:dr:radio:series:5fa25c93330eac2f135b552a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:609a81907330b20da91a9474",
-      "slug": "det-perfekte-offer-iii"
+      "slug": "det-ukendte",
+      "urns": [
+        "urn:dr:radio:series:620232bd333ea64fc86378d3"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:672b6f2f546f2d7300367e08",
-      "slug": "det-sidste-maaltid"
+      "slug": "det-vi-gar-rundt-med",
+      "urns": [
+        "urn:dr:radio:series:60ad76ee997bf56525f5676c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:620232bd333ea64fc86378d3",
-      "slug": "det-ukendte"
+      "slug": "det-vi-hoerer",
+      "urns": [
+        "urn:dr:radio:series:62abac31083f6022af1f72ee"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:60ad76ee997bf56525f5676c",
-      "slug": "det-vi-gar-rundt-med"
+      "slug": "det-vi-hoerte-i-100-aar",
+      "urns": [
+        "urn:dr:radio:series:6821b4a8002e131c0a92337b"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:62abac31083f6022af1f72ee",
-      "slug": "det-vi-hoerer"
+      "slug": "det-vi-skaendes-om",
+      "urns": [
+        "urn:dr:radio:series:67851a24ae34e26cb9d21db8"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6821b4a8002e131c0a92337b",
-      "slug": "det-vi-hoerte-i-100-aar"
+      "slug": "det-vilde-vesten",
+      "urns": [
+        "urn:dr:radio:series:68b050fdca1e334d4f4a0e6a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68b050fdca1e334d4f4a0e6a",
-      "slug": "det-vilde-vesten"
+      "slug": "dillermand-og-urtekusse",
+      "urns": [
+        "urn:dr:radio:series:60d6568421565776b8acac9b"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66f2c387ac68322c7bf8c349",
-      "slug": "det-en-klassiker"
+      "slug": "din-nye-nabo",
+      "urns": [
+        "urn:dr:radio:series:60b5e61d406a1cd2b25d5829"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67851a24ae34e26cb9d21db8",
-      "slug": "det-vi-skaendes-om"
+      "slug": "ditlev-og-daemonerne",
+      "urns": [
+        "urn:dr:radio:series:658b5d871b0ff6ce0ad7a63a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:60d6568421565776b8acac9b",
-      "slug": "dillermand-og-urtekusse"
+      "slug": "djaevlen-i-detaljen",
+      "urns": [
+        "urn:dr:radio:series:5fa16188da351264f87b82f3"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:60b5e61d406a1cd2b25d5829",
-      "slug": "din-nye-nabo"
+      "slug": "dobbeltmordet",
+      "urns": [
+        "urn:dr:radio:series:5fa15ca2da351264f87b661b"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:658b5d871b0ff6ce0ad7a63a",
-      "slug": "ditlev-og-daemonerne"
+      "slug": "doedsdoemt",
+      "urns": [
+        "urn:dr:radio:series:67449222aa7bc2beaefa6364"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa16209da351264f87b85c9",
-      "slug": "4-division"
+      "slug": "dorrits-alder",
+      "urns": [
+        "urn:dr:radio:series:6565e1a842547a2ceec128de"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa16188da351264f87b82f3",
-      "slug": "djaevlen-i-detaljen"
+      "slug": "dr-100-aar",
+      "urns": [
+        "urn:dr:radio:series:67ddf1b52940a33a24f77db5"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15ca2da351264f87b661b",
-      "slug": "dobbeltmordet"
+      "slug": "dr-romanprisen-podcast",
+      "urns": [
+        "urn:dr:radio:series:61a61f4a5c13ad898f1d0e40"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:61f267690431527cb3067259",
-      "slug": "dragcentralen"
+      "slug": "draeb-for-danmark",
+      "urns": [
+        "urn:dr:radio:series:5fa261cf330eac2f135b72aa"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25c96330eac2f135b553e",
-      "slug": "dronekrigeren"
+      "slug": "dragcentralen",
+      "urns": [
+        "urn:dr:radio:series:61f267690431527cb3067259"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:61dbf996860a6f50b4523fe2",
-      "slug": "dronningeriget"
+      "slug": "droemmeholdet",
+      "urns": [
+        "urn:dr:radio:series:658616eee05ede83bfff8ae0"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa261cf330eac2f135b72aa",
-      "slug": "draeb-for-danmark"
+      "slug": "droemmen-om-elvis",
+      "urns": [
+        "urn:dr:radio:series:6756e77275055c6700b1e50b"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:658616eee05ede83bfff8ae0",
-      "slug": "droemmeholdet"
+      "slug": "droemmenes-kaptajn",
+      "urns": [
+        "urn:dr:radio:series:5fa25a21330eac2f135b474f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6756e77275055c6700b1e50b",
-      "slug": "droemmen-om-elvis"
+      "slug": "dronekrigeren",
+      "urns": [
+        "urn:dr:radio:series:5fa25c96330eac2f135b553e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25a21330eac2f135b474f",
-      "slug": "droemmenes-kaptajn"
+      "slug": "dronningeriget",
+      "urns": [
+        "urn:dr:radio:series:61dbf996860a6f50b4523fe2"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:61fa40956c731729bc59079a",
-      "slug": "du-kender-typen"
+      "slug": "du-kender-typen",
+      "urns": [
+        "urn:dr:radio:series:61fa40956c731729bc59079a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:628b5a97785739fe0307f450",
-      "slug": "du-ved-det"
+      "slug": "du-ved-det",
+      "urns": [
+        "urn:dr:radio:series:628b5a97785739fe0307f450"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:632c204fe4235c9d4de20947",
-      "slug": "dubais-danske-damer"
+      "slug": "dubais-danske-damer",
+      "urns": [
+        "urn:dr:radio:series:632c204fe4235c9d4de20947"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67e15b43a10480c77022f69d",
-      "slug": "dusk-og-bomholts-sommerbrevkasse"
+      "slug": "dusk-og-bomholts-sommerbrevkasse",
+      "urns": [
+        "urn:dr:radio:series:67e15b43a10480c77022f69d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa16117da351264f87b8092",
-      "slug": "dvaergen-og-kaempen"
+      "slug": "dvaergen-og-kaempen",
+      "urns": [
+        "urn:dr:radio:series:5fa16117da351264f87b8092"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:677478d28229b891ade376b8",
-      "slug": "daarlig-stemning"
+      "slug": "ekkokammeret",
+      "urns": [
+        "urn:dr:radio:series:677be35a68395b5235ed2867"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67449222aa7bc2beaefa6364",
-      "slug": "doedsdoemt"
+      "slug": "ekstranummer",
+      "urns": [
+        "urn:dr:radio:series:6408a54f8a2497bbc1c068a1"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:677be35a68395b5235ed2867",
-      "slug": "ekkokammeret"
+      "slug": "eldorado",
+      "urns": [
+        "urn:dr:radio:series:5fa2635c330eac2f135b7b0d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6408a54f8a2497bbc1c068a1",
-      "slug": "ekstranummer"
+      "slug": "elektrologen",
+      "urns": [
+        "urn:dr:radio:series:6419f71d8a078a161e25685a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2635c330eac2f135b7b0d",
-      "slug": "eldorado"
+      "slug": "eliten-fra-rosenoerns-alle",
+      "urns": [
+        "urn:dr:radio:series:6475ec917370b91538adb964"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6419f71d8a078a161e25685a",
-      "slug": "elektrologen"
+      "slug": "elskovspony",
+      "urns": [
+        "urn:dr:radio:series:68553e0cde5d5eb0ff64c3f2"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6475ec917370b91538adb964",
-      "slug": "eliten-fra-rosenoerns-alle"
+      "slug": "en-beklagelig-fejl",
+      "urns": [
+        "urn:dr:radio:series:63e35caf2a690b2e6fee0528"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68553e0cde5d5eb0ff64c3f2",
-      "slug": "elskovspony"
+      "slug": "en-haeslig-jaeger",
+      "urns": [
+        "urn:dr:radio:series:5fb6247cf45a4df9a5f9bfa1"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6450f1cd9f2208439dad371e",
-      "slug": "en-stasi-mands-doed"
+      "slug": "en-livsfarlig-hemmelighed",
+      "urns": [
+        "urn:dr:radio:series:67ac9d821151483e9a65bfcc"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63e35caf2a690b2e6fee0528",
-      "slug": "en-beklagelig-fejl"
+      "slug": "en-ny-begyndelse",
+      "urns": [
+        "urn:dr:radio:series:66c5af63a56be59b02c8a5f7"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fb6247df45a4df9a5f9bfab",
-      "slug": "helvedes-fortid"
+      "slug": "en-roedvinsplettet-barndom",
+      "urns": [
+        "urn:dr:radio:series:5fa26160330eac2f135b7000"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fb6247cf45a4df9a5f9bfa1",
-      "slug": "en-haeslig-jaeger"
+      "slug": "en-stasi-mands-doed",
+      "urns": [
+        "urn:dr:radio:series:6450f1cd9f2208439dad371e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67ac9d821151483e9a65bfcc",
-      "slug": "en-livsfarlig-hemmelighed"
+      "slug": "endnu-en-jul-med-poul-nesgaard",
+      "urns": [
+        "urn:dr:radio:series:5fa25a2c330eac2f135b47a6"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66c5af63a56be59b02c8a5f7",
-      "slug": "en-ny-begyndelse"
+      "slug": "enken-med-den-forsvundne-kasse",
+      "urns": [
+        "urn:dr:radio:series:66cc6f132c77c39fecb65379"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26160330eac2f135b7000",
-      "slug": "en-roedvinsplettet-barndom"
+      "slug": "enter-internettets-skygge",
+      "urns": [
+        "urn:dr:radio:series:645b548d5335c098a7fe2a31"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25a2c330eac2f135b47a6",
-      "slug": "endnu-en-jul-med-poul-nesgaard"
+      "slug": "er-der-liv-pa-venus",
+      "urns": [
+        "urn:dr:radio:series:5fa26183330eac2f135b70d7"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66cc6f132c77c39fecb65379",
-      "slug": "enken-med-den-forsvundne-kasse"
+      "slug": "er-habet-stadig-groent",
+      "urns": [
+        "urn:dr:radio:series:5fa260de330eac2f135b6cff"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:645b548d5335c098a7fe2a31",
-      "slug": "enter-internettets-skygge"
+      "slug": "et-drab-i-familien",
+      "urns": [
+        "urn:dr:radio:series:63d79c01f53815849281ebe8"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26183330eac2f135b70d7",
-      "slug": "er-der-liv-pa-venus"
+      "slug": "et-farligt-match",
+      "urns": [
+        "urn:dr:radio:series:682da7cd7b626ea9bb3a5761"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa260de330eac2f135b6cff",
-      "slug": "er-habet-stadig-groent"
+      "slug": "et-giftigt-hensyn",
+      "urns": [
+        "urn:dr:radio:series:67ac9d820954069aa313c4b5"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63d79c01f53815849281ebe8",
-      "slug": "et-drab-i-familien"
+      "slug": "et-klassemord",
+      "urns": [
+        "urn:dr:radio:series:684a9480d9427b607791a545"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:682da7cd7b626ea9bb3a5761",
-      "slug": "et-farligt-match"
+      "slug": "et-minusmenneske",
+      "urns": [
+        "urn:dr:radio:series:63991606796a2b7211a1464a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67ac9d820954069aa313c4b5",
-      "slug": "et-giftigt-hensyn"
+      "slug": "et-skud-i-boessen",
+      "urns": [
+        "urn:dr:radio:series:62f25d922454ca40b1a9e9cd"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:684a9480d9427b607791a545",
-      "slug": "et-klassemord"
+      "slug": "et-stille-mord",
+      "urns": [
+        "urn:dr:radio:series:5fa1617cda351264f87b829f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa1617cda351264f87b829f",
-      "slug": "et-stille-mord"
+      "slug": "faedreland",
+      "urns": [
+        "urn:dr:radio:series:6365227f1b1f92339ee8d52d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63991606796a2b7211a1464a",
-      "slug": "et-minusmenneske"
+      "slug": "faengsel",
+      "urns": [
+        "urn:dr:radio:series:63202707e354a45e20dc69b5"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:62f25d922454ca40b1a9e9cd",
-      "slug": "et-skud-i-boessen"
+      "slug": "faldet",
+      "urns": [
+        "urn:dr:radio:series:65f9541e08347ccaf3cf2fb3"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15b12da351264f87b5ca2",
-      "slug": "fonk-det-er-podcast"
+      "slug": "faldet-mysteriet-om-de-rystede-hjerner-lydfoelsom-version",
+      "urns": [
+        "urn:dr:radio:series:66016b40f6340c50cd78d284"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66016b40f6340c50cd78d284",
-      "slug": "faldet-mysteriet-om-de-rystede-hjerner-lydfoelsom-version"
+      "slug": "falske-minder",
+      "urns": [
+        "urn:dr:radio:series:678ff0f32a51e1bacbbd5bc7"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:65f9541e08347ccaf3cf2fb3",
-      "slug": "faldet"
+      "slug": "fantasier",
+      "urns": [
+        "urn:dr:radio:series:63e2332d4412e3b8c34b6edc"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:678ff0f32a51e1bacbbd5bc7",
-      "slug": "falske-minder"
+      "slug": "fantomet-fra-rusland",
+      "urns": [
+        "urn:dr:radio:series:678ff0e82a51e1bacbbd5b5b"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63e2332d4412e3b8c34b6edc",
-      "slug": "fantasier"
+      "slug": "far-der-er-noget-vi-skal-tale-om",
+      "urns": [
+        "urn:dr:radio:series:5fa25a4a330eac2f135b4868"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:678ff0e82a51e1bacbbd5b5b",
-      "slug": "fantomet-fra-rusland"
+      "slug": "farlige-toner-historien-om-dansk-jazz",
+      "urns": [
+        "urn:dr:radio:series:5fa25f40330eac2f135b6468"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25a4a330eac2f135b4868",
-      "slug": "far-der-er-noget-vi-skal-tale-om"
+      "slug": "farligt-spil",
+      "urns": [
+        "urn:dr:radio:series:60703fbdc33f539603968f7d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25f40330eac2f135b6468",
-      "slug": "farlige-toner-historien-om-dansk-jazz"
+      "slug": "farrock",
+      "urns": [
+        "urn:dr:radio:series:5fa15f19da351264f87b7465"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:60703fbdc33f539603968f7d",
-      "slug": "farligt-spil"
+      "slug": "feature",
+      "urns": [
+        "urn:dr:radio:series:5fa26b4d330eac2f135ba324"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15f19da351264f87b7465",
-      "slug": "farrock"
+      "slug": "fezten",
+      "urns": [
+        "urn:dr:radio:series:5fa25c38330eac2f135b52cb"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26b4d330eac2f135ba324",
-      "slug": "feature"
+      "slug": "fire-patroner-pa-lommen",
+      "urns": [
+        "urn:dr:radio:series:600173206c12863ced19ea5f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25c38330eac2f135b52cb",
-      "slug": "fezten"
+      "slug": "flex",
+      "urns": [
+        "urn:dr:radio:series:65ddae6b71084fe132f41c50"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:600173206c12863ced19ea5f",
-      "slug": "fire-patroner-pa-lommen"
+      "slug": "flyvende-tallerken",
+      "urns": [
+        "urn:dr:radio:series:600173276c12863ced19ea7e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:65ddae6b71084fe132f41c50",
-      "slug": "flex"
+      "slug": "fodboldlisten",
+      "urns": [
+        "urn:dr:radio:series:5fa2627b330eac2f135b76a9"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:600173276c12863ced19ea7e",
-      "slug": "flyvende-tallerken"
+      "slug": "foelg-pengene",
+      "urns": [
+        "urn:dr:radio:series:5fa160a9da351264f87b7df0"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2627b330eac2f135b76a9",
-      "slug": "fodboldlisten"
+      "slug": "foer-natten-paa-p4",
+      "urns": [
+        "urn:dr:radio:series:6336d806b3066954c0e9b49b"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6419f5c48a078a161e25606a",
-      "slug": "folk-ish"
+      "slug": "folk-ish",
+      "urns": [
+        "urn:dr:radio:series:6419f5c48a078a161e25606a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6481dc7b2f049931670cee9d",
-      "slug": "forbrydelsens-anatomi"
+      "slug": "fonk-det-er-podcast",
+      "urns": [
+        "urn:dr:radio:series:5fa15b12da351264f87b5ca2"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26189330eac2f135b70fb",
-      "slug": "forbudte-moeder"
+      "slug": "foraeldreradet",
+      "urns": [
+        "urn:dr:radio:series:650393b8c850638803ef9e84"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:62349b138b0617c60b6b2c0b",
-      "slug": "formiddag-for-evigt"
+      "slug": "forbrydelsens-anatomi",
+      "urns": [
+        "urn:dr:radio:series:6481dc7b2f049931670cee9d",
+        "urn:dr:radio:series:684028bc5f16b69830a5251a",
+        "urn:dr:radio:series:684a92f6864cf94f9524a088",
+        "urn:dr:radio:series:684a9480d9427b607791a545",
+        "urn:dr:radio:series:684a9483864cf94f9524a803",
+        "urn:dr:radio:series:684a9486864cf94f9524a841",
+        "urn:dr:radio:series:684a9488864cf94f9524a861"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15fc0da351264f87b785d",
-      "slug": "formiddag-med-simpson"
+      "slug": "forbudte-moeder",
+      "urns": [
+        "urn:dr:radio:series:5fa26189330eac2f135b70fb"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26b85330eac2f135ba436",
-      "slug": "formiddag-paa-4-eren"
+      "slug": "formiddag-for-evigt",
+      "urns": [
+        "urn:dr:radio:series:62349b138b0617c60b6b2c0b"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:650393b8c850638803ef9e84",
-      "slug": "foraeldreradet"
+      "slug": "formiddag-med-simpson",
+      "urns": [
+        "urn:dr:radio:series:5fa15fc0da351264f87b785d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:600173716c12863ced19ebd9",
-      "slug": "foyeren"
+      "slug": "formiddag-paa-4-eren",
+      "urns": [
+        "urn:dr:radio:series:5fa26b85330eac2f135ba436"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6001737d6c12863ced19ec1f",
-      "slug": "fra-start-til-slut"
+      "slug": "foyeren",
+      "urns": [
+        "urn:dr:radio:series:600173716c12863ced19ebd9"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6486d3b08c0733d1c066f380",
-      "slug": "fredskvinder"
+      "slug": "fra-start-til-slut",
+      "urns": [
+        "urn:dr:radio:series:6001737d6c12863ced19ec1f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6494c7ce1900cc017575cb7f",
-      "slug": "fremtiden-pa-p1"
+      "slug": "fredskvinder",
+      "urns": [
+        "urn:dr:radio:series:6486d3b08c0733d1c066f380"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:658e00ce4b5108079847cbc3",
-      "slug": "frokostkoncerten"
+      "slug": "fremtiden-pa-p1",
+      "urns": [
+        "urn:dr:radio:series:6494c7ce1900cc017575cb7f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:61fba549d4421289df2b8417",
-      "slug": "funny-guy"
+      "slug": "frokostkoncerten",
+      "urns": [
+        "urn:dr:radio:series:658e00ce4b5108079847cbc3"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6365227f1b1f92339ee8d52d",
-      "slug": "faedreland"
+      "slug": "funny-guy",
+      "urns": [
+        "urn:dr:radio:series:61fba549d4421289df2b8417"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63202707e354a45e20dc69b5",
-      "slug": "faengsel"
+      "slug": "gaderadio",
+      "urns": [
+        "urn:dr:radio:series:65043afe1645145aaaa090cf"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6336d806b3066954c0e9b49b",
-      "slug": "foer-natten-paa-p4"
+      "slug": "galt-nok",
+      "urns": [
+        "urn:dr:radio:series:6639cdebd33fbafcd48ed9bf"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:65043afe1645145aaaa090cf",
-      "slug": "gaderadio"
+      "slug": "gemt-i-moerket",
+      "urns": [
+        "urn:dr:radio:series:5fa25cf4330eac2f135b57b0"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6639cdebd33fbafcd48ed9bf",
-      "slug": "galt-nok"
+      "slug": "generation-mars",
+      "urns": [
+        "urn:dr:radio:series:6224ba3c3776e47b9d59af21"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25cf4330eac2f135b57b0",
-      "slug": "gemt-i-moerket"
+      "slug": "generationen",
+      "urns": [
+        "urn:dr:radio:series:60c9acd611430d7fe465c849"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6224ba3c3776e47b9d59af21",
-      "slug": "generation-mars"
+      "slug": "generationskampen",
+      "urns": [
+        "urn:dr:radio:series:66d9749d093005ecd9b93006"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:60c9acd611430d7fe465c849",
-      "slug": "generationen"
+      "slug": "genstart",
+      "urns": [
+        "urn:dr:radio:series:5fa25ef8330eac2f135b62d6"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25ef8330eac2f135b62d6",
-      "slug": "genstart"
+      "slug": "genstart-dox",
+      "urns": [
+        "urn:dr:radio:series:65cb475de80d2a267cd12ae9",
+        "urn:dr:radio:series:67ac9d820954069aa313c4b5",
+        "urn:dr:radio:series:67ac9d821151483e9a65bfcc",
+        "urn:dr:radio:series:67ac9d831b0f08ad8b1b1564",
+        "urn:dr:radio:series:67b45a6d1c492b010491a2d5",
+        "urn:dr:radio:series:6821f2b0002e131c0a93fbb3",
+        "urn:dr:radio:series:684818efc01c3514d791860e",
+        "urn:dr:radio:series:68d3d629d97801dbf0a9b74a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:65cb475de80d2a267cd12ae9",
-      "slug": "genstart-dox"
+      "slug": "genvej",
+      "urns": [
+        "urn:dr:radio:series:66d8390ccf35b6a44add2e78"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66d8390ccf35b6a44add2e78",
-      "slug": "genvej"
+      "slug": "gidselforhandleren",
+      "urns": [
+        "urn:dr:radio:series:5fa2622d330eac2f135b74c9"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2622d330eac2f135b74c9",
-      "slug": "gidselforhandleren"
+      "slug": "gift-ved-foerste-blik-podcasten",
+      "urns": [
+        "urn:dr:radio:series:64e4ad0c6b591b6b9a30f377"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:64e4ad0c6b591b6b9a30f377",
-      "slug": "gift-ved-foerste-blik-podcasten"
+      "slug": "giganterne",
+      "urns": [
+        "urn:dr:radio:series:615c51ddf20f33685dbf669e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:615c51ddf20f33685dbf669e",
-      "slug": "giganterne"
+      "slug": "giro-413",
+      "urns": [
+        "urn:dr:radio:series:5fa265e0330eac2f135b86b1"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa265e0330eac2f135b86b1",
-      "slug": "giro-413"
+      "slug": "go-morgen-p3",
+      "urns": [
+        "urn:dr:radio:series:5fa26775330eac2f135b8e39"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26775330eac2f135b8e39",
-      "slug": "go-morgen-p3"
+      "slug": "gramsespektrum",
+      "urns": [
+        "urn:dr:radio:series:677bd7fa81654c75b6f521ea"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:677bd7fa81654c75b6f521ea",
-      "slug": "gramsespektrum"
+      "slug": "grundtvig-leth-fortalt",
+      "urns": [
+        "urn:dr:radio:series:66543149be7905fb09c29a22"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66543149be7905fb09c29a22",
-      "slug": "grundtvig-leth-fortalt"
+      "slug": "gruppechatten",
+      "urns": [
+        "urn:dr:radio:series:68540cd6de5d5eb0ff5a5669"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68540cd6de5d5eb0ff5a5669",
-      "slug": "gruppechatten"
+      "slug": "gudstjeneste-radio",
+      "urns": [
+        "urn:dr:radio:series:5fa26b0e330eac2f135ba190"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26b0e330eac2f135ba190",
-      "slug": "gudstjeneste-radio"
+      "slug": "guld-og-groenne-skove",
+      "urns": [
+        "urn:dr:radio:series:603830ab6d67b8ded9e76a7e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:603830ab6d67b8ded9e76a7e",
-      "slug": "guld-og-groenne-skove"
+      "slug": "guldregn",
+      "urns": [
+        "urn:dr:radio:series:66ec01c3374be7e3cedb0ac2"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66ec01c3374be7e3cedb0ac2",
-      "slug": "guldregn"
+      "slug": "gyldne-generationer-burgaard-mortensen-og-tanderup",
+      "urns": [
+        "urn:dr:radio:series:65561b0a3f194bf5332a2d8d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:65561b0a3f194bf5332a2d8d",
-      "slug": "gyldne-generationer-burgaard-mortensen-og-tanderup"
+      "slug": "hagekors-over-danmark",
+      "urns": [
+        "urn:dr:radio:series:5fa25e1f330eac2f135b5e33"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25e1f330eac2f135b5e33",
-      "slug": "hagekors-over-danmark"
+      "slug": "hallo-far",
+      "urns": [
+        "urn:dr:radio:series:5fa25e16330eac2f135b5dfe"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25e16330eac2f135b5dfe",
-      "slug": "hallo-far"
+      "slug": "hammer-og-cilius",
+      "urns": [
+        "urn:dr:radio:series:5fa259f2330eac2f135b45ee"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa259f2330eac2f135b45ee",
-      "slug": "hammer-og-cilius"
+      "slug": "hammers-komponister",
+      "urns": [
+        "urn:dr:radio:series:66d4e3f5a863115683541589"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66d4e3f5a863115683541589",
-      "slug": "hammers-komponister"
+      "slug": "handen-pa-hjertet",
+      "urns": [
+        "urn:dr:radio:series:64d40ecc8c4fbeaa9b4d62d2"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66b14cbe102348273c96eeca",
-      "slug": "happy-hour"
+      "slug": "happy-hour",
+      "urns": [
+        "urn:dr:radio:series:66b14cbe102348273c96eeca"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa160ddda351264f87b7f38",
-      "slug": "havet-venter"
+      "slug": "havet-venter",
+      "urns": [
+        "urn:dr:radio:series:5fa160ddda351264f87b7f38"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26580330eac2f135b84e7",
-      "slug": "hej-p2"
+      "slug": "hej-p2",
+      "urns": [
+        "urn:dr:radio:series:5fa26580330eac2f135b84e7"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:610c99ae214d9c8f19f3af82",
-      "slug": "hemmeligheder-2"
+      "slug": "helt-klassisk-med-lotte-heise",
+      "urns": [
+        "urn:dr:radio:series:5fa159fdda351264f87b56b4"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26386330eac2f135b7bd6",
-      "slug": "hithouse"
+      "slug": "helvedes-fortid",
+      "urns": [
+        "urn:dr:radio:series:5fb6247df45a4df9a5f9bfab"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68481881c01c3514d79182f5",
-      "slug": "hittebarnet"
+      "slug": "hemmeligheder-2",
+      "urns": [
+        "urn:dr:radio:series:610c99ae214d9c8f19f3af82"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2684c330eac2f135b9254",
-      "slug": "hjernekassen"
+      "slug": "hithouse",
+      "urns": [
+        "urn:dr:radio:series:5fa26386330eac2f135b7bd6"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa261b7330eac2f135b721e",
-      "slug": "hjerteflimmer-for-voksne"
+      "slug": "hittebarnet",
+      "urns": [
+        "urn:dr:radio:series:68481881c01c3514d79182f5"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:60e80481677db9dd509e55b2",
-      "slug": "hjulmand-mennesket-lederen-landstraeneren"
+      "slug": "hjernekassen",
+      "urns": [
+        "urn:dr:radio:series:5fa2684c330eac2f135b9254"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25b33330eac2f135b4d94",
-      "slug": "hotellet"
+      "slug": "hjerteflimmer-for-voksne",
+      "urns": [
+        "urn:dr:radio:series:5fa261b7330eac2f135b721e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2611f330eac2f135b6e85",
-      "slug": "hvad-nu-hvis-historien-pa-vrangen-med-adam-holm"
+      "slug": "hjulmand-mennesket-lederen-landstraeneren",
+      "urns": [
+        "urn:dr:radio:series:60e80481677db9dd509e55b2"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25ef1330eac2f135b62aa",
-      "slug": "hvad-skal-vi-med-konger"
+      "slug": "hoert",
+      "urns": [
+        "urn:dr:radio:series:65ccb3d1e80d2a267cd773c5"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6481e6528904cd8f08302c13",
-      "slug": "hvad-taender-os-to"
+      "slug": "hot",
+      "urns": [
+        "urn:dr:radio:series:62b4e4d9ed51a240a4381a6d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63bf42a05d446604cb792cff",
-      "slug": "hvad-ville-jesus-have-sagt"
+      "slug": "hotellet",
+      "urns": [
+        "urn:dr:radio:series:5fa25b33330eac2f135b4d94"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68528341fa5e05d195ffb4df",
-      "slug": "hvem-er-andreas-odbjerg"
+      "slug": "hvad-nu-hvis-historien-pa-vrangen-med-adam-holm",
+      "urns": [
+        "urn:dr:radio:series:5fa2611f330eac2f135b6e85"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68528350fa5e05d195ffb66b",
-      "slug": "hvem-er-aqua"
+      "slug": "hvad-skal-vi-med-konger",
+      "urns": [
+        "urn:dr:radio:series:5fa25ef1330eac2f135b62aa"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6852833291259fc7e5326d3f",
-      "slug": "hvem-er-artigeardit"
+      "slug": "hvad-taender-os-to",
+      "urns": [
+        "urn:dr:radio:series:6481e6528904cd8f08302c13"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6852833afa5e05d195ffb3f8",
-      "slug": "hvem-er-benjamin-hav"
+      "slug": "hvad-ville-jesus-have-sagt",
+      "urns": [
+        "urn:dr:radio:series:63bf42a05d446604cb792cff"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68528345fa5e05d195ffb56e",
-      "slug": "hvem-er-benjamin-lasnier"
+      "slug": "hvem-er",
+      "urns": [
+        "urn:dr:radio:series:5fa25dc3330eac2f135b5c34",
+        "urn:dr:radio:series:6852832c9b0d242d0f05a8f4",
+        "urn:dr:radio:series:6852832dfa5e05d195ffb36d",
+        "urn:dr:radio:series:6852832ffa5e05d195ffb38e",
+        "urn:dr:radio:series:6852833291259fc7e5326d3f",
+        "urn:dr:radio:series:68528333fa5e05d195ffb3ad",
+        "urn:dr:radio:series:685283369b0d242d0f05aa0e",
+        "urn:dr:radio:series:6852833a9b0d242d0f05aacb",
+        "urn:dr:radio:series:6852833afa5e05d195ffb3f8",
+        "urn:dr:radio:series:6852833d91259fc7e5326e35",
+        "urn:dr:radio:series:6852833f9b0d242d0f05ab30",
+        "urn:dr:radio:series:68528341fa5e05d195ffb4df",
+        "urn:dr:radio:series:68528345fa5e05d195ffb56e",
+        "urn:dr:radio:series:6852834b9b0d242d0f05abee",
+        "urn:dr:radio:series:6852834c91259fc7e5326fc3",
+        "urn:dr:radio:series:6852834d9b0d242d0f05ac09",
+        "urn:dr:radio:series:6852834f91259fc7e5327053",
+        "urn:dr:radio:series:68528350fa5e05d195ffb66b",
+        "urn:dr:radio:series:685283539b0d242d0f05ac83",
+        "urn:dr:radio:series:6852835891259fc7e5327108",
+        "urn:dr:radio:series:685283599b0d242d0f05ad5d",
+        "urn:dr:radio:series:6852835b9b0d242d0f05ad7b",
+        "urn:dr:radio:series:6852835dfa5e05d195ffb848",
+        "urn:dr:radio:series:6852835ffa5e05d195ffb894",
+        "urn:dr:radio:series:68ac13eba4542a14a47f49a0"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6852833a9b0d242d0f05aacb",
-      "slug": "hvem-er-billie-eilish"
+      "slug": "hvem-er-andreas-odbjerg",
+      "urns": [
+        "urn:dr:radio:series:68528341fa5e05d195ffb4df"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6852835b9b0d242d0f05ad7b",
-      "slug": "hvem-er-christopher"
+      "slug": "hvem-er-aqua",
+      "urns": [
+        "urn:dr:radio:series:68528350fa5e05d195ffb66b"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:685283539b0d242d0f05ac83",
-      "slug": "hvem-er-drew-sycamore"
+      "slug": "hvem-er-artigeardit",
+      "urns": [
+        "urn:dr:radio:series:6852833291259fc7e5326d3f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6852832c9b0d242d0f05a8f4",
-      "slug": "hvem-er-hans-philip"
+      "slug": "hvem-er-benjamin-hav",
+      "urns": [
+        "urn:dr:radio:series:6852833afa5e05d195ffb3f8"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6852832dfa5e05d195ffb36d",
-      "slug": "hvem-er-hugo-helmig"
+      "slug": "hvem-er-benjamin-lasnier",
+      "urns": [
+        "urn:dr:radio:series:68528345fa5e05d195ffb56e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6852835dfa5e05d195ffb848",
-      "slug": "hvem-er-infernal"
+      "slug": "hvem-er-billie-eilish",
+      "urns": [
+        "urn:dr:radio:series:6852833a9b0d242d0f05aacb"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68528333fa5e05d195ffb3ad",
-      "slug": "hvem-er-jada"
+      "slug": "hvem-er-christopher",
+      "urns": [
+        "urn:dr:radio:series:6852835b9b0d242d0f05ad7b"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6852833f9b0d242d0f05ab30",
-      "slug": "hvem-er-kesi"
+      "slug": "hvem-er-drew-sycamore",
+      "urns": [
+        "urn:dr:radio:series:685283539b0d242d0f05ac83"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68ac13eba4542a14a47f49a0",
-      "slug": "hvem-er-lord-siva"
+      "slug": "hvem-er-hans-philip",
+      "urns": [
+        "urn:dr:radio:series:6852832c9b0d242d0f05a8f4"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:685283369b0d242d0f05aa0e",
-      "slug": "hvem-er-malte-ebert"
+      "slug": "hvem-er-hugo-helmig",
+      "urns": [
+        "urn:dr:radio:series:6852832dfa5e05d195ffb36d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6852834f91259fc7e5327053",
-      "slug": "hvem-er-moe"
+      "slug": "hvem-er-infernal",
+      "urns": [
+        "urn:dr:radio:series:6852835dfa5e05d195ffb848"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6852834d9b0d242d0f05ac09",
-      "slug": "hvem-er-phlake"
+      "slug": "hvem-er-jada",
+      "urns": [
+        "urn:dr:radio:series:68528333fa5e05d195ffb3ad"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6852835ffa5e05d195ffb894",
-      "slug": "hvem-er-saint-clara"
+      "slug": "hvem-er-kesi",
+      "urns": [
+        "urn:dr:radio:series:6852833f9b0d242d0f05ab30"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6852835891259fc7e5327108",
-      "slug": "hvem-er-simon-kvamm"
+      "slug": "hvem-er-lord-siva",
+      "urns": [
+        "urn:dr:radio:series:68ac13eba4542a14a47f49a0"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:685283599b0d242d0f05ad5d",
-      "slug": "hvem-er-taylor-swift"
+      "slug": "hvem-er-malte-ebert",
+      "urns": [
+        "urn:dr:radio:series:685283369b0d242d0f05aa0e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6852834b9b0d242d0f05abee",
-      "slug": "hvem-er-tessa"
+      "slug": "hvem-er-moe",
+      "urns": [
+        "urn:dr:radio:series:6852834f91259fc7e5327053"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6852833d91259fc7e5326e35",
-      "slug": "hvem-er-the-minds-of-99"
+      "slug": "hvem-er-phlake",
+      "urns": [
+        "urn:dr:radio:series:6852834d9b0d242d0f05ac09"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6852834c91259fc7e5326fc3",
-      "slug": "hvem-er-the-minds-of-99-ii"
+      "slug": "hvem-er-saint-clara",
+      "urns": [
+        "urn:dr:radio:series:6852835ffa5e05d195ffb894"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6852832ffa5e05d195ffb38e",
-      "slug": "hvem-er-volbeat"
+      "slug": "hvem-er-simon-kvamm",
+      "urns": [
+        "urn:dr:radio:series:6852835891259fc7e5327108"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25dc3330eac2f135b5c34",
-      "slug": "hvem-er"
+      "slug": "hvem-er-taylor-swift",
+      "urns": [
+        "urn:dr:radio:series:685283599b0d242d0f05ad5d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:616f412e25641557d3c8a5b2",
-      "slug": "hvert-ar-i-oktober"
+      "slug": "hvem-er-tessa",
+      "urns": [
+        "urn:dr:radio:series:6852834b9b0d242d0f05abee"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67658e3ea92881d1b0b9dd74",
-      "slug": "hvis-du-toer"
+      "slug": "hvem-er-the-minds-of-99",
+      "urns": [
+        "urn:dr:radio:series:6852833d91259fc7e5326e35"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:60d26e88c402709d16081e86",
-      "slug": "hvor-regnbuen-ender"
+      "slug": "hvem-er-the-minds-of-99-ii",
+      "urns": [
+        "urn:dr:radio:series:6852834c91259fc7e5326fc3"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa16195da351264f87b8347",
-      "slug": "hvorfor-har-jeg-ikke-en-kaereste"
+      "slug": "hvem-er-volbeat",
+      "urns": [
+        "urn:dr:radio:series:6852832ffa5e05d195ffb38e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:64d40ecc8c4fbeaa9b4d62d2",
-      "slug": "handen-pa-hjertet"
+      "slug": "hvem-ser-foerst",
+      "urns": [
+        "urn:dr:radio:series:683d8525f526fd481f87dc7a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:65ccb3d1e80d2a267cd773c5",
-      "slug": "hoert"
+      "slug": "hvert-ar-i-oktober",
+      "urns": [
+        "urn:dr:radio:series:616f412e25641557d3c8a5b2"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:611f62fb0f49677d7c272ff5",
-      "slug": "i-dinosaurernes-fodspor-med-luppen-fremme"
+      "slug": "hvis-du-toer",
+      "urns": [
+        "urn:dr:radio:series:67658e3ea92881d1b0b9dd74"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6836b3bab55477aa4732b017",
-      "slug": "i-doeden-for-tronen"
+      "slug": "hvor-regnbuen-ender",
+      "urns": [
+        "urn:dr:radio:series:60d26e88c402709d16081e86"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67892900117fedc997a61333",
-      "slug": "i-medgang-og-modgang"
+      "slug": "hvorfor-har-jeg-ikke-en-kaereste",
+      "urns": [
+        "urn:dr:radio:series:5fa16195da351264f87b8347"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa260cc330eac2f135b6c85",
-      "slug": "i-min-lomme-ligger-en-sten"
+      "slug": "i-dinosaurernes-fodspor-med-luppen-fremme",
+      "urns": [
+        "urn:dr:radio:series:611f62fb0f49677d7c272ff5"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25f03330eac2f135b6306",
-      "slug": "i-planetens-tjeneste"
+      "slug": "i-doeden-for-tronen",
+      "urns": [
+        "urn:dr:radio:series:6836b3bab55477aa4732b017"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:62fccb208c2b3429602e8006",
-      "slug": "i-skyggen-af-solkongen-spies"
+      "slug": "i-kloeerne-pa",
+      "urns": [
+        "urn:dr:radio:series:63a58d889c2c142ce191c49c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:600173a26c12863ced19ecbc",
-      "slug": "ideologernes-ild-radio"
+      "slug": "i-medgang-og-modgang",
+      "urns": [
+        "urn:dr:radio:series:67892900117fedc997a61333"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26129330eac2f135b6ec1",
-      "slug": "ikonet-ingen-husker"
+      "slug": "i-min-lomme-ligger-en-sten",
+      "urns": [
+        "urn:dr:radio:series:5fa260cc330eac2f135b6c85"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68498573d9427b60778a822d",
-      "slug": "imran-mod-giganterne"
+      "slug": "i-planetens-tjeneste",
+      "urns": [
+        "urn:dr:radio:series:5fa25f03330eac2f135b6306"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6582e327163dfa22d540bec6",
-      "slug": "inden-vi-doer"
+      "slug": "i-skyggen-af-solkongen-spies",
+      "urns": [
+        "urn:dr:radio:series:62fccb208c2b3429602e8006"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:671619131e23230d78149b3a",
-      "slug": "indersiden-med-viktor-fischer"
+      "slug": "ideologernes-ild-radio",
+      "urns": [
+        "urn:dr:radio:series:600173a26c12863ced19ecbc"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68625cf577533c998359caf1",
-      "slug": "jacob-gade-og-jalousien"
+      "slug": "ikonet-ingen-husker",
+      "urns": [
+        "urn:dr:radio:series:5fa26129330eac2f135b6ec1"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6621195eb5689c0891bc4b1c",
-      "slug": "jagten-paa-det-evige-liv"
+      "slug": "imran-mod-giganterne",
+      "urns": [
+        "urn:dr:radio:series:68498573d9427b60778a822d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26291330eac2f135b7729",
-      "slug": "jazz-og-co"
+      "slug": "inden-vi-doer",
+      "urns": [
+        "urn:dr:radio:series:6582e327163dfa22d540bec6"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63ca5b653a290c242ebaa515",
-      "slug": "jeg-skammer-mig"
+      "slug": "indersiden-med-viktor-fischer",
+      "urns": [
+        "urn:dr:radio:series:671619131e23230d78149b3a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa161fdda351264f87b8588",
-      "slug": "kulturen-pa-p1"
+      "slug": "jacob-gade-og-jalousien",
+      "urns": [
+        "urn:dr:radio:series:68625cf577533c998359caf1"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68ca65bea71b876223245630",
-      "slug": "kup"
+      "slug": "jagten-paa-det-evige-liv",
+      "urns": [
+        "urn:dr:radio:series:6621195eb5689c0891bc4b1c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:600173096c12863ced19ea0d",
-      "slug": "kaarsberg-mysteriet"
+      "slug": "jazz-og-co",
+      "urns": [
+        "urn:dr:radio:series:5fa26291330eac2f135b7729"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:610bd147214d9c8f19f2e2d2",
-      "slug": "kampen-om-historien-3"
+      "slug": "jeg-skammer-mig",
+      "urns": [
+        "urn:dr:radio:series:63ca5b653a290c242ebaa515"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:611ed1890f49677d7c269701",
-      "slug": "kapitalisterne"
+      "slug": "kaarsberg-mysteriet",
+      "urns": [
+        "urn:dr:radio:series:600173096c12863ced19ea0d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:60c0a885b34fcee683402b47",
-      "slug": "kapret"
+      "slug": "kaerlighed-i-karantaene",
+      "urns": [
+        "urn:dr:radio:series:5fa260eb330eac2f135b6d4f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:60210585377bcb8a30e9731b",
-      "slug": "kasper-kaerlighedssangen"
+      "slug": "kampen-om-historien-3",
+      "urns": [
+        "urn:dr:radio:series:610bd147214d9c8f19f2e2d2"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:649d41899f6ed851b763f730",
-      "slug": "kejserens-nye-klub"
+      "slug": "kapitalisterne",
+      "urns": [
+        "urn:dr:radio:series:611ed1890f49677d7c269701"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63ce51ca3a290c242ece4fb3",
-      "slug": "kernekraft-og-kaerlighed"
+      "slug": "kapret",
+      "urns": [
+        "urn:dr:radio:series:60c0a885b34fcee683402b47"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:678ff0f161687a04d7dd7d9e",
-      "slug": "kidnappet"
+      "slug": "kasper-kaerlighedssangen",
+      "urns": [
+        "urn:dr:radio:series:60210585377bcb8a30e9731b"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25f3b330eac2f135b6448",
-      "slug": "kierkegaard-pa-egen-krop"
+      "slug": "kejserens-nye-klub",
+      "urns": [
+        "urn:dr:radio:series:649d41899f6ed851b763f730"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:60506b1f296878f0f4221361",
-      "slug": "kiggerpigen"
+      "slug": "kernekraft-og-kaerlighed",
+      "urns": [
+        "urn:dr:radio:series:63ce51ca3a290c242ece4fb3"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:602509b97e656f3a13179681",
-      "slug": "klassisk-mix"
+      "slug": "kidnappet",
+      "urns": [
+        "urn:dr:radio:series:678ff0f161687a04d7dd7d9e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2651a330eac2f135b82e3",
-      "slug": "klassisk-morgen"
+      "slug": "kierkegaard-pa-egen-krop",
+      "urns": [
+        "urn:dr:radio:series:5fa25f3b330eac2f135b6448"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6273de0d610339aadabdfd28",
-      "slug": "klassisk-weekend"
+      "slug": "kiggerpigen",
+      "urns": [
+        "urn:dr:radio:series:60506b1f296878f0f4221361"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa162c0da351264f87b898d",
-      "slug": "klassiske-legender"
+      "slug": "klassisk-mix",
+      "urns": [
+        "urn:dr:radio:series:602509b97e656f3a13179681"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:600173286c12863ced19ea82",
-      "slug": "klassiske-mysterier"
+      "slug": "klassisk-morgen",
+      "urns": [
+        "urn:dr:radio:series:5fa2651a330eac2f135b82e3"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15dfada351264f87b6e48",
-      "slug": "klog-pa-sprog"
+      "slug": "klassisk-weekend",
+      "urns": [
+        "urn:dr:radio:series:6273de0d610339aadabdfd28"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63510fde255cdd28fb98ad4d",
-      "slug": "klub-mukupa"
+      "slug": "klassiske-legender",
+      "urns": [
+        "urn:dr:radio:series:5fa162c0da351264f87b898d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:630df01b09585a83f1a62a82",
-      "slug": "knaldperler"
+      "slug": "klassiske-mysterier",
+      "urns": [
+        "urn:dr:radio:series:600173286c12863ced19ea82"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25b1e330eac2f135b4d2b",
-      "slug": "korfix-og-kaffe"
+      "slug": "klog-pa-sprog",
+      "urns": [
+        "urn:dr:radio:series:5fa15dfada351264f87b6e48"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:606c3a90c33f539603868574",
-      "slug": "kostskolen"
+      "slug": "klub-mukupa",
+      "urns": [
+        "urn:dr:radio:series:63510fde255cdd28fb98ad4d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63bbfd20d2052f8a013504ce",
-      "slug": "krig-4"
+      "slug": "knaldperler",
+      "urns": [
+        "urn:dr:radio:series:630df01b09585a83f1a62a82"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6486ddba8c0733d1c06721db",
-      "slug": "krigen-pa-isen"
+      "slug": "korfix-og-kaffe",
+      "urns": [
+        "urn:dr:radio:series:5fa25b1e330eac2f135b4d2b"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6001731e6c12863ced19ea59",
-      "slug": "krigens-reality"
+      "slug": "kostskolen",
+      "urns": [
+        "urn:dr:radio:series:606c3a90c33f539603868574"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15c97da351264f87b65cf",
-      "slug": "kristian-leth-og-outsideren-podcast"
+      "slug": "krig-4",
+      "urns": [
+        "urn:dr:radio:series:63bbfd20d2052f8a013504ce"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26d56330eac2f135bad5f",
-      "slug": "krop-og-bevaegelse"
+      "slug": "krigen-pa-isen",
+      "urns": [
+        "urn:dr:radio:series:6486ddba8c0733d1c06721db"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:64391bd82a44bba02fb4b62c",
-      "slug": "kun-fjeldene-staar-evigt"
+      "slug": "krigens-reality",
+      "urns": [
+        "urn:dr:radio:series:6001731e6c12863ced19ea59"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:600173506c12863ced19eb55",
-      "slug": "kvinder-i-krig-radio"
+      "slug": "kristian-leth-og-outsideren-podcast",
+      "urns": [
+        "urn:dr:radio:series:5fa15c97da351264f87b65cf"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:600172ee6c12863ced19e9a3",
-      "slug": "kvinder-i-musik"
+      "slug": "krop-og-bevaegelse",
+      "urns": [
+        "urn:dr:radio:series:5fa26d56330eac2f135bad5f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25ee3330eac2f135b6257",
-      "slug": "kvinderne-pa-kvisten"
+      "slug": "kulturen-pa-p1",
+      "urns": [
+        "urn:dr:radio:series:5fa161fdda351264f87b8588"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa260eb330eac2f135b6d4f",
-      "slug": "kaerlighed-i-karantaene"
+      "slug": "kun-fjeldene-staar-evigt",
+      "urns": [
+        "urn:dr:radio:series:64391bd82a44bba02fb4b62c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26bb1330eac2f135ba522",
-      "slug": "liga"
+      "slug": "kup",
+      "urns": [
+        "urn:dr:radio:series:68ca65bea71b876223245630"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:61dd81649a2a1f7f4790a1a6",
-      "slug": "lsd-kaelderen"
+      "slug": "kvinder-i-krig-radio",
+      "urns": [
+        "urn:dr:radio:series:600173506c12863ced19eb55"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:678ed7205356776e89a4c4fb",
-      "slug": "langefredag"
+      "slug": "kvinder-i-musik",
+      "urns": [
+        "urn:dr:radio:series:600172ee6c12863ced19e9a3"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:684a9486864cf94f9524a841",
-      "slug": "lejemordet-i-ugledige"
+      "slug": "kvinderne-pa-kvisten",
+      "urns": [
+        "urn:dr:radio:series:5fa25ee3330eac2f135b6257"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:629487a26f7eec4fd8ed8b38",
-      "slug": "liss"
+      "slug": "laege-soeger-graenser",
+      "urns": [
+        "urn:dr:radio:series:5fa25da6330eac2f135b5b80"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:667b3ffb21296bf60f0da4db",
-      "slug": "lolleland"
+      "slug": "laegens-bord-podcast",
+      "urns": [
+        "urn:dr:radio:series:636b91a929364a6f99a081c2"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6661bfaa7937d2cab8cad242",
-      "slug": "lottomysteriet-genfortalt"
+      "slug": "laenge-leve-albummet",
+      "urns": [
+        "urn:dr:radio:series:5fa297ce330eac2f135bc77c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67ade53d7c40c3fd689c3336",
-      "slug": "lydsporet"
+      "slug": "langefredag",
+      "urns": [
+        "urn:dr:radio:series:678ed7205356776e89a4c4fb"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6638a1a36d0e2e42f85f9bec",
-      "slug": "lyssky"
+      "slug": "lejemordet-i-ugledige",
+      "urns": [
+        "urn:dr:radio:series:684a9486864cf94f9524a841"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25da6330eac2f135b5b80",
-      "slug": "laege-soeger-graenser"
+      "slug": "liga",
+      "urns": [
+        "urn:dr:radio:series:5fa26bb1330eac2f135ba522"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:636b91a929364a6f99a081c2",
-      "slug": "laegens-bord-podcast"
+      "slug": "liss",
+      "urns": [
+        "urn:dr:radio:series:629487a26f7eec4fd8ed8b38"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa297ce330eac2f135bc77c",
-      "slug": "laenge-leve-albummet"
+      "slug": "loesladt",
+      "urns": [
+        "urn:dr:radio:series:5fa15c8bda351264f87b6580"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15c8bda351264f87b6580",
-      "slug": "loesladt"
+      "slug": "loevfald",
+      "urns": [
+        "urn:dr:radio:series:66ff1657a91f7f60a2f5d748"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15f17da351264f87b7455",
-      "slug": "slotsholmen"
+      "slug": "lolleland",
+      "urns": [
+        "urn:dr:radio:series:667b3ffb21296bf60f0da4db"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa259f1330eac2f135b45e6",
-      "slug": "man-stoler-vel-paa-praesten"
+      "slug": "lottomysteriet-genfortalt",
+      "urns": [
+        "urn:dr:radio:series:6661bfaa7937d2cab8cad242"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25de2330eac2f135b5ce5",
-      "slug": "rosenkjaerprisen-2019"
+      "slug": "lsd-kaelderen",
+      "urns": [
+        "urn:dr:radio:series:61dd81649a2a1f7f4790a1a6"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa16096da351264f87b7d7e",
-      "slug": "manden-uden-skygge"
+      "slug": "lydsporet",
+      "urns": [
+        "urn:dr:radio:series:67ade53d7c40c3fd689c3336"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25cef330eac2f135b578b",
-      "slug": "manderegler"
+      "slug": "lyssky",
+      "urns": [
+        "urn:dr:radio:series:6638a1a36d0e2e42f85f9bec"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa261da330eac2f135b72f6",
-      "slug": "mands-minde-foredrag-uffe-ellemann-jensen-vejen-jeg-valgte"
+      "slug": "maend-der-knaekker-med-abdel-aziz-mahmoud",
+      "urns": [
+        "urn:dr:radio:series:60c0b7af514cc9dcecdf8514"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:655b72282659b726e0835284",
-      "slug": "marcella-1989"
+      "slug": "maend-der-odelaegger-kvinder",
+      "urns": [
+        "urn:dr:radio:series:5fa25f34330eac2f135b6422"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2610b330eac2f135b6e17",
-      "slug": "margrethe-af-europa"
+      "slug": "man-stoler-vel-paa-praesten",
+      "urns": [
+        "urn:dr:radio:series:5fa259f1330eac2f135b45e6"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:666848ebe40614b67ab7059f",
-      "slug": "marias-arv"
+      "slug": "manden-uden-skygge",
+      "urns": [
+        "urn:dr:radio:series:5fa16096da351264f87b7d7e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:678ff0f72a51e1bacbbd5bde",
-      "slug": "massoeren"
+      "slug": "manderegler",
+      "urns": [
+        "urn:dr:radio:series:5fa25cef330eac2f135b578b"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67ea4457f9117b6029e933bb",
-      "slug": "med-oererne-paa-stilke"
+      "slug": "mands-minde-foredrag-uffe-ellemann-jensen-vejen-jeg-valgte",
+      "urns": [
+        "urn:dr:radio:series:5fa261da330eac2f135b72f6"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67d426922257e391d9f04170",
-      "slug": "meditationer"
+      "slug": "marcella-1989",
+      "urns": [
+        "urn:dr:radio:series:655b72282659b726e0835284"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15c15da351264f87b628f",
-      "slug": "meget-mere-matador"
+      "slug": "margrethe-af-europa",
+      "urns": [
+        "urn:dr:radio:series:5fa2610b330eac2f135b6e17"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6587685c9973a9c83707ae4c",
-      "slug": "meget-mere-morgen"
+      "slug": "marias-arv",
+      "urns": [
+        "urn:dr:radio:series:666848ebe40614b67ab7059f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:669113022456580b4d12b468",
-      "slug": "mennesket-bag-facaden"
+      "slug": "massoeren",
+      "urns": [
+        "urn:dr:radio:series:678ff0f72a51e1bacbbd5bde"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66cc4641a127df4c0a3c5599",
-      "slug": "mens-vi-husker-det"
+      "slug": "med-oererne-paa-stilke",
+      "urns": [
+        "urn:dr:radio:series:67ea4457f9117b6029e933bb"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68540b69de5d5eb0ff5a4aba",
-      "slug": "mette-og-mikael"
+      "slug": "meditationer",
+      "urns": [
+        "urn:dr:radio:series:67d426922257e391d9f04170"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:649558dd8b62a4268d910b6a",
-      "slug": "michael-rasmussen-podcast-3"
+      "slug": "meget-mere-matador",
+      "urns": [
+        "urn:dr:radio:series:5fa15c15da351264f87b628f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25cf9330eac2f135b57cf",
-      "slug": "michala-petri-for-musikkens-skyld"
+      "slug": "meget-mere-morgen",
+      "urns": [
+        "urn:dr:radio:series:6587685c9973a9c83707ae4c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6168079e8f43ef1f7b53ff26",
-      "slug": "mikies-ni-liv"
+      "slug": "mennesket-bag-facaden",
+      "urns": [
+        "urn:dr:radio:series:669113022456580b4d12b468"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:674d823c2a02f3ed1efa0abe",
-      "slug": "min-ven-hermann-goring"
+      "slug": "mens-vi-husker-det",
+      "urns": [
+        "urn:dr:radio:series:66cc4641a127df4c0a3c5599"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26244330eac2f135b7552",
-      "slug": "mine-smukke-veninder"
+      "slug": "mette-og-mikael",
+      "urns": [
+        "urn:dr:radio:series:68540b69de5d5eb0ff5a4aba"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66558543be7905fb09c8ebce",
-      "slug": "ministermord"
+      "slug": "michael-rasmussen-podcast-3",
+      "urns": [
+        "urn:dr:radio:series:649558dd8b62a4268d910b6a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6385d448333e768231d53e02",
-      "slug": "miraklet-i-rundetarn"
+      "slug": "michala-petri-for-musikkens-skyld",
+      "urns": [
+        "urn:dr:radio:series:5fa25cf9330eac2f135b57cf"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6565e1a842547a2ceec128de",
-      "slug": "dorrits-alder"
+      "slug": "mikies-ni-liv",
+      "urns": [
+        "urn:dr:radio:series:6168079e8f43ef1f7b53ff26"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67615fd5f55b9722f8a4f481",
-      "slug": "den-ukendte-storspion-historien-om-jutta-graae"
+      "slug": "min-ven-hermann-goring",
+      "urns": [
+        "urn:dr:radio:series:674d823c2a02f3ed1efa0abe"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:614db730027698a46c981c3f",
-      "slug": "mohammed-og-julie"
+      "slug": "min-ven-i-herstedvester",
+      "urns": [
+        "urn:dr:radio:series:6848141150790136dd538c59"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa261ed330eac2f135b737d",
-      "slug": "mon-amie-complexe"
+      "slug": "mine-smukke-veninder",
+      "urns": [
+        "urn:dr:radio:series:5fa26244330eac2f135b7552"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6821f2b0002e131c0a93fbb3",
-      "slug": "mord-i-gruppechatten"
+      "slug": "ministermord",
+      "urns": [
+        "urn:dr:radio:series:66558543be7905fb09c8ebce"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:617937ee3f3eb0ce4633263f",
-      "slug": "mord-i-kultureliten"
+      "slug": "miraklet-i-rundetarn",
+      "urns": [
+        "urn:dr:radio:series:6385d448333e768231d53e02"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:684a9488864cf94f9524a861",
-      "slug": "mordet-i-sukkerplantagen"
+      "slug": "moerkets-doegnvagter",
+      "urns": [
+        "urn:dr:radio:series:6183ba4f1151c32fdb5846e2"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26328330eac2f135b7a16",
-      "slug": "morgenandagten"
+      "slug": "moerklagt",
+      "urns": [
+        "urn:dr:radio:series:63a03481d674a2f103dfc6e5",
+        "urn:dr:radio:series:678ff0de61687a04d7dd7cf1",
+        "urn:dr:radio:series:678ff0e561687a04d7dd7d1e",
+        "urn:dr:radio:series:678ff0e82a51e1bacbbd5b5b",
+        "urn:dr:radio:series:678ff0f161687a04d7dd7d9e",
+        "urn:dr:radio:series:678ff0f32a51e1bacbbd5bc7",
+        "urn:dr:radio:series:678ff0f72a51e1bacbbd5bde",
+        "urn:dr:radio:series:6810b72bb564004141c1f1ae",
+        "urn:dr:radio:series:68481881c01c3514d79182f5"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2628b330eac2f135b770a",
-      "slug": "morgenbeatet"
+      "slug": "mohammed-og-julie",
+      "urns": [
+        "urn:dr:radio:series:614db730027698a46c981c3f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26114330eac2f135b6e4c",
-      "slug": "morgenklubben"
+      "slug": "mon-amie-complexe",
+      "urns": [
+        "urn:dr:radio:series:5fa261ed330eac2f135b737d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:60c75578c75fc58b4e44991a",
-      "slug": "mors-afskedsbrev"
+      "slug": "mord-i-gruppechatten",
+      "urns": [
+        "urn:dr:radio:series:6821f2b0002e131c0a93fbb3"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:631895ad1e2096ec3dc6fd44",
-      "slug": "moskva-kontoret"
+      "slug": "mord-i-kultureliten",
+      "urns": [
+        "urn:dr:radio:series:617937ee3f3eb0ce4633263f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fb6247cf45a4df9a5f9bf9c",
-      "slug": "muldvarpen-4"
+      "slug": "mordet-i-sukkerplantagen",
+      "urns": [
+        "urn:dr:radio:series:684a9488864cf94f9524a861"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67d426925a443496f51a2735",
-      "slug": "musik-og-meditation"
+      "slug": "morgenandagten",
+      "urns": [
+        "urn:dr:radio:series:5fa26328330eac2f135b7a16"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26476330eac2f135b7fff",
-      "slug": "musikquizzen"
+      "slug": "morgenbeatet",
+      "urns": [
+        "urn:dr:radio:series:5fa2628b330eac2f135b770a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26c36330eac2f135ba7e5",
-      "slug": "musiktjenesten"
+      "slug": "morgenklubben",
+      "urns": [
+        "urn:dr:radio:series:5fa26114330eac2f135b6e4c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:60c0b7af514cc9dcecdf8514",
-      "slug": "maend-der-knaekker-med-abdel-aziz-mahmoud"
+      "slug": "mors-afskedsbrev",
+      "urns": [
+        "urn:dr:radio:series:60c75578c75fc58b4e44991a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25f34330eac2f135b6422",
-      "slug": "maend-der-odelaegger-kvinder"
+      "slug": "moskva-kontoret",
+      "urns": [
+        "urn:dr:radio:series:631895ad1e2096ec3dc6fd44"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6183ba4f1151c32fdb5846e2",
-      "slug": "moerkets-doegnvagter"
+      "slug": "muldvarpen-4",
+      "urns": [
+        "urn:dr:radio:series:5fb6247cf45a4df9a5f9bf9c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63a03481d674a2f103dfc6e5",
-      "slug": "moerklagt"
+      "slug": "musik-og-meditation",
+      "urns": [
+        "urn:dr:radio:series:67d426925a443496f51a2735"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa264dd330eac2f135b81c3",
-      "slug": "natsvaermeren"
+      "slug": "musikquizzen",
+      "urns": [
+        "urn:dr:radio:series:5fa26476330eac2f135b7fff"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15c84da351264f87b6554",
-      "slug": "nattens-dronning"
+      "slug": "natsvaermeren",
+      "urns": [
+        "urn:dr:radio:series:5fa264dd330eac2f135b81c3"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26100330eac2f135b6dcd",
-      "slug": "naturens-symfoni"
+      "slug": "nattens-dronning",
+      "urns": [
+        "urn:dr:radio:series:5fa15c84da351264f87b6554"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa260c6330eac2f135b6c66",
-      "slug": "nordfronten"
+      "slug": "naturens-symfoni",
+      "urns": [
+        "urn:dr:radio:series:5fa26100330eac2f135b6dcd"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa260e9330eac2f135b6d42",
-      "slug": "norsken-svensken-og-dansken"
+      "slug": "noej-det-en-quiz",
+      "urns": [
+        "urn:dr:radio:series:67459549aa7bc2beaefea8f8"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67c1c70ea83d0dd946c11802",
-      "slug": "nulstillet"
+      "slug": "nordfronten",
+      "urns": [
+        "urn:dr:radio:series:5fa260c6330eac2f135b6c66"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6414f1d9964cacfee52bde22",
-      "slug": "ny-musik-skal-doe"
+      "slug": "norsken-svensken-og-dansken",
+      "urns": [
+        "urn:dr:radio:series:5fa260e9330eac2f135b6d42"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:605db7167952218d2f02f01c",
-      "slug": "nyborg-station"
+      "slug": "nulstillet",
+      "urns": [
+        "urn:dr:radio:series:67c1c70ea83d0dd946c11802"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa261ee330eac2f135b7382",
-      "slug": "nye-skrivende"
+      "slug": "ny-musik-skal-doe",
+      "urns": [
+        "urn:dr:radio:series:6414f1d9964cacfee52bde22"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68a71ba66409e914af435d9b",
-      "slug": "nynne-fm"
+      "slug": "nyborg-station",
+      "urns": [
+        "urn:dr:radio:series:605db7167952218d2f02f01c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67459549aa7bc2beaefea8f8",
-      "slug": "noej-det-en-quiz"
+      "slug": "nye-skrivende",
+      "urns": [
+        "urn:dr:radio:series:5fa261ee330eac2f135b7382"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67ade5747c40c3fd689c34b8",
-      "slug": "off-the-record"
+      "slug": "nynne-fm",
+      "urns": [
+        "urn:dr:radio:series:68a71ba66409e914af435d9b"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:60265d3e48661f8fc081f00c",
-      "slug": "oh-freedom"
+      "slug": "off-the-record",
+      "urns": [
+        "urn:dr:radio:series:67ade5747c40c3fd689c34b8"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:618e18d8c928eef30f93a00f",
-      "slug": "onde-anna"
+      "slug": "oh-freedom",
+      "urns": [
+        "urn:dr:radio:series:60265d3e48661f8fc081f00c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:62c7d8872454ca40b1813f16",
-      "slug": "op-af-kaninhullet"
+      "slug": "onde-anna",
+      "urns": [
+        "urn:dr:radio:series:618e18d8c928eef30f93a00f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63e35c274412e3b8c351244e",
-      "slug": "operaguiden"
+      "slug": "op-af-kaninhullet",
+      "urns": [
+        "urn:dr:radio:series:62c7d8872454ca40b1813f16"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6246a5814448321b8b5e1b5e",
-      "slug": "opgoeret"
+      "slug": "operaguiden",
+      "urns": [
+        "urn:dr:radio:series:63e35c274412e3b8c351244e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2611b330eac2f135b6e6f",
-      "slug": "oproer-for-livet"
+      "slug": "opgoeret",
+      "urns": [
+        "urn:dr:radio:series:6246a5814448321b8b5e1b5e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67ac9d831b0f08ad8b1b1564",
-      "slug": "oproer-i-oregon"
+      "slug": "oproer-for-livet",
+      "urns": [
+        "urn:dr:radio:series:5fa2611b330eac2f135b6e6f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26a12330eac2f135b9c24",
-      "slug": "p1-debat"
+      "slug": "oproer-i-oregon",
+      "urns": [
+        "urn:dr:radio:series:67ac9d831b0f08ad8b1b1564"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa269be330eac2f135b9a3f",
-      "slug": "p1-dokumentar"
+      "slug": "orientering",
+      "urns": [
+        "urn:dr:radio:series:5fa269fc330eac2f135b9b9f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa268a7330eac2f135b9446",
-      "slug": "p1-morgen"
+      "slug": "orkesterguiden",
+      "urns": [
+        "urn:dr:radio:series:68c960cfdb0376e10a361c91"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63a4f9cb9c2c142ce18eeb9b",
-      "slug": "p1-orientering"
+      "slug": "p1-debat",
+      "urns": [
+        "urn:dr:radio:series:5fa26a12330eac2f135b9c24"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:62b4185ced51a240a4371d6f",
-      "slug": "p1-forklarer"
+      "slug": "p1-dokumentar",
+      "urns": [
+        "urn:dr:radio:series:5fa269be330eac2f135b9a3f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26032330eac2f135b6928",
-      "slug": "p1-pa-plejehjem"
+      "slug": "p1-forklarer",
+      "urns": [
+        "urn:dr:radio:series:62b4185ced51a240a4371d6f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15be4da351264f87b614d",
-      "slug": "p2-guldkoncerten"
+      "slug": "p1-morgen",
+      "urns": [
+        "urn:dr:radio:series:5fa268a7330eac2f135b9446"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa264e1330eac2f135b81d2",
-      "slug": "p2-koncerten"
+      "slug": "p1-orientering",
+      "urns": [
+        "urn:dr:radio:series:63a4f9cb9c2c142ce18eeb9b"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67f3c335b726bd5dde24708c",
-      "slug": "p2-kunstner-2025-nightingale-string-quartet"
+      "slug": "p1-pa-plejehjem",
+      "urns": [
+        "urn:dr:radio:series:5fa26032330eac2f135b6928"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15be2da351264f87b6145",
-      "slug": "p2-operaaften"
+      "slug": "p2-guldkoncerten",
+      "urns": [
+        "urn:dr:radio:series:5fa15be4da351264f87b614d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67f3c541b726bd5dde247dc6",
-      "slug": "p2-talent-2025-valdemar-wenzel-most"
+      "slug": "p2-koncerten",
+      "urns": [
+        "urn:dr:radio:series:5fa264e1330eac2f135b81d2"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:658a0b67de044e79bdacf52e",
-      "slug": "p3-pulten"
+      "slug": "p2-kunstner-2025-nightingale-string-quartet",
+      "urns": [
+        "urn:dr:radio:series:67f3c335b726bd5dde24708c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66ed32d27b10ecca0b557395",
-      "slug": "p3-hylder-gramsespektrum"
+      "slug": "p2-operaaften",
+      "urns": [
+        "urn:dr:radio:series:5fa15be2da351264f87b6145"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26bd7330eac2f135ba5e9",
-      "slug": "p4-aften"
+      "slug": "p2-talent-2025-valdemar-wenzel-most",
+      "urns": [
+        "urn:dr:radio:series:67f3c541b726bd5dde247dc6"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2957d330eac2f135bbcba",
-      "slug": "p4-bornholm-regionale-nyheder"
+      "slug": "p3-hylder-gramsespektrum",
+      "urns": [
+        "urn:dr:radio:series:66ed32d27b10ecca0b557395"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa1582dda351264f87b4d76",
-      "slug": "p4-eftermiddag-bornholm"
+      "slug": "p3-med-christian-og-maria",
+      "urns": [
+        "urn:dr:radio:series:5fa160e9da351264f87b7f8d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa157d8da351264f87b4ba2",
-      "slug": "p4-eftermiddag-fyn"
+      "slug": "p3-morgen",
+      "urns": [
+        "urn:dr:radio:series:5fa26425330eac2f135b7eb2"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa1580cda351264f87b4cb8",
-      "slug": "p4-eftermiddag-koebenhavn"
+      "slug": "p3-pulten",
+      "urns": [
+        "urn:dr:radio:series:658a0b67de044e79bdacf52e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa294fd330eac2f135bba96",
-      "slug": "p4-eftermiddag-nordjylland"
+      "slug": "p4-aften",
+      "urns": [
+        "urn:dr:radio:series:5fa26bd7330eac2f135ba5e9"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa157f6da351264f87b4c2f",
-      "slug": "p4-eftermiddag-sjaelland"
+      "slug": "p4-bornholm-regionale-nyheder",
+      "urns": [
+        "urn:dr:radio:series:5fa2957d330eac2f135bbcba"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa157a9da351264f87b4abe",
-      "slug": "p4-eftermiddag-syd-og-esbjerg"
+      "slug": "p4-eftermiddag-bornholm",
+      "urns": [
+        "urn:dr:radio:series:5fa1582dda351264f87b4d76"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa157a5da351264f87b4aa6",
-      "slug": "p4-eftermiddag-trekanten"
+      "slug": "p4-eftermiddag-fyn",
+      "urns": [
+        "urn:dr:radio:series:5fa157d8da351264f87b4ba2"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15787da351264f87b4a03",
-      "slug": "p4-eftermiddag-oestjylland"
+      "slug": "p4-eftermiddag-koebenhavn",
+      "urns": [
+        "urn:dr:radio:series:5fa1580cda351264f87b4cb8"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26dbe330eac2f135baf29",
-      "slug": "p4-esbjerg-regionale-nyheder"
+      "slug": "p4-eftermiddag-nordjylland",
+      "urns": [
+        "urn:dr:radio:series:5fa294fd330eac2f135bba96"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa1586fda351264f87b4ee6",
-      "slug": "p4-fyn-weekend"
+      "slug": "p4-eftermiddag-oestjylland",
+      "urns": [
+        "urn:dr:radio:series:5fa15787da351264f87b4a03"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa29618330eac2f135bbf49",
-      "slug": "p4-fyn-regionale-nyheder"
+      "slug": "p4-eftermiddag-sjaelland",
+      "urns": [
+        "urn:dr:radio:series:5fa157f6da351264f87b4c2f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa29549330eac2f135bbbf6",
-      "slug": "p4-koebenhavn-regionale-nyheder"
+      "slug": "p4-eftermiddag-syd-og-esbjerg",
+      "urns": [
+        "urn:dr:radio:series:5fa157a9da351264f87b4abe"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa1574dda351264f87b48ac",
-      "slug": "p4-midt-og-vest-eftermiddag"
+      "slug": "p4-eftermiddag-trekanten",
+      "urns": [
+        "urn:dr:radio:series:5fa157a5da351264f87b4aa6"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa158a0da351264f87b4fee",
-      "slug": "p4-midt-og-vest-regionale-nyheder"
+      "slug": "p4-esbjerg-regionale-nyheder",
+      "urns": [
+        "urn:dr:radio:series:5fa26dbe330eac2f135baf29"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa29527330eac2f135bbb5d",
-      "slug": "p4-morgen-bornholm"
+      "slug": "p4-fyn-regionale-nyheder",
+      "urns": [
+        "urn:dr:radio:series:5fa29618330eac2f135bbf49"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15939da351264f87b5307",
-      "slug": "p4-morgen-fyn"
+      "slug": "p4-fyn-weekend",
+      "urns": [
+        "urn:dr:radio:series:5fa1586fda351264f87b4ee6"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa1597ada351264f87b5413",
-      "slug": "p4-morgen-koebenhavn"
+      "slug": "p4-koebenhavn-regionale-nyheder",
+      "urns": [
+        "urn:dr:radio:series:5fa29549330eac2f135bbbf6"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15962da351264f87b53a7",
-      "slug": "p4-morgen-midt-og-vest"
+      "slug": "p4-midt-og-vest-eftermiddag",
+      "urns": [
+        "urn:dr:radio:series:5fa1574dda351264f87b48ac"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa294fc330eac2f135bba91",
-      "slug": "p4-morgen-nordjylland"
+      "slug": "p4-midt-og-vest-regionale-nyheder",
+      "urns": [
+        "urn:dr:radio:series:5fa158a0da351264f87b4fee"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa294f1330eac2f135bba84",
-      "slug": "p4-morgen-sjaelland"
+      "slug": "p4-morgen-bornholm",
+      "urns": [
+        "urn:dr:radio:series:5fa29527330eac2f135bbb5d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2951e330eac2f135bbb30",
-      "slug": "p4-morgen-syd-og-esbjerg"
+      "slug": "p4-morgen-fyn",
+      "urns": [
+        "urn:dr:radio:series:5fa15939da351264f87b5307"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fb624c5f45a4df9a5f9bfef",
-      "slug": "p4-morgen-trekanten"
+      "slug": "p4-morgen-koebenhavn",
+      "urns": [
+        "urn:dr:radio:series:5fa1597ada351264f87b5413"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2950b330eac2f135bbad5",
-      "slug": "p4-morgen-oestjylland"
+      "slug": "p4-morgen-midt-og-vest",
+      "urns": [
+        "urn:dr:radio:series:5fa15962da351264f87b53a7"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa1570dda351264f87b46ff",
-      "slug": "p4-nordjylland-regionale-nyheder"
+      "slug": "p4-morgen-nordjylland",
+      "urns": [
+        "urn:dr:radio:series:5fa294fc330eac2f135bba91"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26ba0330eac2f135ba4c7",
-      "slug": "p4-play"
+      "slug": "p4-morgen-oestjylland",
+      "urns": [
+        "urn:dr:radio:series:5fa2950b330eac2f135bbad5"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa158a4da351264f87b4fff",
-      "slug": "p4-sjaelland-regionale-nyheder"
+      "slug": "p4-morgen-sjaelland",
+      "urns": [
+        "urn:dr:radio:series:5fa294f1330eac2f135bba84"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26e0a330eac2f135bb032",
-      "slug": "p4-syd-regionale-nyheder"
+      "slug": "p4-morgen-syd-og-esbjerg",
+      "urns": [
+        "urn:dr:radio:series:5fa2951e330eac2f135bbb30"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26e1f330eac2f135bb07c",
-      "slug": "p4-trekanten-regionale-nyheder"
+      "slug": "p4-morgen-trekanten",
+      "urns": [
+        "urn:dr:radio:series:5fb624c5f45a4df9a5f9bfef"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa1588ada351264f87b4f8c",
-      "slug": "p4-weekend-bornholm"
+      "slug": "p4-nordjylland-regionale-nyheder",
+      "urns": [
+        "urn:dr:radio:series:5fa1570dda351264f87b46ff"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa1587fda351264f87b4f44",
-      "slug": "p4-weekend-koebenhavn"
+      "slug": "p4-oestjylland-regionale-nyheder",
+      "urns": [
+        "urn:dr:radio:series:5fa2957c330eac2f135bbcb7"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa1584bda351264f87b4e13",
-      "slug": "p4-weekend-midt-og-vest"
+      "slug": "p4-play",
+      "urns": [
+        "urn:dr:radio:series:5fa26ba0330eac2f135ba4c7"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa29529330eac2f135bbb65",
-      "slug": "p4-weekend-nordjylland"
+      "slug": "p4-sjaelland-regionale-nyheder",
+      "urns": [
+        "urn:dr:radio:series:5fa158a4da351264f87b4fff"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15878da351264f87b4f20",
-      "slug": "p4-weekend-sjaelland"
+      "slug": "p4-syd-regionale-nyheder",
+      "urns": [
+        "urn:dr:radio:series:5fa26e0a330eac2f135bb032"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15867da351264f87b4eb2",
-      "slug": "p4-weekend-syd-og-esbjerg"
+      "slug": "p4-trekanten-regionale-nyheder",
+      "urns": [
+        "urn:dr:radio:series:5fa26e1f330eac2f135bb07c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15860da351264f87b4e8f",
-      "slug": "p4-weekend-trekanten"
+      "slug": "p4-weekend-bornholm",
+      "urns": [
+        "urn:dr:radio:series:5fa1588ada351264f87b4f8c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa1585bda351264f87b4e76",
-      "slug": "p4-weekend-oestjylland"
+      "slug": "p4-weekend-koebenhavn",
+      "urns": [
+        "urn:dr:radio:series:5fa1587fda351264f87b4f44"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2957c330eac2f135bbcb7",
-      "slug": "p4-oestjylland-regionale-nyheder"
+      "slug": "p4-weekend-midt-og-vest",
+      "urns": [
+        "urn:dr:radio:series:5fa1584bda351264f87b4e13"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fb6249ef45a4df9a5f9bfdf",
-      "slug": "p5-morgen"
+      "slug": "p4-weekend-nordjylland",
+      "urns": [
+        "urn:dr:radio:series:5fa29529330eac2f135bbb65"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67b719d0ff5c53172fff4f01",
-      "slug": "p5-med-christina-bjoern"
+      "slug": "p4-weekend-oestjylland",
+      "urns": [
+        "urn:dr:radio:series:5fa1585bda351264f87b4e76"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63a4f98fb23ac67e5b403629",
-      "slug": "p5-paa-stribe"
+      "slug": "p4-weekend-sjaelland",
+      "urns": [
+        "urn:dr:radio:series:5fa15878da351264f87b4f20"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15703da351264f87b46c6",
-      "slug": "p6-beat-elsker"
+      "slug": "p4-weekend-syd-og-esbjerg",
+      "urns": [
+        "urn:dr:radio:series:5fa15867da351264f87b4eb2"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6809ef3ab564004141964b28",
-      "slug": "p8-paa-spot-festival-2025"
+      "slug": "p4-weekend-trekanten",
+      "urns": [
+        "urn:dr:radio:series:5fa15860da351264f87b4e8f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67462fda6565d571840dc880",
-      "slug": "parnasset"
+      "slug": "p5-med-charlotte-ostertag",
+      "urns": [
+        "urn:dr:radio:series:6759a9ae0107b03a70c6a182"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68c403da8c34944e8fe5b6cb",
-      "slug": "peter-og-profeterne"
+      "slug": "p5-med-christina-bjoern",
+      "urns": [
+        "urn:dr:radio:series:67b719d0ff5c53172fff4f01"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66224b1291274e3d41660471",
-      "slug": "peter-prepper"
+      "slug": "p5-morgen",
+      "urns": [
+        "urn:dr:radio:series:5fb6249ef45a4df9a5f9bfdf"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa260c1330eac2f135b6c4e",
-      "slug": "pilgrim-pa-rejse-i-troens-univers"
+      "slug": "p5-paa-stribe",
+      "urns": [
+        "urn:dr:radio:series:63a4f98fb23ac67e5b403629"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:682da7cc61175376c13360ee",
-      "slug": "piller-fra-helvede"
+      "slug": "p6-beat-elsker",
+      "urns": [
+        "urn:dr:radio:series:5fa15703da351264f87b46c6"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25edf330eac2f135b6241",
-      "slug": "pippi-for-voksne"
+      "slug": "p6-med-zaulich",
+      "urns": [
+        "urn:dr:radio:series:68e772f34f0602d2fe36dcbc"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:65cbf626cb1a75cba319664d",
-      "slug": "pladeklubben"
+      "slug": "p8-med-ida-rud",
+      "urns": [
+        "urn:dr:radio:series:66322294f358fdf526c5b279"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:60895618e05759e0dc46d03f",
-      "slug": "pletter-i-min-hjerne"
+      "slug": "p8-med-josephine-philip",
+      "urns": [
+        "urn:dr:radio:series:65fadfe6502df15133e3594a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68d3d629d97801dbf0a9b74a",
-      "slug": "politiets-beskidte-sager"
+      "slug": "p8-paa-spot-festival-2025",
+      "urns": [
+        "urn:dr:radio:series:6809ef3ab564004141964b28"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6001727d6c12863ced19e874",
-      "slug": "popdatering"
+      "slug": "pa-bagsaedet",
+      "urns": [
+        "urn:dr:radio:series:5fa2608d330eac2f135b6b32"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67462f04aa7bc2beae013667",
-      "slug": "popsmart"
+      "slug": "paa-date-med-brimheim-og-jordanova",
+      "urns": [
+        "urn:dr:radio:series:6852673afa5e05d195fec784"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:62bb7cf87c2829bb29676785",
-      "slug": "poptur-med-christine-milton"
+      "slug": "paa-opdagelse-i-carl-nielsens-symfonier",
+      "urns": [
+        "urn:dr:radio:series:5fa2602a330eac2f135b68f0"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15b3eda351264f87b5d9c",
-      "slug": "povlsen-og-holm"
+      "slug": "paa-scenen",
+      "urns": [
+        "urn:dr:radio:series:6083606e2234b44d08e5c7ba"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:64a66bcdc7644ff3cc5147a0",
-      "slug": "prompt"
+      "slug": "parnasset",
+      "urns": [
+        "urn:dr:radio:series:67462fda6565d571840dc880"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:628cc7f4db0d2c644d939fb9",
-      "slug": "puks-to-maend"
+      "slug": "peter-og-profeterne",
+      "urns": [
+        "urn:dr:radio:series:68c403da8c34944e8fe5b6cb"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:600173cf6c12863ced19ed39",
-      "slug": "puls"
+      "slug": "peter-prepper",
+      "urns": [
+        "urn:dr:radio:series:66224b1291274e3d41660471"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6852673afa5e05d195fec784",
-      "slug": "paa-date-med-brimheim-og-jordanova"
+      "slug": "pilgrim-pa-rejse-i-troens-univers",
+      "urns": [
+        "urn:dr:radio:series:5fa260c1330eac2f135b6c4e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2608d330eac2f135b6b32",
-      "slug": "pa-bagsaedet"
+      "slug": "piller-fra-helvede",
+      "urns": [
+        "urn:dr:radio:series:682da7cc61175376c13360ee"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2602a330eac2f135b68f0",
-      "slug": "paa-opdagelse-i-carl-nielsens-symfonier"
+      "slug": "pippi-for-voksne",
+      "urns": [
+        "urn:dr:radio:series:5fa25edf330eac2f135b6241"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6083606e2234b44d08e5c7ba",
-      "slug": "paa-scenen"
+      "slug": "pladeklubben",
+      "urns": [
+        "urn:dr:radio:series:65cbf626cb1a75cba319664d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:625ea2c74648949b4f2617ce",
-      "slug": "qallunaaq-hvad-er-jeg"
+      "slug": "pletter-i-min-hjerne",
+      "urns": [
+        "urn:dr:radio:series:60895618e05759e0dc46d03f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25d76330eac2f135b5a8f",
-      "slug": "radioavisen"
+      "slug": "politiets-beskidte-sager",
+      "urns": [
+        "urn:dr:radio:series:68d3d629d97801dbf0a9b74a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26b15330eac2f135ba1b9",
-      "slug": "radiofortaellinger"
+      "slug": "popdatering",
+      "urns": [
+        "urn:dr:radio:series:6001727d6c12863ced19e874"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26866330eac2f135b92df",
-      "slug": "radioklassikeren"
+      "slug": "popsmart",
+      "urns": [
+        "urn:dr:radio:series:67462f04aa7bc2beae013667"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68b97adb3d1da25c2343f70f",
-      "slug": "radiostilhed"
+      "slug": "poptur-med-christine-milton",
+      "urns": [
+        "urn:dr:radio:series:62bb7cf87c2829bb29676785"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:62160028711ffb12d152903a",
-      "slug": "ramt-af-kunst"
+      "slug": "povlsen-og-holm",
+      "urns": [
+        "urn:dr:radio:series:5fa15b3eda351264f87b5d9c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:666172cb7937d2cab8c96fca",
-      "slug": "ramt-af-kaerlighed"
+      "slug": "prompt",
+      "urns": [
+        "urn:dr:radio:series:64a66bcdc7644ff3cc5147a0"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6001733a6c12863ced19eaf0",
-      "slug": "ramt-af-moerket"
+      "slug": "puks-to-maend",
+      "urns": [
+        "urn:dr:radio:series:628cc7f4db0d2c644d939fb9"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6419cd16021b01cc38afece9",
-      "slug": "rap-og-rytmer"
+      "slug": "puls",
+      "urns": [
+        "urn:dr:radio:series:600173cf6c12863ced19ed39"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66b29e5b140961ca70e1eade",
-      "slug": "recepten-paa-p4"
+      "slug": "qallunaaq-hvad-er-jeg",
+      "urns": [
+        "urn:dr:radio:series:625ea2c74648949b4f2617ce"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:600173726c12863ced19ebe0",
-      "slug": "revolution-soestersind"
+      "slug": "radioavisen",
+      "urns": [
+        "urn:dr:radio:series:5fa25d76330eac2f135b5a8f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68b98945ca1e334d4f99c572",
-      "slug": "ring-til-trine"
+      "slug": "radiofortaellinger",
+      "urns": [
+        "urn:dr:radio:series:5fa26b15330eac2f135ba1b9"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa1599cda351264f87b54a6",
-      "slug": "ring-til-regeringen"
+      "slug": "radioklassikeren",
+      "urns": [
+        "urn:dr:radio:series:5fa26866330eac2f135b92df"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67d805ff5a443496f532c79d",
-      "slug": "ro-paa"
+      "slug": "radiostilhed",
+      "urns": [
+        "urn:dr:radio:series:68b97adb3d1da25c2343f70f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67d42695eb0a841deca55141",
-      "slug": "ro-paa-koncert"
+      "slug": "ramt-af-kaerlighed",
+      "urns": [
+        "urn:dr:radio:series:666172cb7937d2cab8c96fca"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67d423beeb0a841deca53d2e",
-      "slug": "ro-paa-recept"
+      "slug": "ramt-af-kunst",
+      "urns": [
+        "urn:dr:radio:series:62160028711ffb12d152903a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:621f22f03776e47b9d53f981",
-      "slug": "rockerne-mod-fiskerne"
+      "slug": "ramt-af-moerket",
+      "urns": [
+        "urn:dr:radio:series:6001733a6c12863ced19eaf0"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:600173586c12863ced19eb71",
-      "slug": "rolf-er-roert"
+      "slug": "rap-og-rytmer",
+      "urns": [
+        "urn:dr:radio:series:6419cd16021b01cc38afece9"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67d424daeb0a841deca544b7",
-      "slug": "rolig-mix"
+      "slug": "recepten-paa-p4",
+      "urns": [
+        "urn:dr:radio:series:66b29e5b140961ca70e1eade"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2682f330eac2f135b91a6",
-      "slug": "rosenkjaerprisen"
+      "slug": "revolution-soestersind",
+      "urns": [
+        "urn:dr:radio:series:600173726c12863ced19ebe0"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:684ad3877b65b9c231546c4e",
-      "slug": "roskilde-tragedien"
+      "slug": "ring-til-regeringen",
+      "urns": [
+        "urn:dr:radio:series:5fa1599cda351264f87b54a6"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:684a92f6864cf94f9524a088",
-      "slug": "rovmordet-paa-stien"
+      "slug": "ring-til-trine",
+      "urns": [
+        "urn:dr:radio:series:68b98945ca1e334d4f99c572"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:64391bf02a44bba02fb4b698",
-      "slug": "rystelsen"
+      "slug": "ro-paa",
+      "urns": [
+        "urn:dr:radio:series:67d423beeb0a841deca53d2e",
+        "urn:dr:radio:series:67d424daeb0a841deca544b7",
+        "urn:dr:radio:series:67d42586eb0a841deca549d3",
+        "urn:dr:radio:series:67d426922257e391d9f04170",
+        "urn:dr:radio:series:67d426925a443496f51a2735",
+        "urn:dr:radio:series:67d42695eb0a841deca55141",
+        "urn:dr:radio:series:67d805ff5a443496f532c79d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:677bd3102c727ca30c519c38",
-      "slug": "rytteriet"
+      "slug": "ro-paa-koncert",
+      "urns": [
+        "urn:dr:radio:series:67d42695eb0a841deca55141"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:650bfd7e720b58697e402bce",
-      "slug": "roeverhistorier-fra-graven"
+      "slug": "ro-paa-recept",
+      "urns": [
+        "urn:dr:radio:series:67d423beeb0a841deca53d2e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63acce11b23ac67e5b673416",
-      "slug": "sex-med-p3-2"
+      "slug": "rockerne-mod-fiskerne",
+      "urns": [
+        "urn:dr:radio:series:621f22f03776e47b9d53f981"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:64006b6d1c70403e41f597bf",
-      "slug": "solo-med-anna-lin"
+      "slug": "roeverhistorier-fra-graven",
+      "urns": [
+        "urn:dr:radio:series:650bfd7e720b58697e402bce"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6691032364091b8143b4998f",
-      "slug": "sager-der-rystede-os"
+      "slug": "rolf-er-roert",
+      "urns": [
+        "urn:dr:radio:series:600173586c12863ced19eb71"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15c90da351264f87b65a6",
-      "slug": "sagnfolket"
+      "slug": "rolig-mix",
+      "urns": [
+        "urn:dr:radio:series:67d424daeb0a841deca544b7"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:61a627895c13ad898f1d15af",
-      "slug": "sallys-scientology-podcast"
+      "slug": "rosenkjaerprisen",
+      "urns": [
+        "urn:dr:radio:series:5fa2682f330eac2f135b91a6"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66c885f1a56be59b02d5f1ba",
-      "slug": "salonen"
+      "slug": "rosenkjaerprisen-2019",
+      "urns": [
+        "urn:dr:radio:series:5fa25de2330eac2f135b5ce5"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63d1b6d2f538158492649af9",
-      "slug": "sangbogen-med-muff-og-hammer"
+      "slug": "roskilde-tragedien",
+      "urns": [
+        "urn:dr:radio:series:684ad3877b65b9c231546c4e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15cbcda351264f87b66df",
-      "slug": "sangskriver"
+      "slug": "rovmordet-paa-stien",
+      "urns": [
+        "urn:dr:radio:series:684a92f6864cf94f9524a088"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15704da351264f87b46ce",
-      "slug": "sara-og-monopolet"
+      "slug": "rystelsen",
+      "urns": [
+        "urn:dr:radio:series:64391bf02a44bba02fb4b698"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66224a6d5a13fd0a83df76d0",
-      "slug": "se-det-for-dig"
+      "slug": "rytteriet",
+      "urns": [
+        "urn:dr:radio:series:677bd3102c727ca30c519c38"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6167eac525641557d3c19080",
-      "slug": "selskab"
+      "slug": "saadan-kan-du-hoere-det-er",
+      "urns": [
+        "urn:dr:radio:series:5fa15c09da351264f87b6242"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15c2dda351264f87b6328",
-      "slug": "selvmordstanker-med-mikkel-frey-damgaard"
+      "slug": "sager-der-rystede-os",
+      "urns": [
+        "urn:dr:radio:series:6691032364091b8143b4998f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68b1a97d3d1da25c23016500",
-      "slug": "sent"
+      "slug": "sagnfolket",
+      "urns": [
+        "urn:dr:radio:series:5fa15c90da351264f87b65a6"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:682da7cf7b626ea9bb3a577b",
-      "slug": "seriestalker"
+      "slug": "sallys-scientology-podcast",
+      "urns": [
+        "urn:dr:radio:series:61a627895c13ad898f1d15af"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:620234f0e56c810819ea3063",
-      "slug": "sex-irl"
+      "slug": "salonen",
+      "urns": [
+        "urn:dr:radio:series:66c885f1a56be59b02d5f1ba"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67a5403a4f121246d7c90bd7",
-      "slug": "shuffle"
+      "slug": "sangbogen-med-muff-og-hammer",
+      "urns": [
+        "urn:dr:radio:series:63d1b6d2f538158492649af9"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63b75c5ff77905a0bdcd2521",
-      "slug": "siesta"
+      "slug": "sangskriver",
+      "urns": [
+        "urn:dr:radio:series:5fa15cbcda351264f87b66df"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26190330eac2f135b7128",
-      "slug": "sig-noget-sjovt-historien-om-dansk-stand-up"
+      "slug": "sara-og-monopolet",
+      "urns": [
+        "urn:dr:radio:series:5fa15704da351264f87b46ce"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:683575685f16b698305dedc0",
-      "slug": "signes-have"
+      "slug": "se-det-for-dig",
+      "urns": [
+        "urn:dr:radio:series:66224a6d5a13fd0a83df76d0"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63f738d3fe6a65856b1affe3",
-      "slug": "singlepladen"
+      "slug": "selskab",
+      "urns": [
+        "urn:dr:radio:series:6167eac525641557d3c19080"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63d1b779a1531f3496f49593",
-      "slug": "sjael"
+      "slug": "selvmordstanker-med-mikkel-frey-damgaard",
+      "urns": [
+        "urn:dr:radio:series:5fa15c2dda351264f87b6328"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:60b0d9af406a1cd2b248dbe5",
-      "slug": "skal-vi-slas"
+      "slug": "sent",
+      "urns": [
+        "urn:dr:radio:series:68b1a97d3d1da25c23016500"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:684028bc5f16b69830a5251a",
-      "slug": "skriget-fra-asylet"
+      "slug": "seriestalker",
+      "urns": [
+        "urn:dr:radio:series:682da7cf7b626ea9bb3a577b"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25a24330eac2f135b4761",
-      "slug": "skud-i-sneen"
+      "slug": "sex-irl",
+      "urns": [
+        "urn:dr:radio:series:620234f0e56c810819ea3063"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:678ff0e561687a04d7dd7d1e",
-      "slug": "skyggekrigen"
+      "slug": "sex-med-p3-2",
+      "urns": [
+        "urn:dr:radio:series:63acce11b23ac67e5b673416"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25ccd330eac2f135b56b0",
-      "slug": "skoenhedskontrakten"
+      "slug": "shuffle",
+      "urns": [
+        "urn:dr:radio:series:67a5403a4f121246d7c90bd7"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26a3d330eac2f135b9d1d",
-      "slug": "skoenlitteratur-pa-p1"
+      "slug": "siesta",
+      "urns": [
+        "urn:dr:radio:series:63b75c5ff77905a0bdcd2521"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15eb0da351264f87b7286",
-      "slug": "snooze"
+      "slug": "sig-noget-sjovt-historien-om-dansk-stand-up",
+      "urns": [
+        "urn:dr:radio:series:5fa26190330eac2f135b7128"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66d9749d093005ecd9b93006",
-      "slug": "generationskampen"
+      "slug": "signes-have",
+      "urns": [
+        "urn:dr:radio:series:683575685f16b698305dedc0"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6655be27385dfedb00ebf4b4",
-      "slug": "sommeren-21"
+      "slug": "simpson-og-leth",
+      "urns": [
+        "urn:dr:radio:series:5fa25cc6330eac2f135b5686"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:666e10a4a97b65d890ae1b2e",
-      "slug": "talentkomponist"
+      "slug": "singlepladen",
+      "urns": [
+        "urn:dr:radio:series:63f738d3fe6a65856b1affe3"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa266eb330eac2f135b8bcb",
-      "slug": "sort-soendag"
+      "slug": "sjael",
+      "urns": [
+        "urn:dr:radio:series:63d1b779a1531f3496f49593"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa160a9da351264f87b7df0",
-      "slug": "foelg-pengene"
+      "slug": "skal-vi-slas",
+      "urns": [
+        "urn:dr:radio:series:60b0d9af406a1cd2b248dbe5"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25a72330eac2f135b4973",
-      "slug": "speditoerens-doed"
+      "slug": "skoenhedskontrakten",
+      "urns": [
+        "urn:dr:radio:series:5fa25ccd330eac2f135b56b0"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:62011f4ce907a647fb1f6d50",
-      "slug": "spice-med-nikkie-og-laila"
+      "slug": "skoenlitteratur-pa-p1",
+      "urns": [
+        "urn:dr:radio:series:5fa26a3d330eac2f135b9d1d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:626a4e8b8a3f8b99a866b927",
-      "slug": "spiralkampagnen"
+      "slug": "skriget-fra-asylet",
+      "urns": [
+        "urn:dr:radio:series:684028bc5f16b69830a5251a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25ec3330eac2f135b61b3",
-      "slug": "splittet-til-atomer"
+      "slug": "skud-i-sneen",
+      "urns": [
+        "urn:dr:radio:series:5fa25a24330eac2f135b4761"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:642d7219e2203a081792c2ab",
-      "slug": "sporvognen"
+      "slug": "skyggekrigen",
+      "urns": [
+        "urn:dr:radio:series:678ff0e561687a04d7dd7d1e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:62fa34d68c2b3429602c0686",
-      "slug": "spoegelset-i-maskinen"
+      "slug": "slotsholmen",
+      "urns": [
+        "urn:dr:radio:series:5fa15f17da351264f87b7455"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63ffdd80e50cd127c03afaf5",
-      "slug": "spoerg-om-alt"
+      "slug": "slug-kamelen",
+      "urns": [
+        "urn:dr:radio:series:63b41b1d1843b9cc15854549"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26154330eac2f135b6fb2",
-      "slug": "clement-pa-p1-p1d"
+      "slug": "snooze",
+      "urns": [
+        "urn:dr:radio:series:5fa15eb0da351264f87b7286"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15795da351264f87b4a47",
-      "slug": "status"
+      "slug": "soeren-ryges-sidste-tur-i-haven",
+      "urns": [
+        "urn:dr:radio:series:684a9871d9427b607791b8ed"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25d10330eac2f135b585c",
-      "slug": "stegelmanns-score"
+      "slug": "soerine-kaerligheden",
+      "urns": [
+        "urn:dr:radio:series:61d418f88b0de6f2cbd8b0f0"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:684818efc01c3514d791860e",
-      "slug": "stemplet-som-psykopat"
+      "slug": "soester-elsker-elsker-ikke",
+      "urns": [
+        "urn:dr:radio:series:6481ec372f049931670d3c61"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2952b330eac2f135bbb72",
-      "slug": "stines-soendag"
+      "slug": "soevnudsigten",
+      "urns": [
+        "urn:dr:radio:series:67d42586eb0a841deca549d3"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25fb7330eac2f135b6691",
-      "slug": "stjerner-og-striber-podcast"
+      "slug": "solo-med-anna-lin",
+      "urns": [
+        "urn:dr:radio:series:64006b6d1c70403e41f597bf"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:65a7a1aaa8093f6f8845c087",
-      "slug": "stjernestoev"
+      "slug": "sommeren-21",
+      "urns": [
+        "urn:dr:radio:series:6655be27385dfedb00ebf4b4"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:62fc937eab6d62a1a2ed2fd5",
-      "slug": "store-fede-dyre-biler"
+      "slug": "sommerhuset-paa-p6",
+      "urns": [
+        "urn:dr:radio:series:685414f0047dbd9dedf87105"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25aa7330eac2f135b4ae1",
-      "slug": "studie-5"
+      "slug": "sort-soendag",
+      "urns": [
+        "urn:dr:radio:series:5fa266eb330eac2f135b8bcb"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:666849b5a63f4ccc1ec0bc63",
-      "slug": "staa-af-raeset"
+      "slug": "speditoerens-doed",
+      "urns": [
+        "urn:dr:radio:series:5fa25a72330eac2f135b4973"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15d3cda351264f87b69fe",
-      "slug": "supertanker"
+      "slug": "spice-med-nikkie-og-laila",
+      "urns": [
+        "urn:dr:radio:series:62011f4ce907a647fb1f6d50"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:658b5d755e3a2144e20042de",
-      "slug": "svingdoeren"
+      "slug": "spiralkampagnen",
+      "urns": [
+        "urn:dr:radio:series:626a4e8b8a3f8b99a866b927"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15c09da351264f87b6242",
-      "slug": "saadan-kan-du-hoere-det-er"
+      "slug": "splittet-til-atomer",
+      "urns": [
+        "urn:dr:radio:series:5fa25ec3330eac2f135b61b3"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:684a9871d9427b607791b8ed",
-      "slug": "soeren-ryges-sidste-tur-i-haven"
+      "slug": "spoegelset-i-maskinen",
+      "urns": [
+        "urn:dr:radio:series:62fa34d68c2b3429602c0686"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:61d418f88b0de6f2cbd8b0f0",
-      "slug": "soerine-kaerligheden"
+      "slug": "spoerg-om-alt",
+      "urns": [
+        "urn:dr:radio:series:63ffdd80e50cd127c03afaf5"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6481ec372f049931670d3c61",
-      "slug": "soester-elsker-elsker-ikke"
+      "slug": "sporvognen",
+      "urns": [
+        "urn:dr:radio:series:642d7219e2203a081792c2ab"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67d42586eb0a841deca549d3",
-      "slug": "soevnudsigten"
+      "slug": "staa-af-raeset",
+      "urns": [
+        "urn:dr:radio:series:666849b5a63f4ccc1ec0bc63"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:618c5172c928eef30f91d62d",
-      "slug": "tabloid-3"
+      "slug": "status",
+      "urns": [
+        "urn:dr:radio:series:5fa15795da351264f87b4a47"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6295c3de6f7eec4fd8eeca6a",
-      "slug": "tag-dig-sammen"
+      "slug": "stegelmanns-score",
+      "urns": [
+        "urn:dr:radio:series:5fa25d10330eac2f135b585c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25e77330eac2f135b6013",
-      "slug": "tal-til-mig-2"
+      "slug": "stemplet-som-psykopat",
+      "urns": [
+        "urn:dr:radio:series:684818efc01c3514d791860e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6303281409585a83f19bfae0",
-      "slug": "tiden"
+      "slug": "stines-soendag",
+      "urns": [
+        "urn:dr:radio:series:5fa2952b330eac2f135bbb72"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15db6da351264f87b6cc4",
-      "slug": "tidsaand"
+      "slug": "stjerner-og-striber-podcast",
+      "urns": [
+        "urn:dr:radio:series:5fa25fb7330eac2f135b6691"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6183e89b1151c32fdb587851",
-      "slug": "til-fest-med-en-morder"
+      "slug": "stjernestoev",
+      "urns": [
+        "urn:dr:radio:series:65a7a1aaa8093f6f8845c087"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:627a31c2c61df98eb7375ba3",
-      "slug": "tilbage-til-tasiilaq"
+      "slug": "store-fede-dyre-biler",
+      "urns": [
+        "urn:dr:radio:series:62fc937eab6d62a1a2ed2fd5"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:651748f68d28633ad4eb80bc",
-      "slug": "to-vers-og-et-omkvaed"
+      "slug": "studie-5",
+      "urns": [
+        "urn:dr:radio:series:5fa25aa7330eac2f135b4ae1"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25ea3330eac2f135b6106",
-      "slug": "toner"
+      "slug": "supertanker",
+      "urns": [
+        "urn:dr:radio:series:5fa15d3cda351264f87b69fe"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:65b900fc5c618c2224acafab",
-      "slug": "top-1000"
+      "slug": "svingdoeren",
+      "urns": [
+        "urn:dr:radio:series:658b5d755e3a2144e20042de"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67ebe5a1b71197bdbe155137",
-      "slug": "topkarakter"
+      "slug": "tabloid-3",
+      "urns": [
+        "urn:dr:radio:series:618c5172c928eef30f91d62d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6357f678255cdd28fb9fb0c8",
-      "slug": "torsdagskoncerten"
+      "slug": "taettere-paa-himlen",
+      "urns": [
+        "urn:dr:radio:series:5fa25df4330eac2f135b5d48"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2610c330eac2f135b6e1a",
-      "slug": "trines-mor"
+      "slug": "tag-dig-sammen",
+      "urns": [
+        "urn:dr:radio:series:6295c3de6f7eec4fd8eeca6a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa15fe5da351264f87b793d",
-      "slug": "troldspejlet-podcast"
+      "slug": "tal-til-mig-2",
+      "urns": [
+        "urn:dr:radio:series:5fa25e77330eac2f135b6013"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:672353d1e77971e4cbabfa4a",
-      "slug": "trucker-historier-fra-foererhuset"
+      "slug": "talentkomponist",
+      "urns": [
+        "urn:dr:radio:series:666e10a4a97b65d890ae1b2e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25deb330eac2f135b5d16",
-      "slug": "tynd-og-glad"
+      "slug": "tiden",
+      "urns": [
+        "urn:dr:radio:series:6303281409585a83f19bfae0"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:65857ad8163dfa22d54c3d73",
-      "slug": "tyran"
+      "slug": "tidsaand",
+      "urns": [
+        "urn:dr:radio:series:5fa15db6da351264f87b6cc4"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6890921dab10e7b0b69757c7",
-      "slug": "tyran-benito-mussolini"
+      "slug": "til-fest-med-en-morder",
+      "urns": [
+        "urn:dr:radio:series:6183e89b1151c32fdb587851"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6865037fc8414452a080da5f",
-      "slug": "tyran-bokassa"
+      "slug": "tilbage-til-tasiilaq",
+      "urns": [
+        "urn:dr:radio:series:627a31c2c61df98eb7375ba3"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6890920cab10e7b0b6975542",
-      "slug": "tyran-franco"
+      "slug": "to-vers-og-et-omkvaed",
+      "urns": [
+        "urn:dr:radio:series:651748f68d28633ad4eb80bc"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6890922a2e199a1c531f835a",
-      "slug": "tyran-hirohito"
+      "slug": "toemmermaend-paa-p3",
+      "urns": [
+        "urn:dr:radio:series:660d6348ab6e73d3ed7e69cd"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68909215ab10e7b0b69756c5",
-      "slug": "tyran-idi-amin"
+      "slug": "toepholm",
+      "urns": [
+        "urn:dr:radio:series:65a97711ce3bf8fdc2f523a4"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:689092222e199a1c531f82a7",
-      "slug": "tyran-kim-il-sung-og-kim-jong-il"
+      "slug": "toner",
+      "urns": [
+        "urn:dr:radio:series:5fa25ea3330eac2f135b6106"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68909209ab10e7b0b6975518",
-      "slug": "tyran-lenin"
+      "slug": "top-1000",
+      "urns": [
+        "urn:dr:radio:series:65b900fc5c618c2224acafab"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68bed3d32b60b4c321271a41",
-      "slug": "tyran-mao"
+      "slug": "topkarakter",
+      "urns": [
+        "urn:dr:radio:series:67ebe5a1b71197bdbe155137"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6890922bab10e7b0b69759ea",
-      "slug": "tyran-milosevic"
+      "slug": "torsdagskoncerten",
+      "urns": [
+        "urn:dr:radio:series:6357f678255cdd28fb9fb0c8"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6890920a2e199a1c531f7faa",
-      "slug": "tyran-nijasov"
+      "slug": "trines-mor",
+      "urns": [
+        "urn:dr:radio:series:5fa2610c330eac2f135b6e1a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68909221ab10e7b0b697587c",
-      "slug": "tyran-papa-doc"
+      "slug": "troldspejlet-podcast",
+      "urns": [
+        "urn:dr:radio:series:5fa15fe5da351264f87b793d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:689092062e199a1c531f7f26",
-      "slug": "tyran-pinochet"
+      "slug": "trucker-historier-fra-foererhuset",
+      "urns": [
+        "urn:dr:radio:series:672353d1e77971e4cbabfa4a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68909219ab10e7b0b697574c",
-      "slug": "tyran-pol-pot"
+      "slug": "tynd-og-glad",
+      "urns": [
+        "urn:dr:radio:series:5fa25deb330eac2f135b5d16"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6890920f2e199a1c531f8091",
-      "slug": "tyran-saddam-hussein"
+      "slug": "tyran",
+      "urns": [
+        "urn:dr:radio:series:65857ad8163dfa22d54c3d73",
+        "urn:dr:radio:series:6865037fc8414452a080da5f",
+        "urn:dr:radio:series:689092012e199a1c531f7eba",
+        "urn:dr:radio:series:689092062e199a1c531f7f26",
+        "urn:dr:radio:series:68909209ab10e7b0b6975518",
+        "urn:dr:radio:series:6890920a2e199a1c531f7faa",
+        "urn:dr:radio:series:6890920cab10e7b0b6975542",
+        "urn:dr:radio:series:6890920f2e199a1c531f8091",
+        "urn:dr:radio:series:68909215ab10e7b0b69756c5",
+        "urn:dr:radio:series:68909219ab10e7b0b697574c",
+        "urn:dr:radio:series:6890921dab10e7b0b69757c7",
+        "urn:dr:radio:series:68909221ab10e7b0b697587c",
+        "urn:dr:radio:series:689092222e199a1c531f82a7",
+        "urn:dr:radio:series:6890922a2e199a1c531f835a",
+        "urn:dr:radio:series:6890922bab10e7b0b69759ea",
+        "urn:dr:radio:series:68bed3d32b60b4c321271a41"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:689092012e199a1c531f7eba",
-      "slug": "tyran-suharto"
+      "slug": "tyran-benito-mussolini",
+      "urns": [
+        "urn:dr:radio:series:6890921dab10e7b0b69757c7"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67b45a6d1c492b010491a2d5",
-      "slug": "tyrannens-fald"
+      "slug": "tyran-bokassa",
+      "urns": [
+        "urn:dr:radio:series:6865037fc8414452a080da5f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26125330eac2f135b6eac",
-      "slug": "tys-tys-vi-er-tyske"
+      "slug": "tyran-franco",
+      "urns": [
+        "urn:dr:radio:series:6890920cab10e7b0b6975542"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63bc0839d2052f8a01353d1c",
-      "slug": "tyvstart"
+      "slug": "tyran-hirohito",
+      "urns": [
+        "urn:dr:radio:series:6890922a2e199a1c531f835a"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25df4330eac2f135b5d48",
-      "slug": "taettere-paa-himlen"
+      "slug": "tyran-idi-amin",
+      "urns": [
+        "urn:dr:radio:series:68909215ab10e7b0b69756c5"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:660d6348ab6e73d3ed7e69cd",
-      "slug": "toemmermaend-paa-p3"
+      "slug": "tyran-kim-il-sung-og-kim-jong-il",
+      "urns": [
+        "urn:dr:radio:series:689092222e199a1c531f82a7"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:65a97711ce3bf8fdc2f523a4",
-      "slug": "toepholm"
+      "slug": "tyran-lenin",
+      "urns": [
+        "urn:dr:radio:series:68909209ab10e7b0b6975518"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:626931758679fdf8af8a0e26",
-      "slug": "ubegribeligt"
+      "slug": "tyran-mao",
+      "urns": [
+        "urn:dr:radio:series:68bed3d32b60b4c321271a41"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:65e9b63c801170e5ce9920c1",
-      "slug": "uden-sidestykke"
+      "slug": "tyran-milosevic",
+      "urns": [
+        "urn:dr:radio:series:6890922bab10e7b0b69759ea"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:61e4a728bc01b371360b0da1",
-      "slug": "uden-titel"
+      "slug": "tyran-nijasov",
+      "urns": [
+        "urn:dr:radio:series:6890920a2e199a1c531f7faa"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa269fc330eac2f135b9b9f",
-      "slug": "orientering"
+      "slug": "tyran-papa-doc",
+      "urns": [
+        "urn:dr:radio:series:68909221ab10e7b0b697587c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:65cbf489c83e7e20241ff8f4",
-      "slug": "ugens-album"
+      "slug": "tyran-pinochet",
+      "urns": [
+        "urn:dr:radio:series:689092062e199a1c531f7f26"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2699c330eac2f135b9988",
-      "slug": "ugens-gaest-p1"
+      "slug": "tyran-pol-pot",
+      "urns": [
+        "urn:dr:radio:series:68909219ab10e7b0b697574c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:68c3e09b8634ad60abfcb158",
-      "slug": "ultra-taler-om-skaermen"
+      "slug": "tyran-saddam-hussein",
+      "urns": [
+        "urn:dr:radio:series:6890920f2e199a1c531f8091"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:655cbd3399071798f81f1202",
-      "slug": "under-radaren"
+      "slug": "tyran-suharto",
+      "urns": [
+        "urn:dr:radio:series:689092012e199a1c531f7eba"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6810b72bb564004141c1f1ae",
-      "slug": "vejen-til-paradis"
+      "slug": "tyrannens-fald",
+      "urns": [
+        "urn:dr:radio:series:67b45a6d1c492b010491a2d5"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:689c3a8db37606070dc71edb",
-      "slug": "velfaerdsstatens-vanvid"
+      "slug": "tys-tys-vi-er-tyske",
+      "urns": [
+        "urn:dr:radio:series:5fa26125330eac2f135b6eac"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:65841328c26aeca6fa64c765",
-      "slug": "vennepunkt"
+      "slug": "tyvstart",
+      "urns": [
+        "urn:dr:radio:series:63bc0839d2052f8a01353d1c"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:679032362a51e1bacbbf12bf",
-      "slug": "veranda"
+      "slug": "ubegribeligt",
+      "urns": [
+        "urn:dr:radio:series:626931758679fdf8af8a0e26"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26b8f330eac2f135ba467",
-      "slug": "verden-ifoelge-gram"
+      "slug": "uden-sidestykke",
+      "urns": [
+        "urn:dr:radio:series:65e9b63c801170e5ce9920c1"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:64085eff8a2497bbc1bf0a4d",
-      "slug": "verdens-bedste-film-radio"
+      "slug": "uden-titel",
+      "urns": [
+        "urn:dr:radio:series:61e4a728bc01b371360b0da1"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25a16330eac2f135b46f1",
-      "slug": "verdens-bedste-lov"
+      "slug": "ugens-album",
+      "urns": [
+        "urn:dr:radio:series:65cbf489c83e7e20241ff8f4"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:64f725a77035c50be96ea65f",
-      "slug": "verdens-vaerste-dj"
+      "slug": "ugens-gaest-p1",
+      "urns": [
+        "urn:dr:radio:series:5fa2699c330eac2f135b9988"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:64070055f10257267bcc26ad",
-      "slug": "verdensklassen"
+      "slug": "ultra-taler-om-skaermen",
+      "urns": [
+        "urn:dr:radio:series:68c3e09b8634ad60abfcb158"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6655834fbe7905fb09c8e2b0",
-      "slug": "vidnesbyrd"
+      "slug": "under-radaren",
+      "urns": [
+        "urn:dr:radio:series:655cbd3399071798f81f1202",
+        "urn:dr:radio:series:682da7cc61175376c13360ee",
+        "urn:dr:radio:series:682da7cd7b626ea9bb3a5761",
+        "urn:dr:radio:series:682da7cf7b626ea9bb3a577b",
+        "urn:dr:radio:series:684ad3877b65b9c231546c4e"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa2605b330eac2f135b6a3f",
-      "slug": "vildt-naturligt"
+      "slug": "utopia",
+      "urns": [
+        "urn:dr:radio:series:67ea848a0b1c00fd9d71c8f2"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:66d242365b421d22fea709be",
-      "slug": "vingesus-gammel-musik-i-nutid"
+      "slug": "vaerket",
+      "urns": [
+        "urn:dr:radio:series:67f77fd1166ff5b1f843c2eb"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63848d37333e768231d3f6f4",
-      "slug": "vinteren-kommer"
+      "slug": "vejen-til-paradis",
+      "urns": [
+        "urn:dr:radio:series:6810b72bb564004141c1f1ae"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67462df1f43ee13a09ac291c",
-      "slug": "virkelig"
+      "slug": "velfaerdsstatens-vanvid",
+      "urns": [
+        "urn:dr:radio:series:689c3a8db37606070dc71edb"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:63a58d889c2c142ce191c49c",
-      "slug": "i-kloeerne-pa"
+      "slug": "vennepunkt",
+      "urns": [
+        "urn:dr:radio:series:65841328c26aeca6fa64c765"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:622a858e8b0617c60b60e7a5",
-      "slug": "vistis-weekendguide"
+      "slug": "veranda",
+      "urns": [
+        "urn:dr:radio:series:679032362a51e1bacbbf12bf"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25cd7330eac2f135b5700",
-      "slug": "vistis-vinyler"
+      "slug": "verden-ifoelge-gram",
+      "urns": [
+        "urn:dr:radio:series:5fa26b8f330eac2f135ba467"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:64ae7f4e955d74bad9ef5457",
-      "slug": "voksen-eller-kaos"
+      "slug": "verdens-bedste-film-radio",
+      "urns": [
+        "urn:dr:radio:series:64085eff8a2497bbc1bf0a4d"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6001732c6c12863ced19ea98",
-      "slug": "vores-vejr-podcast"
+      "slug": "verdens-bedste-lov",
+      "urns": [
+        "urn:dr:radio:series:5fa25a16330eac2f135b46f1"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:6848141150790136dd538c59",
-      "slug": "min-ven-i-herstedvester"
+      "slug": "verdens-vaerste-dj",
+      "urns": [
+        "urn:dr:radio:series:64f725a77035c50be96ea65f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:67f77fd1166ff5b1f843c2eb",
-      "slug": "vaerket"
+      "slug": "verdensklassen",
+      "urns": [
+        "urn:dr:radio:series:64070055f10257267bcc26ad"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26010330eac2f135b6849",
-      "slug": "wagners-ringen-ifoelge-kristian-leth"
+      "slug": "vidnesbyrd",
+      "urns": [
+        "urn:dr:radio:series:6655834fbe7905fb09c8e2b0"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa25a76330eac2f135b4996",
-      "slug": "weekend-med-k"
+      "slug": "vildt-naturligt",
+      "urns": [
+        "urn:dr:radio:series:5fa2605b330eac2f135b6a3f"
+      ]
     },
     {
-      "urn": "urn:dr:radio:series:5fa26810330eac2f135b9110",
-      "slug": "weekendmorgen"
+      "slug": "vingesus-gammel-musik-i-nutid",
+      "urns": [
+        "urn:dr:radio:series:66d242365b421d22fea709be"
+      ]
+    },
+    {
+      "slug": "vinteren-kommer",
+      "urns": [
+        "urn:dr:radio:series:63848d37333e768231d3f6f4"
+      ]
+    },
+    {
+      "slug": "virkelig",
+      "urns": [
+        "urn:dr:radio:series:67462df1f43ee13a09ac291c"
+      ]
+    },
+    {
+      "slug": "vistis-vinyler",
+      "urns": [
+        "urn:dr:radio:series:5fa25cd7330eac2f135b5700"
+      ]
+    },
+    {
+      "slug": "vistis-weekendguide",
+      "urns": [
+        "urn:dr:radio:series:622a858e8b0617c60b60e7a5"
+      ]
+    },
+    {
+      "slug": "voksen-eller-kaos",
+      "urns": [
+        "urn:dr:radio:series:64ae7f4e955d74bad9ef5457"
+      ]
+    },
+    {
+      "slug": "vores-vejr-podcast",
+      "urns": [
+        "urn:dr:radio:series:6001732c6c12863ced19ea98"
+      ]
+    },
+    {
+      "slug": "wagners-ringen-ifoelge-kristian-leth",
+      "urns": [
+        "urn:dr:radio:series:5fa26010330eac2f135b6849"
+      ]
+    },
+    {
+      "slug": "weekend-med-k",
+      "urns": [
+        "urn:dr:radio:series:5fa25a76330eac2f135b4996"
+      ]
+    },
+    {
+      "slug": "weekendmorgen",
+      "urns": [
+        "urn:dr:radio:series:5fa26810330eac2f135b9110"
+      ]
     }
   ]
 }
