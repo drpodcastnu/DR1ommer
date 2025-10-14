@@ -10,7 +10,6 @@ dependencies {
     implementation(Dependencies.http4k.core)
     implementation(Dependencies.http4k.clientJetty)
     implementation(Dependencies.http4k.formatGson)
-    implementation(Dependencies.mustache.compiler)
 }
 
 val mainClass = "ommer.client.ClientKt"
