@@ -1,13 +1,10 @@
 package ommer.client
 
-import com.github.mustachejava.DefaultMustacheFactory
+import com.google.gson.GsonBuilder
 import ommer.drapi.Episodes
 import ommer.drapi.Item
 import ommer.drapi.Show
 import ommer.graphics.generatePodcastImage
-import ommer.pagegen.PageData
-import ommer.pagegen.PodcastData
-import ommer.pagegen.RowData
 import ommer.rss.Feed
 import ommer.rss.FeedItem
 import ommer.rss.generate
@@ -59,17 +56,22 @@ fun Duration.formatHMS(): String =
     String.format("%02d:%02d:%02d", toHours(), toMinutesPart(), toSecondsPart())
 
 data class Podcast(
-    val urns: List<String>,
+    val urns: List<String>? = null,
+    val urn: String? = null,
     val slug: String,
     val titleSuffix: String?,
     val descriptionSuffix: String?,
 ) {
-    init {
-        require(urns.isNotEmpty()) { "Podcast $slug must define at least one URN" }
-    }
+    val seriesUrns: List<String>
+        get() = when {
+            !urns.isNullOrEmpty() -> urns
+            !urn.isNullOrBlank() -> listOf(urn)
+            else -> emptyList()
+        }
 
     val primaryUrn: String
-        get() = urns.first()
+        get() = seriesUrns.firstOrNull()
+            ?: throw IllegalStateException("Podcast $slug must define at least one URN")
 }
 data class Podcasts(val descriptionSuffix: String?, val podcasts: List<Podcast>)
 
@@ -77,6 +79,19 @@ private data class CombinedEpisode(
     val show: Show,
     val item: Item,
     val publishTime: ZonedDateTime,
+)
+
+data class PodcastRecord(
+    val slug: String,
+    val title: String,
+    val episodeCount: Int,
+    val lastUpdated: LastUpdated,
+    val presentationUrl: String,
+)
+
+data class LastUpdated(
+    val display: String,
+    val sort: Long,
 )
 
 fun main(args: Array<String>) {
@@ -92,6 +107,9 @@ fun main(args: Array<String>) {
         )
 
     val rssDateTimeFormatter = DateTimeFormatter.ofPattern("EEE, dd MMM yyyy HH:mm:ss Z")
+    val displayDateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm")
+
+    outputDirectory.mkdirs()
 
     val podcastData = JettyClient().use { client ->
         podcasts.podcasts.map { podcast ->
@@ -101,12 +119,13 @@ fun main(args: Array<String>) {
             feedDirectory.mkdirs()
             val feedFile = outputDirectory / podcast.slug / "feed.xml"
             log.info("Processing podcast ${podcast.slug}. Target feed: $feedFile")
-            val showInfos = podcast.urns.associateWith { urn ->
+            log.debug("Using URNs ${podcast.seriesUrns}")
+            val showInfos = podcast.seriesUrns.associateWith { urn ->
                 show(client(Request(GET, apiUri / "series" / urn).header("x-apikey", apiKey)))
             }
             val primaryShowInfo = showInfos.getValue(podcast.primaryUrn)
             val combinedEpisodes =
-                podcast.urns.asSequence()
+                podcast.seriesUrns.asSequence()
                     .flatMap { urn ->
                         val showInfo = showInfos.getValue(urn)
                         fetchEpisodes(client, apiUri / "series", urn, apiKey).map { item ->
@@ -132,21 +151,27 @@ fun main(args: Array<String>) {
                 primaryShowInfo.visualIdentity?.gradient?.colors?.getOrNull(1) ?: "#FFFFFF",
                 primaryShowInfo.title,
             )
-            PodcastData(podcast.slug, primaryShowInfo.title)
+            val latestEpisode = combinedEpisodes.firstOrNull()?.publishTime?.withZoneSameInstant(ZoneId.of("Europe/Copenhagen"))
+            PodcastRecord(
+                slug = podcast.slug,
+                title = primaryShowInfo.title,
+                episodeCount = combinedEpisodes.size,
+                lastUpdated = LastUpdated(
+                    display = latestEpisode?.format(displayDateTimeFormatter) ?: "N/A",
+                    sort = latestEpisode?.toInstant()?.toEpochMilli() ?: 0,
+                ),
+                presentationUrl = primaryShowInfo.presentationUrl,
+            )
         }
     }
 
-    val indexFile = outputDirectory / "index.html"
-    generateIndexFile(podcastData, indexFile)
+    val dataFile = outputDirectory / "data.json"
+    writeDataJson(podcastData.sortedBy { it.title }, dataFile)
 }
 
-private fun generateIndexFile(podcastData: List<PodcastData>, indexFile: File) {
-    val pageData = PageData(
-        podcastData.chunked(5).map { RowData(it) }
-    )
-    FileWriter(indexFile).use { writer ->
-        val mustache = DefaultMustacheFactory().compile("template.html.mustache")
-        mustache.execute(writer, pageData)
+private fun writeDataJson(podcastData: List<PodcastRecord>, dataFile: File) {
+    FileWriter(dataFile).use { writer ->
+        GsonBuilder().setPrettyPrinting().create().toJson(podcastData, writer)
     }
 }
 
