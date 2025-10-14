@@ -1,10 +1,13 @@
 package ommer.client
 
-import com.google.gson.GsonBuilder
+import com.github.mustachejava.DefaultMustacheFactory
 import ommer.drapi.Episodes
 import ommer.drapi.Item
 import ommer.drapi.Show
 import ommer.graphics.generatePodcastImage
+import ommer.pagegen.PageData
+import ommer.pagegen.PodcastData
+import ommer.pagegen.RowData
 import ommer.rss.Feed
 import ommer.rss.FeedItem
 import ommer.rss.generate
@@ -58,22 +61,12 @@ fun Duration.formatHMS(): String =
 data class Podcast(val urn: String, val slug: String, val titleSuffix: String?, val descriptionSuffix: String?)
 data class Podcasts(val descriptionSuffix: String?, val podcasts: List<Podcast>)
 
-data class PodcastRecord(
-    val slug: String,
-    val title: String,
-    val episodeCount: Int,
-    val lastUpdatedOrder: Long,
-    val lastUpdatedText: String,
-    val presentationUrl: String,
-)
-
 fun main(args: Array<String>) {
     if (args.isEmpty()) throw Error("No configuration file specified")
     val props = Properties().apply { FileInputStream(args[0]).use { stream -> load(stream) } }
     val apiKey = props.getProperty("apiKey") ?: throw Error("Missing API key")
     val apiUri = Uri.of(props.getProperty("apiUrl") ?: throw Error("Missing API URL"))
     val outputDirectory = File(props.getProperty("outputDirectory") ?: throw Error("Missing output directory"))
-    outputDirectory.mkdirs()
     val podcasts =
         com.google.gson.Gson().fromJson(
             Podcasts::class.java.getResource("/podcasts.json")?.readText()!!,
@@ -81,7 +74,6 @@ fun main(args: Array<String>) {
         )
 
     val rssDateTimeFormatter = DateTimeFormatter.ofPattern("EEE, dd MMM yyyy HH:mm:ss Z")
-    val displayDateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm")
 
     val podcastData = JettyClient().use { client ->
         podcasts.podcasts.map { podcast ->
@@ -92,21 +84,8 @@ fun main(args: Array<String>) {
             val feedFile = outputDirectory / podcast.slug / "feed.xml"
             log.info("Processing podcast ${podcast.slug}. Target feed: $feedFile")
             val showInfo = show(client(Request(GET, apiUri / "series" / podcast.urn).header("x-apikey", apiKey)))
-            val episodeItems = fetchEpisodes(client, apiUri / "series", podcast.urn, apiKey).toList()
-
-            val latestEpisode = showInfo.latestEpisodeStartTime?.let { latest ->
-                ZonedDateTime.parse(latest).withZoneSameInstant(ZoneId.of("Europe/Copenhagen"))
-            }
-
-            generateFeedFile(
-                showInfo = showInfo,
-                podcast = podcast,
-                descriptionSuffix = descriptionSuffix,
-                rssDateTimeFormatter = rssDateTimeFormatter,
-                episodes = episodeItems,
-                feedFile = feedFile,
-                latestEpisode = latestEpisode,
-            )
+            val episodes = fetchEpisodes(client, apiUri / "series", podcast.urn, apiKey)
+            generateFeedFile(showInfo, podcast, descriptionSuffix, rssDateTimeFormatter, episodes, feedFile)
 
             val imageFile = outputDirectory / podcast.slug / "image.jpg"
             generatePodcastImage(
@@ -115,34 +94,21 @@ fun main(args: Array<String>) {
                 showInfo.visualIdentity?.gradient?.colors?.getOrNull(1) ?: "#FFFFFF",
                 showInfo.title,
             )
-            PodcastRecord(
-                slug = podcast.slug,
-                title = showInfo.title,
-                episodeCount = episodeItems.size,
-                lastUpdatedOrder = latestEpisode?.toEpochSecond() ?: 0,
-                lastUpdatedText = latestEpisode?.format(displayDateTimeFormatter) ?: "N/A",
-                presentationUrl = showInfo.presentationUrl,
-            )
+            PodcastData(podcast.slug, showInfo.title)
         }
     }
 
     val indexFile = outputDirectory / "index.html"
-    val dataFile = outputDirectory / "data.json"
-    writeIndexHtml(indexFile)
-    writeDataJson(podcastData.sortedBy { it.title }, dataFile)
+    generateIndexFile(podcastData, indexFile)
 }
 
-private fun writeIndexHtml(indexFile: File) {
-    val indexHtml = PodcastRecord::class.java.getResource("/index.html")?.readText()
-        ?: throw IllegalStateException("Missing index.html resource")
+private fun generateIndexFile(podcastData: List<PodcastData>, indexFile: File) {
+    val pageData = PageData(
+        podcastData.chunked(5).map { RowData(it) }
+    )
     FileWriter(indexFile).use { writer ->
-        writer.write(indexHtml)
-    }
-}
-
-private fun writeDataJson(podcastData: List<PodcastRecord>, dataFile: File) {
-    FileWriter(dataFile).use { writer ->
-        GsonBuilder().setPrettyPrinting().create().toJson(podcastData, writer)
+        val mustache = DefaultMustacheFactory().compile("template.html.mustache")
+        mustache.execute(writer, pageData)
     }
 }
 
@@ -151,11 +117,10 @@ private fun generateFeedFile(
     podcast: Podcast,
     descriptionSuffix: String?,
     rssDateTimeFormatter: DateTimeFormatter?,
-    episodes: List<Item>,
+    episodes: Sequence<Item>,
     feedFile: File,
-    latestEpisode: ZonedDateTime?,
 ) {
-    if (latestEpisode == null) {
+    if (showInfo.latestEpisodeStartTime == null) {
         log.warn("Podcast has zero episodes: ${podcast.slug}")
         return
     }
@@ -165,11 +130,14 @@ private fun generateFeedFile(
             title = "$title${podcast.titleSuffix?.let { s -> " $s" } ?: ""}",
             description = "$description${descriptionSuffix?.let { s -> "\n$s" } ?: ""}",
             email = "no-reply@drpodcast.nu",
-            lastBuildDate = latestEpisode.format(rssDateTimeFormatter),
+            lastBuildDate = ZonedDateTime
+                .parse(latestEpisodeStartTime!!)
+                .withZoneSameInstant(ZoneId.of("Europe/Copenhagen"))
+                .format(rssDateTimeFormatter),
             feedUrl = "https://drpodcast.nu/${podcast.slug}/feed.xml",
             imageUrl = "https://drpodcast.nu/${podcast.slug}/image.jpg",
             imageLink = presentationUrl,
-            items = episodes.asSequence().mapNotNull { item ->
+            items = episodes.mapNotNull { item ->
                 with(item) {
                     val audioAsset = audioAssets
                         .filter { it.target == "Progressive" }
