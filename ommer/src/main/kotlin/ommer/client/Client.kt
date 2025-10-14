@@ -58,8 +58,26 @@ private fun fetchEpisodes(
 fun Duration.formatHMS(): String =
     String.format("%02d:%02d:%02d", toHours(), toMinutesPart(), toSecondsPart())
 
-data class Podcast(val urn: String, val slug: String, val titleSuffix: String?, val descriptionSuffix: String?)
+data class Podcast(
+    val urns: List<String>,
+    val slug: String,
+    val titleSuffix: String?,
+    val descriptionSuffix: String?,
+) {
+    init {
+        require(urns.isNotEmpty()) { "Podcast $slug must define at least one URN" }
+    }
+
+    val primaryUrn: String
+        get() = urns.first()
+}
 data class Podcasts(val descriptionSuffix: String?, val podcasts: List<Podcast>)
+
+private data class CombinedEpisode(
+    val show: Show,
+    val item: Item,
+    val publishTime: ZonedDateTime,
+)
 
 fun main(args: Array<String>) {
     if (args.isEmpty()) throw Error("No configuration file specified")
@@ -83,18 +101,38 @@ fun main(args: Array<String>) {
             feedDirectory.mkdirs()
             val feedFile = outputDirectory / podcast.slug / "feed.xml"
             log.info("Processing podcast ${podcast.slug}. Target feed: $feedFile")
-            val showInfo = show(client(Request(GET, apiUri / "series" / podcast.urn).header("x-apikey", apiKey)))
-            val episodes = fetchEpisodes(client, apiUri / "series", podcast.urn, apiKey)
-            generateFeedFile(showInfo, podcast, descriptionSuffix, rssDateTimeFormatter, episodes, feedFile)
+            val showInfos = podcast.urns.associateWith { urn ->
+                show(client(Request(GET, apiUri / "series" / urn).header("x-apikey", apiKey)))
+            }
+            val primaryShowInfo = showInfos.getValue(podcast.primaryUrn)
+            val combinedEpisodes =
+                podcast.urns.asSequence()
+                    .flatMap { urn ->
+                        val showInfo = showInfos.getValue(urn)
+                        fetchEpisodes(client, apiUri / "series", urn, apiKey).map { item ->
+                            CombinedEpisode(showInfo, item, ZonedDateTime.parse(item.publishTime))
+                        }
+                    }
+                    .distinctBy { it.item.productionNumber }
+                    .sortedByDescending { it.publishTime }
+                    .toList()
+            generateFeedFile(
+                primaryShowInfo,
+                podcast,
+                descriptionSuffix,
+                rssDateTimeFormatter,
+                combinedEpisodes,
+                feedFile,
+            )
 
             val imageFile = outputDirectory / podcast.slug / "image.jpg"
             generatePodcastImage(
                 imageFile,
-                showInfo.visualIdentity?.gradient?.colors?.getOrNull(0) ?: "#000000",
-                showInfo.visualIdentity?.gradient?.colors?.getOrNull(1) ?: "#FFFFFF",
-                showInfo.title,
+                primaryShowInfo.visualIdentity?.gradient?.colors?.getOrNull(0) ?: "#000000",
+                primaryShowInfo.visualIdentity?.gradient?.colors?.getOrNull(1) ?: "#FFFFFF",
+                primaryShowInfo.title,
             )
-            PodcastData(podcast.slug, showInfo.title)
+            PodcastData(podcast.slug, primaryShowInfo.title)
         }
     }
 
@@ -116,44 +154,44 @@ private fun generateFeedFile(
     showInfo: Show,
     podcast: Podcast,
     descriptionSuffix: String?,
-    rssDateTimeFormatter: DateTimeFormatter?,
-    episodes: Sequence<Item>,
+    rssDateTimeFormatter: DateTimeFormatter,
+    episodes: List<CombinedEpisode>,
     feedFile: File,
 ) {
-    if (showInfo.latestEpisodeStartTime == null) {
+    if (episodes.isEmpty()) {
         log.warn("Podcast has zero episodes: ${podcast.slug}")
         return
     }
     val feed = with(showInfo) {
+        val latestBuildDate = episodes.maxOf { it.publishTime }
+        val formattedBuildDate = latestBuildDate
+            .withZoneSameInstant(ZoneId.of("Europe/Copenhagen"))
+            .format(rssDateTimeFormatter)
         Feed(
             link = presentationUrl,
             title = "$title${podcast.titleSuffix?.let { s -> " $s" } ?: ""}",
             description = "$description${descriptionSuffix?.let { s -> "\n$s" } ?: ""}",
             email = "no-reply@drpodcast.nu",
-            lastBuildDate = ZonedDateTime
-                .parse(latestEpisodeStartTime!!)
-                .withZoneSameInstant(ZoneId.of("Europe/Copenhagen"))
-                .format(rssDateTimeFormatter),
+            lastBuildDate = formattedBuildDate,
             feedUrl = "https://drpodcast.nu/${podcast.slug}/feed.xml",
             imageUrl = "https://drpodcast.nu/${podcast.slug}/image.jpg",
             imageLink = presentationUrl,
-            items = episodes.mapNotNull { item ->
-                with(item) {
+            items = episodes.mapNotNull { combinedEpisode ->
+                with(combinedEpisode.item) {
                     val audioAsset = audioAssets
                         .filter { it.target == "Progressive" }
                         .filter { it.format == "mp3" }
                         // Select asset which is closest to bitrate 192
                         .minByOrNull { abs(it.bitrate - 192) } ?: run {
-                        log.warn("No audio asset for ${item.id} (${item.title})")
+                        log.warn("No audio asset for ${combinedEpisode.item.id} (${combinedEpisode.item.title})")
                         return@mapNotNull null
                     }
                     FeedItem(
                         guid = productionNumber,
-                        link = presentationUrl?.toString() ?: showInfo.presentationUrl,
+                        link = presentationUrl?.toString() ?: combinedEpisode.show.presentationUrl,
                         title = title,
                         description = description,
-                        pubDate = ZonedDateTime
-                            .parse(publishTime)
+                        pubDate = combinedEpisode.publishTime
                             .withZoneSameInstant(ZoneId.of("Europe/Copenhagen"))
                             .format(rssDateTimeFormatter),
                         duration = Duration.of(durationMilliseconds, ChronoUnit.MILLIS).formatHMS(),
