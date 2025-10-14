@@ -158,7 +158,7 @@ fun main(args: Array<String>) {
                 episodeCount = combinedEpisodes.size,
                 lastUpdated = LastUpdated(
                     display = latestEpisode?.format(displayDateTimeFormatter) ?: "N/A",
-                    sort = latestEpisode?.toInstant()?.toEpochMilli() ?: 0,
+                    sort = latestEpisode?.toInstant()?.epochSecond ?: 0,
                 ),
                 presentationUrl = primaryShowInfo.presentationUrl,
             )
