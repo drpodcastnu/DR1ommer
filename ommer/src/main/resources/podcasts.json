@@ -6,6 +6,10 @@
       "slug": "10-20-30"
     },
     {
+      "urn": "urn:dr:radio:series:5fa25a32330eac2f135b47c7",
+      "slug": "24-fortaellinger-om-handels-messias"
+    },
+    {
       "urn": "urn:dr:radio:series:627c3412c61df98eb7396eb1",
       "slug": "3-halvleg"
     },
@@ -40,10 +44,6 @@
     {
       "urn": "urn:dr:radio:series:5fa25a17330eac2f135b46f7",
       "slug": "alt-om-emma"
-    },
-    {
-      "urn": "urn:dr:radio:series:6319a237e354a45e20d5c9e1",
-      "slug": "alting-loeser-sig"
     },
     {
       "urn": "urn:dr:radio:series:60ad0bdbe21e028b8e792a12",
@@ -82,8 +82,16 @@
       "slug": "bakspejl"
     },
     {
+      "urn": "urn:dr:radio:series:651134b3a050b662b3971818",
+      "slug": "balalajka"
+    },
+    {
       "urn": "urn:dr:radio:series:5fa25ea2330eac2f135b60f9",
       "slug": "da-der-gik-hul-pa-balkans-hjerte"
+    },
+    {
+      "urn": "urn:dr:radio:series:68fb330e5f699d2ab172f41a",
+      "slug": "balladen-om-sidsel"
     },
     {
       "urn": "urn:dr:radio:series:658a0b71163dfa22d5605d6c",
@@ -170,10 +178,6 @@
       "slug": "carte-blanche"
     },
     {
-      "urn": "urn:dr:radio:series:67956d0d4d18d96eaf140785",
-      "slug": "chanos-talkshow-med-kendisser"
-    },
-    {
       "urn": "urn:dr:radio:series:677bd55080476fe6c9a19103",
       "slug": "chris-og-chokoladefabrikken"
     },
@@ -226,12 +230,20 @@
       "slug": "de-169-piger"
     },
     {
+      "urn": "urn:dr:radio:series:61f24e160431527cb3065776",
+      "slug": "de-lovloese"
+    },
+    {
       "urn": "urn:dr:radio:series:5fa15fceda351264f87b78a9",
       "slug": "de-bedste-klaverkomponister"
     },
     {
       "urn": "urn:dr:radio:series:6137557cc012a8c6260bc5c0",
       "slug": "de-efterladte-2"
+    },
+    {
+      "urn": "urn:dr:radio:series:68fb321d91066218a48c24a2",
+      "slug": "de-foerste-lovloese"
     },
     {
       "urn": "urn:dr:radio:series:5fb62476f45a4df9a5f9bf7a",
@@ -246,8 +258,8 @@
       "slug": "de-koedaedende-bakterier-podcast"
     },
     {
-      "urn": "urn:dr:radio:series:61f24e160431527cb3065776",
-      "slug": "de-lovloese"
+      "urn": "urn:dr:radio:series:691dbaa5a90450d1bd6e35a1",
+      "slug": "de-livsfarlige-baand"
     },
     {
       "urn": "urn:dr:radio:series:60d8f8a221565776b8b7e124",
@@ -260,6 +272,14 @@
     {
       "urn": "urn:dr:radio:series:5fa26008330eac2f135b680f",
       "slug": "de-tabte-traditioner"
+    },
+    {
+      "urn": "urn:dr:radio:series:68e8ffefc50975c46a2674fa",
+      "slug": "de-usynlige-lister"
+    },
+    {
+      "urn": "urn:dr:radio:series:5fa266b3330eac2f135b8ac0",
+      "slug": "debut"
     },
     {
       "urn": "urn:dr:radio:series:644f957ff130b22a2b4982fe",
@@ -288,6 +308,10 @@
     {
       "urn": "urn:dr:radio:series:5fa25f09330eac2f135b632e",
       "slug": "den-sidste-modstandsmand"
+    },
+    {
+      "urn": "urn:dr:radio:series:68fb3343563ae81c419d6552",
+      "slug": "den-stjaalne-dreng"
     },
     {
       "urn": "urn:dr:radio:series:665f8f367937d2cab8c098a1",
@@ -438,10 +462,6 @@
       "slug": "draeb-for-danmark"
     },
     {
-      "urn": "urn:dr:radio:series:658616eee05ede83bfff8ae0",
-      "slug": "droemmeholdet"
-    },
-    {
       "urn": "urn:dr:radio:series:6756e77275055c6700b1e50b",
       "slug": "droemmen-om-elvis"
     },
@@ -578,6 +598,10 @@
       "slug": "et-skud-i-boessen"
     },
     {
+      "urn": "urn:dr:radio:series:68fb3345dd5b7e14fc371eea",
+      "slug": "et-stykke-med-hedegaard"
+    },
+    {
       "urn": "urn:dr:radio:series:5fa15b12da351264f87b5ca2",
       "slug": "fonk-det-er-podcast"
     },
@@ -638,6 +662,10 @@
       "slug": "flyvende-tallerken"
     },
     {
+      "urn": "urn:dr:radio:series:68e65ac6df10db2ff704141d",
+      "slug": "fluggers-forbudte-farver"
+    },
+    {
       "urn": "urn:dr:radio:series:5fa2627b330eac2f135b76a9",
       "slug": "fodboldlisten"
     },
@@ -646,12 +674,20 @@
       "slug": "folk-ish"
     },
     {
+      "urn": "urn:dr:radio:series:68fb3306650e7ddef89fda98",
+      "slug": "folkemoderen"
+    },
+    {
       "urn": "urn:dr:radio:series:6481dc7b2f049931670cee9d",
       "slug": "forbrydelsens-anatomi"
     },
     {
       "urn": "urn:dr:radio:series:5fa26189330eac2f135b70fb",
       "slug": "forbudte-moeder"
+    },
+    {
+      "urn": "urn:dr:radio:series:690b48f5bf545a44d7f69ae7",
+      "slug": "forfoert-af-fart"
     },
     {
       "urn": "urn:dr:radio:series:62349b138b0617c60b6b2c0b",
@@ -704,10 +740,6 @@
     {
       "urn": "urn:dr:radio:series:6336d806b3066954c0e9b49b",
       "slug": "foer-natten-paa-p4"
-    },
-    {
-      "urn": "urn:dr:radio:series:65043afe1645145aaaa090cf",
-      "slug": "gaderadio"
     },
     {
       "urn": "urn:dr:radio:series:6639cdebd33fbafcd48ed9bf",
@@ -782,6 +814,10 @@
       "slug": "guldregn"
     },
     {
+      "urn": "urn:dr:radio:series:691ed619d953ade51383ab84",
+      "slug": "gummikongens-krig"
+    },
+    {
       "urn": "urn:dr:radio:series:65561b0a3f194bf5332a2d8d",
       "slug": "gyldne-generationer-burgaard-mortensen-og-tanderup"
     },
@@ -806,6 +842,10 @@
       "slug": "happy-hour"
     },
     {
+      "urn": "urn:dr:radio:series:68fb330591066218a48c2b8d",
+      "slug": "harlems-robin-hood"
+    },
+    {
       "urn": "urn:dr:radio:series:5fa160ddda351264f87b7f38",
       "slug": "havet-venter"
     },
@@ -816,6 +856,10 @@
     {
       "urn": "urn:dr:radio:series:610c99ae214d9c8f19f3af82",
       "slug": "hemmeligheder-2"
+    },
+    {
+      "urn": "urn:dr:radio:series:68f0f6acea7316447c548fc8",
+      "slug": "herning-manifestet"
     },
     {
       "urn": "urn:dr:radio:series:5fa26386330eac2f135b7bd6",
@@ -1034,10 +1078,6 @@
       "slug": "jagten-paa-det-evige-liv"
     },
     {
-      "urn": "urn:dr:radio:series:5fa26291330eac2f135b7729",
-      "slug": "jazz-og-co"
-    },
-    {
       "urn": "urn:dr:radio:series:63ca5b653a290c242ebaa515",
       "slug": "jeg-skammer-mig"
     },
@@ -1050,6 +1090,14 @@
       "slug": "kup"
     },
     {
+      "urn": "urn:dr:radio:series:690469cc5f699d2ab1c2b42d",
+      "slug": "kup-klatretyven-i-paris"
+    },
+    {
+      "urn": "urn:dr:radio:series:690464e6b26b624b1ebde551",
+      "slug": "kup-walkie-talkie-kuppet"
+    },
+    {
       "urn": "urn:dr:radio:series:600173096c12863ced19ea0d",
       "slug": "kaarsberg-mysteriet"
     },
@@ -1058,12 +1106,20 @@
       "slug": "kampen-om-historien-3"
     },
     {
+      "urn": "urn:dr:radio:series:68d3ee89d97801dbf0aa8f27",
+      "slug": "kandidatfesten"
+    },
+    {
       "urn": "urn:dr:radio:series:611ed1890f49677d7c269701",
       "slug": "kapitalisterne"
     },
     {
       "urn": "urn:dr:radio:series:60c0a885b34fcee683402b47",
       "slug": "kapret"
+    },
+    {
+      "urn": "urn:dr:radio:series:691c3bfea90450d1bd5fdff9",
+      "slug": "karens-jul"
     },
     {
       "urn": "urn:dr:radio:series:60210585377bcb8a30e9731b",
@@ -1120,6 +1176,10 @@
     {
       "urn": "urn:dr:radio:series:630df01b09585a83f1a62a82",
       "slug": "knaldperler"
+    },
+    {
+      "urn": "urn:dr:radio:series:68fb334290243f11eab77245",
+      "slug": "kongen-af-vesterbro"
     },
     {
       "urn": "urn:dr:radio:series:5fa25b1e330eac2f135b4d2b",
@@ -1196,6 +1256,10 @@
     {
       "urn": "urn:dr:radio:series:6661bfaa7937d2cab8cad242",
       "slug": "lottomysteriet-genfortalt"
+    },
+    {
+      "urn": "urn:dr:radio:series:68e3ac6b706eb0bf9a2f5c6c",
+      "slug": "lyden-af-dr-symfoniorkestret-i-100-aar"
     },
     {
       "urn": "urn:dr:radio:series:67ade53d7c40c3fd689c3336",
@@ -1318,6 +1382,10 @@
       "slug": "miraklet-i-rundetarn"
     },
     {
+      "urn": "urn:dr:radio:series:5fa15f11da351264f87b742f",
+      "slug": "mod-det-uendelige-univers"
+    },
+    {
       "urn": "urn:dr:radio:series:6565e1a842547a2ceec128de",
       "slug": "dorrits-alder"
     },
@@ -1406,6 +1474,10 @@
       "slug": "nattens-dronning"
     },
     {
+      "urn": "urn:dr:radio:series:61238fff0f49677d7c2b9963",
+      "slug": "naturen-i-oeret"
+    },
+    {
       "urn": "urn:dr:radio:series:5fa26100330eac2f135b6dcd",
       "slug": "naturens-symfoni"
     },
@@ -1430,16 +1502,20 @@
       "slug": "nyborg-station"
     },
     {
-      "urn": "urn:dr:radio:series:5fa261ee330eac2f135b7382",
-      "slug": "nye-skrivende"
-    },
-    {
       "urn": "urn:dr:radio:series:68a71ba66409e914af435d9b",
       "slug": "nynne-fm"
     },
     {
       "urn": "urn:dr:radio:series:67459549aa7bc2beaefea8f8",
       "slug": "noej-det-en-quiz"
+    },
+    {
+      "urn": "urn:dr:radio:series:68e3a894706eb0bf9a2f3a30",
+      "slug": "omg-musikernes-bedste-historier"
+    },
+    {
+      "urn": "urn:dr:radio:series:68f761965e2136977bcaccc3",
+      "slug": "odderhusets-hemmelighed"
     },
     {
       "urn": "urn:dr:radio:series:67ade5747c40c3fd689c34b8",
@@ -1472,6 +1548,10 @@
     {
       "urn": "urn:dr:radio:series:67ac9d831b0f08ad8b1b1564",
       "slug": "oproer-i-oregon"
+    },
+    {
+      "urn": "urn:dr:radio:series:68c960cfdb0376e10a361c91",
+      "slug": "orkesterguiden"
     },
     {
       "urn": "urn:dr:radio:series:5fa26a12330eac2f135b9c24",
@@ -1686,8 +1766,8 @@
       "slug": "p5-morgen"
     },
     {
-      "urn": "urn:dr:radio:series:67b719d0ff5c53172fff4f01",
-      "slug": "p5-med-christina-bjoern"
+      "urn": "urn:dr:radio:series:6759a9ae0107b03a70c6a182",
+      "slug": "p5-med-charlotte-ostertag"
     },
     {
       "urn": "urn:dr:radio:series:63a4f98fb23ac67e5b403629",
@@ -1698,8 +1778,12 @@
       "slug": "p6-beat-elsker"
     },
     {
-      "urn": "urn:dr:radio:series:6809ef3ab564004141964b28",
-      "slug": "p8-paa-spot-festival-2025"
+      "urn": "urn:dr:radio:series:67039b2ecb01870908af8508",
+      "slug": "p8-sessions"
+    },
+    {
+      "urn": "urn:dr:radio:series:66322294f358fdf526c5b279",
+      "slug": "p8-med-ida-rud"
     },
     {
       "urn": "urn:dr:radio:series:67462fda6565d571840dc880",
@@ -1712,6 +1796,10 @@
     {
       "urn": "urn:dr:radio:series:66224b1291274e3d41660471",
       "slug": "peter-prepper"
+    },
+    {
+      "urn": "urn:dr:radio:series:692806e44f22de874ebf4a7c",
+      "slug": "pigen-fra-slumkvarteret"
     },
     {
       "urn": "urn:dr:radio:series:5fa260c1330eac2f135b6c4e",
@@ -1914,6 +2002,10 @@
       "slug": "sangskriver"
     },
     {
+      "urn": "urn:dr:radio:series:615ac48b024da0d1bbd56ce3",
+      "slug": "sanne-50-ar-med-musik"
+    },
+    {
       "urn": "urn:dr:radio:series:5fa15704da351264f87b46ce",
       "slug": "sara-og-monopolet"
     },
@@ -1928,6 +2020,10 @@
     {
       "urn": "urn:dr:radio:series:5fa15c2dda351264f87b6328",
       "slug": "selvmordstanker-med-mikkel-frey-damgaard"
+    },
+    {
+      "urn": "urn:dr:radio:series:68dfa9b4ec3c25ed7080d083",
+      "slug": "hvem-er-jeg"
     },
     {
       "urn": "urn:dr:radio:series:68b1a97d3d1da25c23016500",
@@ -1956,6 +2052,10 @@
     {
       "urn": "urn:dr:radio:series:683575685f16b698305dedc0",
       "slug": "signes-have"
+    },
+    {
+      "urn": "urn:dr:radio:series:5fa25cc6330eac2f135b5686",
+      "slug": "simpson-og-leth"
     },
     {
       "urn": "urn:dr:radio:series:63f738d3fe6a65856b1affe3",
@@ -2028,10 +2128,6 @@
     {
       "urn": "urn:dr:radio:series:5fa25ec3330eac2f135b61b3",
       "slug": "splittet-til-atomer"
-    },
-    {
-      "urn": "urn:dr:radio:series:642d7219e2203a081792c2ab",
-      "slug": "sporvognen"
     },
     {
       "urn": "urn:dr:radio:series:62fa34d68c2b3429602c0686",
@@ -2186,6 +2282,10 @@
       "slug": "tyran-bokassa"
     },
     {
+      "urn": "urn:dr:radio:series:691c54eca90450d1bd60d2d8",
+      "slug": "tyran-ceausescu"
+    },
+    {
       "urn": "urn:dr:radio:series:6890920cab10e7b0b6975542",
       "slug": "tyran-franco"
     },
@@ -2236,6 +2336,10 @@
     {
       "urn": "urn:dr:radio:series:689092012e199a1c531f7eba",
       "slug": "tyran-suharto"
+    },
+    {
+      "urn": "urn:dr:radio:series:68ef4f06781366bb865baeeb",
+      "slug": "tyran-trujillo"
     },
     {
       "urn": "urn:dr:radio:series:67b45a6d1c492b010491a2d5",
