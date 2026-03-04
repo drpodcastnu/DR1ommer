@@ -218,10 +218,6 @@
       "slug": "danmarks-draeber-1-med-peter-falktoft"
     },
     {
-      "urn": "urn:dr:radio:series:601a5487b43afb0d45bcb266",
-      "slug": "danmarks-indsamling-paa-p4"
-    },
-    {
       "urn": "urn:dr:radio:series:65b0efbdfe55b29664cf7a8f",
       "slug": "dansk-melodi-grand-prix-din-guide-til-de-8-sange"
     },
@@ -294,12 +290,20 @@
       "slug": "debutkoncert"
     },
     {
+      "urn": "urn:dr:radio:series:6984a3c82b6899fecc6af586",
+      "slug": "delt-i-0999"
+    },
+    {
       "urn": "urn:dr:radio:series:5fa15ca3da351264f87b6623",
       "slug": "den-nordiske-odysse"
     },
     {
       "urn": "urn:dr:radio:series:5fa25a28330eac2f135b4781",
       "slug": "den-forsvundne-soldat"
+    },
+    {
+      "urn": "urn:dr:radio:series:698c57b4ca1f3937429fffc7",
+      "slug": "den-giftige-tvivl"
     },
     {
       "urn": "urn:dr:radio:series:5fa260cd330eac2f135b6c8d",
@@ -440,10 +444,6 @@
     {
       "urn": "urn:dr:radio:series:658b5d871b0ff6ce0ad7a63a",
       "slug": "ditlev-og-daemonerne"
-    },
-    {
-      "urn": "urn:dr:radio:series:5fa16209da351264f87b85c9",
-      "slug": "4-division"
     },
     {
       "urn": "urn:dr:radio:series:5fa16188da351264f87b82f3",
@@ -682,6 +682,10 @@
       "slug": "fire-patroner-pa-lommen"
     },
     {
+      "urn": "urn:dr:radio:series:683d7199b55477aa475e5479",
+      "slug": "flashback"
+    },
+    {
       "urn": "urn:dr:radio:series:65ddae6b71084fe132f41c50",
       "slug": "flex"
     },
@@ -730,6 +734,10 @@
       "slug": "formiddag-med-simpson"
     },
     {
+      "urn": "urn:dr:radio:series:5fa26b85330eac2f135ba436",
+      "slug": "formiddag-paa-4-eren"
+    },
+    {
       "urn": "urn:dr:radio:series:650393b8c850638803ef9e84",
       "slug": "foraeldreradet"
     },
@@ -754,6 +762,10 @@
       "slug": "frokostkoncerten"
     },
     {
+      "urn": "urn:dr:radio:series:644639b7f130b22a2b1b3918",
+      "slug": "fugle-fra-qvisten"
+    },
+    {
       "urn": "urn:dr:radio:series:61fba549d4421289df2b8417",
       "slug": "funny-guy"
     },
@@ -768,6 +780,10 @@
     {
       "urn": "urn:dr:radio:series:6336d806b3066954c0e9b49b",
       "slug": "foer-natten-paa-p4"
+    },
+    {
+      "urn": "urn:dr:radio:series:5fa16209da351264f87b85c9",
+      "slug": "4-division"
     },
     {
       "urn": "urn:dr:radio:series:6639cdebd33fbafcd48ed9bf",
@@ -826,8 +842,8 @@
       "slug": "grundtvig-leth-fortalt"
     },
     {
-      "urn": "urn:dr:radio:series:68540cd6de5d5eb0ff5a5669",
-      "slug": "gruppechatten"
+      "urn": "urn:dr:radio:series:696a2036e9338ac3f9cc4241",
+      "slug": "graenseloes"
     },
     {
       "urn": "urn:dr:radio:series:5fa26b0e330eac2f135ba190",
@@ -848,6 +864,10 @@
     {
       "urn": "urn:dr:radio:series:65561b0a3f194bf5332a2d8d",
       "slug": "gyldne-generationer-burgaard-mortensen-og-tanderup"
+    },
+    {
+      "urn": "urn:dr:radio:series:69494b63424d2364ef8ef2d5",
+      "slug": "gaestelisten"
     },
     {
       "urn": "urn:dr:radio:series:5fa25e1f330eac2f135b5e33",
@@ -984,6 +1004,10 @@
     {
       "urn": "urn:dr:radio:series:68528333fa5e05d195ffb3ad",
       "slug": "hvem-er-jada"
+    },
+    {
+      "urn": "urn:dr:radio:series:697b0e1c3f6a785b01138c99",
+      "slug": "hvem-er-kanye-west"
     },
     {
       "urn": "urn:dr:radio:series:6852833f9b0d242d0f05ab30",
@@ -1142,6 +1166,10 @@
       "slug": "kup-faldskaermskuppet"
     },
     {
+      "urn": "urn:dr:radio:series:69a158ec6d5a01bd871b77b2",
+      "slug": "kup-hollywood-hacket"
+    },
+    {
       "urn": "urn:dr:radio:series:690469cc5f699d2ab1c2b42d",
       "slug": "kup-klatretyven-i-paris"
     },
@@ -1172,6 +1200,10 @@
     {
       "urn": "urn:dr:radio:series:649d41899f6ed851b763f730",
       "slug": "kejserens-nye-klub"
+    },
+    {
+      "urn": "urn:dr:radio:series:63b0c0aab23ac67e5b7abfa1",
+      "slug": "keld-og-hilda-hand-og-hand-gennem-livet"
     },
     {
       "urn": "urn:dr:radio:series:63ce51ca3a290c242ece4fb3",
@@ -1310,8 +1342,16 @@
       "slug": "lyden-af-dr-symfoniorkestret-i-100-aar"
     },
     {
+      "urn": "urn:dr:radio:series:67ade53d7c40c3fd689c3336",
+      "slug": "lydsporet"
+    },
+    {
       "urn": "urn:dr:radio:series:6638a1a36d0e2e42f85f9bec",
       "slug": "lyssky"
+    },
+    {
+      "urn": "urn:dr:radio:series:696a4159b164f491344156df",
+      "slug": "lyttelapper"
     },
     {
       "urn": "urn:dr:radio:series:5fa25da6330eac2f135b5b80",
@@ -1396,10 +1436,6 @@
     {
       "urn": "urn:dr:radio:series:66cc4641a127df4c0a3c5599",
       "slug": "mens-vi-husker-det"
-    },
-    {
-      "urn": "urn:dr:radio:series:68540b69de5d5eb0ff5a4aba",
-      "slug": "mette-og-mikael"
     },
     {
       "urn": "urn:dr:radio:series:649558dd8b62a4268d910b6a",
@@ -1822,24 +1858,12 @@
       "slug": "p5-med-christina-bjoern"
     },
     {
-      "urn": "urn:dr:radio:series:63130541e354a45e20ce8f38",
-      "slug": "p5-med-ivan-gregersen"
-    },
-    {
-      "urn": "urn:dr:radio:series:65d5d0c1266057939d85cddb",
-      "slug": "p5-med-soeren-hansen"
-    },
-    {
       "urn": "urn:dr:radio:series:63a4f98fb23ac67e5b403629",
       "slug": "p5-paa-stribe"
     },
     {
       "urn": "urn:dr:radio:series:5fa15703da351264f87b46c6",
       "slug": "p6-beat-elsker"
-    },
-    {
-      "urn": "urn:dr:radio:series:68e772f34f0602d2fe36dcbc",
-      "slug": "p6-med-zaulich"
     },
     {
       "urn": "urn:dr:radio:series:67039b2ecb01870908af8508",
@@ -1918,10 +1942,6 @@
       "slug": "puls"
     },
     {
-      "urn": "urn:dr:radio:series:6852673afa5e05d195fec784",
-      "slug": "paa-date-med-brimheim-og-jordanova"
-    },
-    {
       "urn": "urn:dr:radio:series:5fa2608d330eac2f135b6b32",
       "slug": "pa-bagsaedet"
     },
@@ -1968,6 +1988,10 @@
     {
       "urn": "urn:dr:radio:series:6419cd16021b01cc38afece9",
       "slug": "rap-og-rytmer"
+    },
+    {
+      "urn": "urn:dr:radio:series:696f7130753c04e7ed898286",
+      "slug": "rastloes"
     },
     {
       "urn": "urn:dr:radio:series:66b29e5b140961ca70e1eade",
@@ -2222,10 +2246,6 @@
       "slug": "status"
     },
     {
-      "urn": "urn:dr:radio:series:5fa25d10330eac2f135b585c",
-      "slug": "stegelmanns-score"
-    },
-    {
       "urn": "urn:dr:radio:series:684818efc01c3514d791860e",
       "slug": "stemplet-som-psykopat"
     },
@@ -2426,6 +2446,10 @@
       "slug": "tyvstart"
     },
     {
+      "urn": "urn:dr:radio:series:6984a3682b6899fecc6af253",
+      "slug": "taenkt"
+    },
+    {
       "urn": "urn:dr:radio:series:5fa25df4330eac2f135b5d48",
       "slug": "taettere-paa-himlen"
     },
@@ -2520,6 +2544,10 @@
     {
       "urn": "urn:dr:radio:series:63848d37333e768231d3f6f4",
       "slug": "vinteren-kommer"
+    },
+    {
+      "urn": "urn:dr:radio:series:679cb9c5474c8cdb6f7b3348",
+      "slug": "vinterjazz-2025-paa-p8"
     },
     {
       "urn": "urn:dr:radio:series:67462df1f43ee13a09ac291c",
