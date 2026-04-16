@@ -1,7 +1,8 @@
 import ommer.build.Dependencies
 
 plugins {
-    id("com.github.johnrengelman.shadow") version "8.1.1"
+    application
+    id("com.gradleup.shadow") version "9.4.1"
 }
 
 dependencies {
@@ -13,19 +14,14 @@ dependencies {
     implementation(Dependencies.mustache.compiler)
 }
 
-val mainClass = "ommer.client.ClientKt"
-
-tasks.jar {
-    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
-    manifest {
-        attributes["Main-Class"] = mainClass
-    }
-    from(configurations.runtimeClasspath.get().map { if (it.isDirectory) it else zipTree(it) })
+application {
+    mainClass = "ommer.client.ClientKt"
 }
 
-tasks.withType<com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar> {
+tasks.shadowJar {
     archiveClassifier.set("")
     manifest {
         attributes["Main-Class"] = mainClass
     }
 }
+

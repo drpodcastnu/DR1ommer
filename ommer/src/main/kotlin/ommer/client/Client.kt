@@ -153,7 +153,7 @@ private fun generateFeedFile(
                         title = title,
                         description = description,
                         pubDate = ZonedDateTime
-                            .parse(publishTime)
+                            .parse(startTime)
                             .withZoneSameInstant(ZoneId.of("Europe/Copenhagen"))
                             .format(rssDateTimeFormatter),
                         duration = Duration.of(durationMilliseconds, ChronoUnit.MILLIS).formatHMS(),

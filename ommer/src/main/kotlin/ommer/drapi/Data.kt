@@ -72,7 +72,9 @@ data class Item(
     val title: String,
     val description: String,
     val presentationUrl: Uri?,
+    @Deprecated("Do not use")
     val publishTime: String,
+    val startTime: String,
 )
 
 data class AudioAsset(

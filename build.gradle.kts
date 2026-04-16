@@ -1,5 +1,7 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
 plugins {
-    kotlin("jvm") version "1.9.21"
+    kotlin("jvm") version "2.2.20"
 }
 
 group = "dr1ommer"
@@ -17,6 +19,14 @@ allprojects {
     }
 
     kotlin {
-        jvmToolchain(21)
+        jvmToolchain(25)
+	compilerOptions {
+	    jvmTarget = JvmTarget.JVM_21
+	}
+    }
+
+    java {
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
 }
