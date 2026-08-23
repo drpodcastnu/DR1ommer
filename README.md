@@ -8,6 +8,13 @@ $ java -jar ommer.jar <config>
 ```
 where `<config>` is a configuration file like the `config.example` file in the root of this repository.
 
+The jar is self-contained and published on every tagged release, so a server needs nothing but the jar and a config
+file:
+```bash
+$ curl -LO https://github.com/drpodcastnu/DR1ommer/releases/latest/download/ommer.jar
+```
+To cut a release, push a `v*` tag; `.github/workflows/release.yml` builds the jar and attaches it.
+
 Note that you will need to fill in the API key in the config file. This can easily be obtained by enabling developer
 tools in Firefox and inspecting the requests on dr.dk/lyd.
 
