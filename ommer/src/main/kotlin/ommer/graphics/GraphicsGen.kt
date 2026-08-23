@@ -16,8 +16,12 @@ import javax.imageio.ImageWriteParam
 
 private val log = LoggerFactory.getLogger("ommer.graphics")!!
 
+/** Large enough to stay sharp at the 120px the index page shows it at on a 2x display. */
+private const val thumbnailSize = 240
+
 fun generatePodcastImage(
     imageFile: File,
+    thumbnailFile: File,
     colorStart: String,
     colorEnd: String,
     text: String,
@@ -32,14 +36,38 @@ fun generatePodcastImage(
         borderColor = Color.BLACK,
         fontSize = 96,
     )
-    writeImageToFile(image, imageFile)
+    writeImageToFile(image, imageFile, 1.0f)
+    writeImageToFile(scaleTo(image, thumbnailSize), thumbnailFile, 0.85f)
 }
 
-private fun writeImageToFile(image: BufferedImage, imageFile: File) {
+/**
+ * Halve repeatedly before the final step. Going from 1400px to 240px in one pass samples too few
+ * source pixels and aliases the text badly.
+ */
+private fun scaleTo(source: BufferedImage, size: Int): BufferedImage {
+    var current = source
+    while (current.width / 2 > size) current = redraw(current, current.width / 2)
+    return redraw(current, size)
+}
+
+private fun redraw(source: BufferedImage, size: Int): BufferedImage {
+    val target = BufferedImage(size, size, BufferedImage.TYPE_INT_RGB)
+    val graphics = target.createGraphics()
+    graphics.setRenderingHint(RenderingHints.KEY_INTERPOLATION, RenderingHints.VALUE_INTERPOLATION_BILINEAR)
+    graphics.setRenderingHint(RenderingHints.KEY_RENDERING, RenderingHints.VALUE_RENDER_QUALITY)
+    graphics.drawImage(source, 0, 0, size, size, null)
+    graphics.dispose()
+    return target
+}
+
+private fun writeImageToFile(image: BufferedImage, imageFile: File, quality: Float) {
+    // An image output stream opens the file read-write without truncating, so a shorter image than
+    // the one already there would leave the old tail behind.
+    imageFile.delete()
     val writer = ImageIO.getImageWritersByFormatName("jpg").next()
     val writeParam = writer.defaultWriteParam
     writeParam.compressionMode = ImageWriteParam.MODE_EXPLICIT
-    writeParam.compressionQuality = 1.0f // Highest quality
+    writeParam.compressionQuality = quality
     ImageIO.createImageOutputStream(imageFile).use { output ->
         writer.output = output
         writer.write(null, IIOImage(image, null, null), writeParam)

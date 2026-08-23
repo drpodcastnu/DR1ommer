@@ -200,8 +200,10 @@ fun main(args: Array<String>) {
             val feed = generateFeedFile(showInfo, podcast, descriptionSuffix, rssDateTimeFormatter, episodes, feedFile)
 
             val imageFile = feedDirectory / "image.jpg"
+            val thumbnailFile = feedDirectory / "thumb.jpg"
             generatePodcastImage(
                 imageFile,
+                thumbnailFile,
                 showInfo.visualIdentity?.gradient?.colors?.getOrNull(0) ?: "#000000",
                 showInfo.visualIdentity?.gradient?.colors?.getOrNull(1) ?: "#FFFFFF",
                 showInfo.title,

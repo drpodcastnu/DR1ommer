@@ -77,7 +77,7 @@
             <tbody>
             {{#podcasts}}
             <tr data-slug="{{slug}}" data-title="{{title}}" data-episodes="{{episodes}}" data-latest="{{latestEpisode}}" data-description="{{description}}">
-                <td><img class="cover" src="{{slug}}/image.jpg" alt="" loading="lazy" /></td>
+                <td><img class="cover" src="{{slug}}/thumb.jpg" alt="" loading="lazy" /></td>
                 <td class="name">{{title}}</td>
                 <td class="episodes">{{episodes}}</td>
                 <td class="latest">{{latestEpisode}}</td>
@@ -239,7 +239,7 @@
             var slug = row.dataset.slug;
             document.getElementById("details-title").textContent = row.dataset.title;
             document.getElementById("details-description").textContent = row.dataset.description;
-            document.getElementById("details-cover").src = slug + "/image.jpg";
+            document.getElementById("details-cover").src = slug + "/thumb.jpg";
             var link = document.getElementById("details-feed");
             link.href = slug + "/feed.xml";
             link.textContent = feedUrl(slug);
