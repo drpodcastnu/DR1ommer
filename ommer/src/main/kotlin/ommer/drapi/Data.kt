@@ -85,3 +85,12 @@ data class AudioAsset(
     val fileSize: Long,
     val url: Uri,
 )
+
+data class SeriesList(
+    val items: List<Show>,
+    val limit: Int,
+    val offset: Int,
+    val next: Uri?,
+    val self: Uri?,
+    val totalSize: Int,
+)

@@ -3,6 +3,7 @@ package ommer.client
 import com.github.mustachejava.DefaultMustacheFactory
 import ommer.drapi.Episodes
 import ommer.drapi.Item
+import ommer.drapi.SeriesList
 import ommer.drapi.Show
 import ommer.graphics.generatePodcastImage
 import ommer.pagegen.PageData
@@ -11,6 +12,9 @@ import ommer.pagegen.RowData
 import ommer.rss.Feed
 import ommer.rss.FeedItem
 import ommer.rss.generate
+import ommer.slugs.loadPins
+import ommer.slugs.recoverPins
+import ommer.slugs.savePins
 import org.http4k.client.JettyClient
 import org.http4k.core.Body
 import org.http4k.core.HttpHandler
@@ -37,7 +41,7 @@ private operator fun Uri.div(suffix: String): Uri = path("$path/$suffix")
 private operator fun File.div(relative: String): File = resolve(relative)
 
 private val episodes = Body.auto<Episodes>().toLens()
-private val show = Body.auto<Show>().toLens()
+private val seriesList = Body.auto<SeriesList>().toLens()
 
 private fun fetchEpisodes(
     client: HttpHandler,
@@ -55,11 +59,98 @@ private fun fetchEpisodes(
     }
 }
 
+private fun fetchSeries(
+    client: HttpHandler,
+    baseUri: Uri,
+    apiKey: String,
+): Sequence<Show> = sequence {
+    var currentUri = (baseUri / "series").query("limit", "256")
+    while (true) {
+        log.info("Getting $currentUri")
+        val response = seriesList(client(Request(GET, currentUri).header("x-apikey", apiKey)))
+        log.info("Got ${response.items.size} series")
+        response.items.forEach { yield(it) }
+        currentUri = response.next ?: break
+    }
+}
+
+private const val slugFileName = "slugs.json"
+
+private val trailingNumber = Regex("-\\d*$")
+
+/**
+ * Slugs DR renamed before we started pinning them in slugs.json. Only consulted for series that
+ * have no pin yet, so this can be deleted once slugs.json is in place everywhere.
+ */
+private val slugRenames = mapOf(
+    "sara-og-monopolet-podcast" to "sara-og-monopolet",
+    "mads-monopolet-podcast" to "sara-og-monopolet",
+    "hjernekassen-paa-p1" to "hjernekassen",
+    "hjernekassen-pa-p1" to "hjernekassen",
+    "moerklagt-agent-samsam" to "moerklagt",
+)
+
+private fun Show.feedSlug(): String {
+    // podcastUrl isn't present for all shows
+    val derived = podcastUrl?.substringAfterLast('/')
+        ?: (slug ?: id.substringAfterLast(':')).replace(trailingNumber, "")
+    return slugRenames[derived] ?: derived
+}
+
+/**
+ * Every series DR currently lists, one per feed slug. A series keeps the slug it was first
+ * published under, so a rename on DR's side never moves one of our feeds.
+ */
+private fun discoverPodcasts(
+    client: HttpHandler,
+    apiUri: Uri,
+    apiKey: String,
+    outputDirectory: File,
+): List<Pair<Podcast, Show>> {
+    val discovered = fetchSeries(client, apiUri, apiKey).toList()
+    log.info("Discovered ${discovered.size} series")
+    val pins = loadPins(outputDirectory / slugFileName)
+    val unpinned = discovered.filter { it.id !in pins }
+    val recovered = if (unpinned.isEmpty()) emptyMap() else recoverPins(outputDirectory)
+
+    val holders = mutableMapOf<String, Show>()
+    val slugs = mutableMapOf<String, String>()
+    fun claim(showInfo: Show, slug: String) {
+        val holder = holders[slug]
+        if (holder != null) {
+            log.warn("Slug $slug is held by \"${holder.title}\". Skipping \"${showInfo.title}\"")
+            return
+        }
+        holders[slug] = showInfo
+        slugs[showInfo.id] = slug
+    }
+
+    // Series we have published before keep their slug, whatever DR calls them now.
+    discovered.forEach { showInfo ->
+        val pinned = pins[showInfo.id]?.slug ?: showInfo.productionNumber?.let { recovered[it] } ?: return@forEach
+        if (pinned != showInfo.feedSlug()) {
+            log.info("DR renamed \"${showInfo.title}\" to ${showInfo.feedSlug()}. Keeping $pinned")
+        }
+        claim(showInfo, pinned)
+    }
+    // The rest are new to us, and are pinned to DR's current slug from here on.
+    discovered.forEach { showInfo -> if (showInfo.id !in slugs) claim(showInfo, showInfo.feedSlug()) }
+    if (unpinned.isNotEmpty()) log.info("${unpinned.size} series not yet pinned in $slugFileName")
+
+    return discovered.mapNotNull { showInfo -> slugs[showInfo.id]?.let { Podcast(showInfo.id, it) to showInfo } }
+}
+
 fun Duration.formatHMS(): String =
     String.format("%02d:%02d:%02d", toHours(), toMinutesPart(), toSecondsPart())
 
-data class Podcast(val urn: String, val slug: String, val titleSuffix: String?, val descriptionSuffix: String?)
-data class Podcasts(val descriptionSuffix: String?, val podcasts: List<Podcast>)
+data class Podcast(
+    val urn: String,
+    val slug: String,
+    val titleSuffix: String? = null,
+    val descriptionSuffix: String? = null,
+)
+
+data class Podcasts(val descriptionSuffix: String?)
 
 fun main(args: Array<String>) {
     if (args.isEmpty()) throw Error("No configuration file specified")
@@ -67,6 +158,7 @@ fun main(args: Array<String>) {
     val apiKey = props.getProperty("apiKey") ?: throw Error("Missing API key")
     val apiUri = Uri.of(props.getProperty("apiUrl") ?: throw Error("Missing API URL"))
     val outputDirectory = File(props.getProperty("outputDirectory") ?: throw Error("Missing output directory"))
+    outputDirectory.mkdirs()
     val podcasts =
         com.google.gson.Gson().fromJson(
             Podcasts::class.java.getResource("/podcasts.json")?.readText()!!,
@@ -76,18 +168,22 @@ fun main(args: Array<String>) {
     val rssDateTimeFormatter = DateTimeFormatter.ofPattern("EEE, dd MMM yyyy HH:mm:ss Z")
 
     val podcastData = JettyClient().use { client ->
-        podcasts.podcasts.map { podcast ->
-            val defaultDescriptionSuffix = podcasts.descriptionSuffix
-            val descriptionSuffix = podcast.descriptionSuffix ?: defaultDescriptionSuffix
+        val discovered = discoverPodcasts(client, apiUri, apiKey, outputDirectory)
+        if (args.getOrNull(1) == "--list") {
+            discovered.forEach { (podcast, showInfo) -> println("${showInfo.title} (${podcast.slug})") }
+            return
+        }
+        savePins(outputDirectory / slugFileName, discovered.map { (podcast, showInfo) -> podcast.slug to showInfo })
+        discovered.map { (podcast, showInfo) ->
+            val descriptionSuffix = podcast.descriptionSuffix ?: podcasts.descriptionSuffix
             val feedDirectory = outputDirectory / podcast.slug
             feedDirectory.mkdirs()
-            val feedFile = outputDirectory / podcast.slug / "feed.xml"
+            val feedFile = feedDirectory / "feed.xml"
             log.info("Processing podcast ${podcast.slug}. Target feed: $feedFile")
-            val showInfo = show(client(Request(GET, apiUri / "series" / podcast.urn).header("x-apikey", apiKey)))
             val episodes = fetchEpisodes(client, apiUri / "series", podcast.urn, apiKey)
             generateFeedFile(showInfo, podcast, descriptionSuffix, rssDateTimeFormatter, episodes, feedFile)
 
-            val imageFile = outputDirectory / podcast.slug / "image.jpg"
+            val imageFile = feedDirectory / "image.jpg"
             generatePodcastImage(
                 imageFile,
                 showInfo.visualIdentity?.gradient?.colors?.getOrNull(0) ?: "#000000",
