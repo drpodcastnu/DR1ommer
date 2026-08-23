@@ -24,19 +24,24 @@ import org.http4k.core.query
 import org.http4k.format.Gson.auto
 import org.slf4j.LoggerFactory
 import java.io.File
-import java.io.FileInputStream
 import java.io.FileWriter
 import java.time.Duration
 import java.time.ZoneId
 import java.time.ZonedDateTime
 import java.time.format.DateTimeFormatter
 import java.time.temporal.ChronoUnit
-import java.util.Properties
 import kotlin.math.abs
 
 private val log = LoggerFactory.getLogger("ommer")
 
 private val indexDateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm")
+
+private val apiUri = Uri.of("https://api.dr.dk/radio/v2")
+
+// Not a secret: dr.dk/lyd hands this to every browser that loads the page.
+private const val apiKey = "6Wkh8s98Afx1ZAaTT4FuWODTmvWGDPpR"
+
+private const val descriptionSuffix = "Genudgivet RSS-feed."
 
 private operator fun Uri.div(suffix: String): Uri = path("$path/$suffix")
 private operator fun File.div(relative: String): File = resolve(relative)
@@ -148,7 +153,7 @@ private fun copySiteAssets(outputDirectory: File) {
     siteAssets.forEach { asset ->
         val target = outputDirectory / asset
         target.parentFile.mkdirs()
-        val resource = Podcasts::class.java.getResourceAsStream("/site/$asset")
+        val resource = Podcast::class.java.getResourceAsStream("/site/$asset")
             ?: throw Error("Missing bundled asset $asset")
         resource.use { source -> target.outputStream().use { source.copyTo(it) } }
     }
@@ -165,39 +170,33 @@ data class Podcast(
     val descriptionSuffix: String? = null,
 )
 
-data class Podcasts(val descriptionSuffix: String?)
-
 fun main(args: Array<String>) {
-    if (args.isEmpty()) throw Error("No configuration file specified")
-    val props = Properties().apply { FileInputStream(args[0]).use { stream -> load(stream) } }
-    val apiKey = props.getProperty("apiKey") ?: throw Error("Missing API key")
-    val apiUri = Uri.of(props.getProperty("apiUrl") ?: throw Error("Missing API URL"))
-    val outputDirectory = File(props.getProperty("outputDirectory") ?: throw Error("Missing output directory"))
+    val listOnly = args.any { it == "--list" }
+    val directories = args.filterNot { it.startsWith("--") }
+    if (directories.size != 1) {
+        throw Error("Usage: ommer.jar [--list] <output directory>")
+    }
+    val outputDirectory = File(directories.single())
     outputDirectory.mkdirs()
-    val podcasts =
-        com.google.gson.Gson().fromJson(
-            Podcasts::class.java.getResource("/podcasts.json")?.readText()!!,
-            Podcasts::class.java,
-        )
 
     val rssDateTimeFormatter = DateTimeFormatter.ofPattern("EEE, dd MMM yyyy HH:mm:ss Z")
 
     val podcastData = JettyClient().use { client ->
         val discovered = discoverPodcasts(client, apiUri, apiKey, outputDirectory)
-        if (args.getOrNull(1) == "--list") {
+        if (listOnly) {
             discovered.forEach { (podcast, showInfo) -> println("${showInfo.title} (${podcast.slug})") }
             return
         }
         savePins(outputDirectory / slugFileName, discovered.map { (podcast, showInfo) -> podcast.slug to showInfo })
         copySiteAssets(outputDirectory)
         discovered.map { (podcast, showInfo) ->
-            val descriptionSuffix = podcast.descriptionSuffix ?: podcasts.descriptionSuffix
+            val feedDescriptionSuffix = podcast.descriptionSuffix ?: descriptionSuffix
             val feedDirectory = outputDirectory / podcast.slug
             feedDirectory.mkdirs()
             val feedFile = feedDirectory / "feed.xml"
             log.info("Processing podcast ${podcast.slug}. Target feed: $feedFile")
             val episodes = fetchEpisodes(client, apiUri / "series", podcast.urn, apiKey)
-            val feed = generateFeedFile(showInfo, podcast, descriptionSuffix, rssDateTimeFormatter, episodes, feedFile)
+            val feed = generateFeedFile(showInfo, podcast, feedDescriptionSuffix, rssDateTimeFormatter, episodes, feedFile)
 
             val imageFile = feedDirectory / "image.jpg"
             val thumbnailFile = feedDirectory / "thumb.jpg"

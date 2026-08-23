@@ -4,19 +4,20 @@ Utility for gathering all episodes for a select subset of podcasts from dr.dk an
 
 Usage:
 ```bash
-$ java -jar ommer.jar <config>
+$ java -jar ommer.jar <output directory>
 ```
-where `<config>` is a configuration file like the `config.example` file in the root of this repository.
+where `<output directory>` is where the feeds and the index page are written. There is nothing else to configure; the
+API URL and key are compiled in. The key is not a secret, it is the one dr.dk/lyd hands to every browser that loads
+the page.
 
-The jar is self-contained and published on every tagged release, so a server needs nothing but the jar and a config
-file:
+The jar is self-contained and published on every tagged release, so a server needs nothing but the jar itself:
 ```bash
 $ curl -LO https://github.com/drpodcastnu/DR1ommer/releases/latest/download/ommer.jar
 ```
 To cut a release, push a `v*` tag; `.github/workflows/release.yml` builds the jar and attaches it.
 
-Note that you will need to fill in the API key in the config file. This can easily be obtained by enabling developer
-tools in Firefox and inspecting the requests on dr.dk/lyd.
+If DR ever rotates the key, get the new one by enabling developer tools in Firefox and inspecting the requests on
+dr.dk/lyd, then update `apiKey` in `Client.kt` and cut a release.
 
 The list of podcasts is discovered from the DR API on every run, so it needs no maintenance.
 
@@ -32,5 +33,5 @@ already published feeds if it is lost. Keep it in version control along with the
 To see what would be generated without generating anything, run:
 
 ```bash
-$ java -jar ommer.jar <config> --list
+$ java -jar ommer.jar --list <output directory>
 ```
