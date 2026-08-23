@@ -13,6 +13,9 @@ tools in Firefox and inspecting the requests on dr.dk/lyd.
 
 The list of podcasts is discovered from the DR API on every run, so it needs no maintenance.
 
+A run writes a complete, self-contained site: the feeds, the index page, and the stylesheet and
+images it references. Nothing needs to be supplied alongside it.
+
 Feed slugs are pinned in `slugs.json` in the output directory, which maps DR's stable series id to the slug we publish
 under. A series is pinned the first time it is seen, using the slug DR uses at that moment; after that DR can rename it
 freely and our feed URL stays put. Edit the file by hand to publish a series under a different slug. It is written

@@ -77,6 +77,9 @@ private fun fetchSeries(
 
 private const val slugFileName = "slugs.json"
 
+/** Bundled with the jar so that a run produces a site that stands on its own. */
+private val siteAssets = listOf("css/pico.min.css", "github-mark.png")
+
 private val trailingNumber = Regex("-\\d*$")
 
 /**
@@ -141,6 +144,17 @@ private fun discoverPodcasts(
     return discovered.mapNotNull { showInfo -> slugs[showInfo.id]?.let { Podcast(showInfo.id, it) to showInfo } }
 }
 
+private fun copySiteAssets(outputDirectory: File) {
+    siteAssets.forEach { asset ->
+        val target = outputDirectory / asset
+        target.parentFile.mkdirs()
+        val resource = Podcasts::class.java.getResourceAsStream("/site/$asset")
+            ?: throw Error("Missing bundled asset $asset")
+        resource.use { source -> target.outputStream().use { source.copyTo(it) } }
+    }
+    log.info("Wrote ${siteAssets.size} site assets to $outputDirectory")
+}
+
 fun Duration.formatHMS(): String =
     String.format("%02d:%02d:%02d", toHours(), toMinutesPart(), toSecondsPart())
 
@@ -175,6 +189,7 @@ fun main(args: Array<String>) {
             return
         }
         savePins(outputDirectory / slugFileName, discovered.map { (podcast, showInfo) -> podcast.slug to showInfo })
+        copySiteAssets(outputDirectory)
         discovered.map { (podcast, showInfo) ->
             val descriptionSuffix = podcast.descriptionSuffix ?: podcasts.descriptionSuffix
             val feedDirectory = outputDirectory / podcast.slug
