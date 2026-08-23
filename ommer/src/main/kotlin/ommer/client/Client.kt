@@ -8,7 +8,6 @@ import ommer.drapi.Show
 import ommer.graphics.generatePodcastImage
 import ommer.pagegen.PageData
 import ommer.pagegen.PodcastData
-import ommer.pagegen.RowData
 import ommer.rss.Feed
 import ommer.rss.FeedItem
 import ommer.rss.generate
@@ -36,6 +35,8 @@ import java.util.Properties
 import kotlin.math.abs
 
 private val log = LoggerFactory.getLogger("ommer")
+
+private val indexDateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm")
 
 private operator fun Uri.div(suffix: String): Uri = path("$path/$suffix")
 private operator fun File.div(relative: String): File = resolve(relative)
@@ -181,7 +182,7 @@ fun main(args: Array<String>) {
             val feedFile = feedDirectory / "feed.xml"
             log.info("Processing podcast ${podcast.slug}. Target feed: $feedFile")
             val episodes = fetchEpisodes(client, apiUri / "series", podcast.urn, apiKey)
-            generateFeedFile(showInfo, podcast, descriptionSuffix, rssDateTimeFormatter, episodes, feedFile)
+            val feed = generateFeedFile(showInfo, podcast, descriptionSuffix, rssDateTimeFormatter, episodes, feedFile)
 
             val imageFile = feedDirectory / "image.jpg"
             generatePodcastImage(
@@ -190,7 +191,18 @@ fun main(args: Array<String>) {
                 showInfo.visualIdentity?.gradient?.colors?.getOrNull(1) ?: "#FFFFFF",
                 showInfo.title,
             )
-            PodcastData(podcast.slug, showInfo.title)
+            PodcastData(
+                slug = podcast.slug,
+                title = showInfo.title,
+                description = showInfo.description,
+                episodes = feed?.items?.size ?: 0,
+                latestEpisode = showInfo.latestEpisodeStartTime?.let { latest ->
+                    ZonedDateTime
+                        .parse(latest)
+                        .withZoneSameInstant(ZoneId.of("Europe/Copenhagen"))
+                        .format(indexDateTimeFormatter)
+                } ?: "",
+            )
         }
     }
 
@@ -200,7 +212,7 @@ fun main(args: Array<String>) {
 
 private fun generateIndexFile(podcastData: List<PodcastData>, indexFile: File) {
     val pageData = PageData(
-        podcastData.chunked(5).map { RowData(it) }
+        podcastData.sortedWith(compareByDescending<PodcastData> { it.latestEpisode }.thenBy { it.title }),
     )
     FileWriter(indexFile).use { writer ->
         val mustache = DefaultMustacheFactory().compile("template.html.mustache")
@@ -215,10 +227,10 @@ private fun generateFeedFile(
     rssDateTimeFormatter: DateTimeFormatter?,
     episodes: Sequence<Item>,
     feedFile: File,
-) {
+): Feed? {
     if (showInfo.latestEpisodeStartTime == null) {
         log.warn("Podcast has zero episodes: ${podcast.slug}")
-        return
+        return null
     }
     val feed = with(showInfo) {
         Feed(
@@ -261,4 +273,5 @@ private fun generateFeedFile(
         )
     }
     feed.generate(feedFile)
+    return feed
 }

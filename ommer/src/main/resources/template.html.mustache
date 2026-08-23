@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,6 +13,28 @@
     <link rel="stylesheet" href="css/pico.min.css" />
     <!-- Custom.css -->
     <link rel="stylesheet" href="css/custom.css" />
+    <style>
+        #podcasts td, #podcasts th { vertical-align: middle; }
+        #podcasts tbody tr { cursor: pointer; }
+        #podcasts tbody tr[hidden] { display: none; }
+        #podcasts .cover { width: 56px; height: 56px; border-radius: 6px; display: block; }
+        #podcasts .name { width: 100%; font-weight: bold; }
+        #podcasts .episodes, #podcasts .latest { white-space: nowrap; text-align: right; }
+        #podcasts .actions { text-align: right; }
+        #podcasts .actions button { margin: 0; padding: 0.3rem 0.7rem; font-size: 0.8rem; white-space: nowrap; }
+        #empty { display: none; }
+        .sr-only {
+            position: absolute; width: 1px; height: 1px; overflow: hidden;
+            clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+        }
+        #details { padding: 0; }
+        #details .cover { width: 120px; height: 120px; border-radius: 8px; float: left; margin: 0 1rem 1rem 0; }
+        #details .description { white-space: pre-wrap; }
+        #details .feed { display: block; clear: both; word-break: break-all; margin-bottom: 1rem; }
+        @media (max-width: 600px) {
+            #podcasts .latest { display: none; }
+        }
+    </style>
 </head>
 
 <body>
@@ -29,22 +51,33 @@
 <!-- ./ Header -->
 <!-- Main -->
 <main class="container">
-    <section id="podcasts">
+    <section>
         <h2>Podcasts</h2>
-        {{#rows}}
-        <div class="grid">
+        <input type="search" id="search" placeholder="Søg efter podcast…" aria-label="Søg efter podcast" autocomplete="off" />
+        <p><small id="count"></small></p>
+        <table id="podcasts">
+            <thead>
+            <tr>
+                <th scope="col"><span class="sr-only">Billede</span></th>
+                <th scope="col">Podcast</th>
+                <th scope="col" class="episodes">Afsnit</th>
+                <th scope="col" class="latest">Seneste afsnit</th>
+                <th scope="col" class="actions"><span class="sr-only">Handlinger</span></th>
+            </tr>
+            </thead>
+            <tbody>
             {{#podcasts}}
-            <a href="{{slug}}/feed.xml">
-                <div>
-                    <img class="tile" src="{{slug}}/image.jpg" alt="{{title}}" />
-                    <br>
-                    <strong>{{title}}</strong>
-                </div>
-            </a>
+            <tr data-slug="{{slug}}" data-title="{{title}}" data-description="{{description}}">
+                <td><img class="cover" src="{{slug}}/image.jpg" alt="" loading="lazy" /></td>
+                <td class="name">{{title}}</td>
+                <td class="episodes">{{episodes}}</td>
+                <td class="latest">{{latestEpisode}}</td>
+                <td class="actions"><button class="secondary copy" type="button">Kopiér RSS</button></td>
+            </tr>
             {{/podcasts}}
-        </div>
-        <div>&nbsp;</div>
-        {{/rows}}
+            </tbody>
+        </table>
+        <p id="empty">Ingen podcasts matcher søgningen.</p>
     </section>
     <section>
         <h2>Hvad er dette?</h2>
@@ -54,5 +87,123 @@
         <p>De RSS-feeds du kan finde på denne side kan du importere i de fleste RSS-læsere som understøtter import af vilkårlige RSS URL'er. Med tiden kan det også være at du vil kunne finde dem direkte i den app du foretrækker, såfremt deres indekseringsrobot har fundet dem.</p>
     </section>
 </main>
+
+<dialog id="details">
+    <article>
+        <header>
+            <button aria-label="Luk" rel="prev" class="close" type="button"></button>
+            <h3 id="details-title"></h3>
+        </header>
+        <img class="cover" id="details-cover" alt="" />
+        <p class="description" id="details-description"></p>
+        <footer>
+            <a class="feed" id="details-feed" href="#"></a>
+            <button class="copy" id="details-copy" type="button">Kopiér RSS-URL</button>
+        </footer>
+    </article>
+</dialog>
+
+<script>
+    (function () {
+        var table = document.getElementById("podcasts");
+        var rows = Array.prototype.slice.call(table.tBodies[0].rows);
+        var search = document.getElementById("search");
+        var count = document.getElementById("count");
+        var empty = document.getElementById("empty");
+        var dialog = document.getElementById("details");
+
+        // Fold Danish letters so "moerklagt" finds "Mørklagt".
+        function fold(text) {
+            return text
+                .toLowerCase()
+                .normalize("NFD")
+                .replace(/[̀-ͯ]/g, "")
+                .replace(/æ/g, "ae")
+                .replace(/ø/g, "oe")
+                .replace(/å/g, "aa");
+        }
+
+        rows.forEach(function (row) {
+            row.dataset.search = fold(row.dataset.title);
+        });
+
+        function feedUrl(slug) {
+            return new URL(slug + "/feed.xml", window.location.href).href;
+        }
+
+        function copyText(text) {
+            if (navigator.clipboard && window.isSecureContext) {
+                return navigator.clipboard.writeText(text);
+            }
+            // Clipboard API needs https, so fall back for local files and plain http.
+            var field = document.createElement("textarea");
+            field.value = text;
+            field.setAttribute("readonly", "");
+            field.style.position = "fixed";
+            field.style.opacity = "0";
+            document.body.appendChild(field);
+            field.select();
+            try {
+                document.execCommand("copy");
+                return Promise.resolve();
+            } catch (error) {
+                return Promise.reject(error);
+            } finally {
+                document.body.removeChild(field);
+            }
+        }
+
+        function confirmCopy(button, slug) {
+            var original = button.textContent;
+            copyText(feedUrl(slug)).then(
+                function () { button.textContent = "Kopieret!"; },
+                function () { button.textContent = "Kunne ikke kopiere"; }
+            ).then(function () {
+                window.setTimeout(function () { button.textContent = original; }, 1500);
+            });
+        }
+
+        function filter() {
+            var query = fold(search.value.trim());
+            var visible = 0;
+            rows.forEach(function (row) {
+                var match = query === "" || row.dataset.search.indexOf(query) !== -1;
+                row.hidden = !match;
+                if (match) visible++;
+            });
+            count.textContent = visible === rows.length
+                ? rows.length + " podcasts"
+                : visible + " af " + rows.length + " podcasts";
+            empty.style.display = visible === 0 ? "block" : "none";
+        }
+
+        search.addEventListener("input", filter);
+        filter();
+
+        table.tBodies[0].addEventListener("click", function (event) {
+            var row = event.target.closest("tr");
+            if (!row) return;
+            if (event.target.closest("button.copy")) {
+                confirmCopy(event.target.closest("button.copy"), row.dataset.slug);
+                return;
+            }
+            var slug = row.dataset.slug;
+            document.getElementById("details-title").textContent = row.dataset.title;
+            document.getElementById("details-description").textContent = row.dataset.description;
+            document.getElementById("details-cover").src = slug + "/image.jpg";
+            var link = document.getElementById("details-feed");
+            link.href = slug + "/feed.xml";
+            link.textContent = feedUrl(slug);
+            document.getElementById("details-copy").onclick = function () {
+                confirmCopy(this, slug);
+            };
+            dialog.showModal();
+        });
+
+        dialog.addEventListener("click", function (event) {
+            if (event.target === dialog || event.target.classList.contains("close")) dialog.close();
+        });
+    })();
+</script>
 </body>
 </html>
