@@ -16,8 +16,15 @@
         #podcasts td, #podcasts th { vertical-align: middle; }
         #podcasts tbody tr { cursor: pointer; }
         #podcasts tbody tr[hidden] { display: none; }
-        #podcasts .cover { width: 56px; height: 56px; border-radius: 6px; display: block; }
+        /* An explicit column width, and max-width:none so Pico's img rule cannot
+           clamp the cover to the width of a column that .name has squeezed to zero. */
+        #podcasts th:first-child, #podcasts td:first-child { width: 56px; }
+        #podcasts .cover { width: 56px; height: 56px; max-width: none; border-radius: 6px; display: block; }
         #podcasts .name { width: 100%; font-weight: bold; }
+        #podcasts th.sortable { cursor: pointer; user-select: none; white-space: nowrap; }
+        #podcasts th.sortable::after { content: " \2195"; opacity: 0.3; }
+        #podcasts th.sortable[aria-sort="ascending"]::after { content: " \2191"; opacity: 1; }
+        #podcasts th.sortable[aria-sort="descending"]::after { content: " \2193"; opacity: 1; }
         #podcasts .episodes, #podcasts .latest { white-space: nowrap; text-align: right; }
         #podcasts .actions { text-align: right; }
         #podcasts .actions button { margin: 0; padding: 0.3rem 0.7rem; font-size: 0.8rem; white-space: nowrap; }
@@ -30,6 +37,9 @@
         #details .cover { width: 120px; height: 120px; border-radius: 8px; float: left; margin: 0 1rem 1rem 0; }
         #details .description { white-space: pre-wrap; }
         #details .feed { display: block; clear: both; word-break: break-all; margin-bottom: 1rem; }
+        #details header h3 { margin-bottom: 0; }
+        #details footer { text-align: left; }
+        #details footer button { width: auto; }
         @media (max-width: 600px) {
             #podcasts .latest { display: none; }
         }
@@ -58,15 +68,15 @@
             <thead>
             <tr>
                 <th scope="col"><span class="sr-only">Billede</span></th>
-                <th scope="col">Podcast</th>
-                <th scope="col" class="episodes">Afsnit</th>
-                <th scope="col" class="latest">Seneste afsnit</th>
+                <th scope="col" class="sortable" data-sort="title">Podcast</th>
+                <th scope="col" class="episodes sortable" data-sort="episodes">Afsnit</th>
+                <th scope="col" class="latest sortable" data-sort="latest">Seneste afsnit</th>
                 <th scope="col" class="actions"><span class="sr-only">Handlinger</span></th>
             </tr>
             </thead>
             <tbody>
             {{#podcasts}}
-            <tr data-slug="{{slug}}" data-title="{{title}}" data-description="{{description}}">
+            <tr data-slug="{{slug}}" data-title="{{title}}" data-episodes="{{episodes}}" data-latest="{{latestEpisode}}" data-description="{{description}}">
                 <td><img class="cover" src="{{slug}}/image.jpg" alt="" loading="lazy" /></td>
                 <td class="name">{{title}}</td>
                 <td class="episodes">{{episodes}}</td>
@@ -162,6 +172,45 @@
             });
         }
 
+        // The server already emits newest-first; mirror that as the initial state.
+        var sort = { key: "latest", direction: -1 };
+        var firstDirection = { title: 1, episodes: -1, latest: -1 };
+
+        function sortValue(row, key) {
+            if (key === "episodes") return Number(row.dataset.episodes);
+            if (key === "latest") return row.dataset.latest || "";
+            return row.dataset.title;
+        }
+
+        function applySort() {
+            var ordered = rows.slice().sort(function (a, b) {
+                var x = sortValue(a, sort.key);
+                var y = sortValue(b, sort.key);
+                var cmp = typeof x === "number" ? x - y : String(x).localeCompare(String(y), "da");
+                // Undated shows sort last whichever way the date column points.
+                if (sort.key === "latest" && x !== y && (x === "" || y === "")) return x === "" ? 1 : -1;
+                return (cmp * sort.direction) || a.dataset.title.localeCompare(b.dataset.title, "da");
+            });
+            var body = table.tBodies[0];
+            ordered.forEach(function (row) { body.appendChild(row); });
+            Array.prototype.forEach.call(table.tHead.querySelectorAll("th.sortable"), function (th) {
+                if (th.dataset.sort === sort.key) {
+                    th.setAttribute("aria-sort", sort.direction === 1 ? "ascending" : "descending");
+                } else {
+                    th.removeAttribute("aria-sort");
+                }
+            });
+        }
+
+        Array.prototype.forEach.call(table.tHead.querySelectorAll("th.sortable"), function (th) {
+            th.addEventListener("click", function () {
+                var key = th.dataset.sort;
+                sort.direction = sort.key === key ? -sort.direction : firstDirection[key];
+                sort.key = key;
+                applySort();
+            });
+        });
+
         function filter() {
             var query = fold(search.value.trim());
             var visible = 0;
@@ -177,6 +226,7 @@
         }
 
         search.addEventListener("input", filter);
+        applySort();
         filter();
 
         table.tBodies[0].addEventListener("click", function (event) {
